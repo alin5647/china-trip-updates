@@ -1,6 +1,6 @@
 {
- "versionCode": 29,
- "versionName": "2.1",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.1/china-trip-v2.1.apk",
- "notes": "Fixes the dark-mode layout bug on the Oct 26/27 pages: the Hangzhou 2-day page's stylesheet was injected globally, so its body { max-width:900px; margin:0 auto; padding:18px; background:#f8f9fa; color:#222 } shrank the whole app page, painted light margins around the dark cards, and forced dark text onto the dark topbar — invisible in light mode, glaring in dark mode. That stylesheet is now scoped to the 2-day section only, and its light boxes (timing, stops, food, DiDi table) get dark backgrounds in dark mode so text is readable. Topbar title now explicitly uses the theme text colour."
+ "versionCode": 30,
+ "versionName": "2.2",
+ "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.2/china-trip-v2.2.apk",
+ "notes": "Base APK + content updates: the APK is now just the shell (layout, WebView, updater code). Trip content — itinerary, guides, app code, audio, documents — is pulled from GitHub and cached on the phone, and Settings > Content updates downloads only the files that changed (verified by SHA-256), falling back to the bundled copy if anything fails. This version itself is still a full APK install once; every content change after it is small. Settings gains a Content updates section with an auto-check toggle."
 }

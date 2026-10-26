@@ -1,0 +1,540 @@
+{
+ "baseUrl": "https://raw.githubusercontent.com/alin5647/china-trip-updates/main/content/",
+ "files": [
+  {
+   "path": "app.js",
+   "size": 41789,
+   "sha256": "5ce30d8bfadd0bcbfb7873fa999916f7b41b7b8ec3b0482d09e6bf7c283bfb20"
+  },
+  {
+   "path": "esim-usage.json",
+   "size": 727,
+   "sha256": "9ded4296735eb4f58f57712aebd6f31e0396a923eb1975b5247a22b4c4a521e7"
+  },
+  {
+   "path": "esim.json",
+   "size": 647,
+   "sha256": "aa28f7d4d3a163b47a909a3db7e9b505639711dade501f27bc84ae081ce1b28a"
+  },
+  {
+   "path": "files.json",
+   "size": 11007,
+   "sha256": "8df6c7992a0def66cc2edfc24554e516903ec87ba3b324d8149230b16bb398cb"
+  },
+  {
+   "path": "guide-2026-10-21.html",
+   "size": 10504,
+   "sha256": "26986070ff81cf8d06285cc936d3a3733abace96fcafb578109d9758a0d5e050"
+  },
+  {
+   "path": "guide-2026-10-22.html",
+   "size": 9496,
+   "sha256": "1f9b31d1a94e0ab122cfd85aad68dfc3315b3f6d076d7a6cf75d28262dadc76a"
+  },
+  {
+   "path": "guide-2026-10-24.html",
+   "size": 13284,
+   "sha256": "3c143306613b63bdb9f86e97103860d88fb75409ccd2441f03369c71b91a3bd0"
+  },
+  {
+   "path": "guide-2026-10-26-hangzhou.html",
+   "size": 35809,
+   "sha256": "47c840032f961939748f977d3d116f6e637dfedbbe6890b45cf5bb8ec6198343"
+  },
+  {
+   "path": "hangzhou-2day-itinerary.html",
+   "size": 19851,
+   "sha256": "eb69cc93351069f18f24d36f6cfd045709fd72b9f9f4c7b0723c07c40ef73787"
+  },
+  {
+   "path": "hangzhou-day-trip.html",
+   "size": 21789,
+   "sha256": "1c4da3c8a726fc091416666535ab30f1f11b57e6114d13080b2de4970e25f70a"
+  },
+  {
+   "path": "index.html",
+   "size": 2916,
+   "sha256": "66ac287b3d97281ef7f126cad730054d7697c8538342de1aa56bcc5ad5ae623f"
+  },
+  {
+   "path": "itineraries.json",
+   "size": 86918,
+   "sha256": "ecf1eadfb56c4a3184feb843f525e4d49862b9bf0f8bf6e6726d2dadaedfbe2f"
+  },
+  {
+   "path": "master-itinerary.html",
+   "size": 56545,
+   "sha256": "94f3f22f31a58cf41272e072de643188bbefdb81593d70ef990b9f12a4a280f4"
+  },
+  {
+   "path": "styles.css",
+   "size": 21033,
+   "sha256": "3522ec9b35f58ef0bb026a142f032b89c1ff032ffc9d7f4f27b70d706a97eedc"
+  },
+  {
+   "path": "audio/oct21/stop1-tiantan.mp3",
+   "size": 645157,
+   "sha256": "730f3de8c78a1561dd35bb441a8cc316208664cb05f8cc1078d6b9fa59a30a65"
+  },
+  {
+   "path": "audio/oct21/stop2-qianmen-dashilan.mp3",
+   "size": 616741,
+   "sha256": "882890a3593533b25a3623d9f5ee6819b3f585bb4120353acb02533e18ffdfa0"
+  },
+  {
+   "path": "audio/oct21/stop3-798.mp3",
+   "size": 546661,
+   "sha256": "127fde9dfea3f7d02e88f050f529822d8ee62782d033e11e37d3cc39770d8277"
+  },
+  {
+   "path": "audio/oct21/stop4-xihe-duck.mp3",
+   "size": 361573,
+   "sha256": "eb6683b2a5d74643a0f14bcae7d19524ab831a0b24824682e2c62ada447673de"
+  },
+  {
+   "path": "audio/oct22/stop1-yongdingmen.mp3",
+   "size": 308773,
+   "sha256": "42777446296ee025fedfe7059e3f453428032bab2e29d61c1a9b94f7e5d20471"
+  },
+  {
+   "path": "audio/oct22/stop10-nanluo-boba.mp3",
+   "size": 344101,
+   "sha256": "237536a92ce27bf53a3e19c75b41418d47d7f263541221afa09969a2f8502800"
+  },
+  {
+   "path": "audio/oct22/stop2-xiannongtan.mp3",
+   "size": 375973,
+   "sha256": "cf8d26328c9905aa379344cb8764c1de2f9f66afce6f6828886217e1bddb4888"
+  },
+  {
+   "path": "audio/oct22/stop3-nanmen-hotpot.mp3",
+   "size": 379237,
+   "sha256": "fbd9b44b63b3afdcfcf292774b5fedd6cad0aab7a233e0edf36aa59dc7a826ce"
+  },
+  {
+   "path": "audio/oct22/stop4-taoranting.mp3",
+   "size": 309733,
+   "sha256": "7f2300b98e9d4f1b797601ed9752851bd5ec8add546b73b221882ca44243b560"
+  },
+  {
+   "path": "audio/oct22/stop5-beihai.mp3",
+   "size": 323557,
+   "sha256": "bcf9f1c57c0b0a5cbf953963fe69ca71160c840d8f2ec3f6f71e447ea6282ab3"
+  },
+  {
+   "path": "audio/oct22/stop6-jingshan.mp3",
+   "size": 355813,
+   "sha256": "4c0c1b0cd891954bcb3d853e9ef3900604e02f07627bf77215268d307a9f4c17"
+  },
+  {
+   "path": "audio/oct22/stop7-guomao-terrace.mp3",
+   "size": 270757,
+   "sha256": "d97953818dc1e7ec28e0298ca3928fba419bcb80e6b0aff0b20d4e0e7ba1941b"
+  },
+  {
+   "path": "audio/oct22/stop8-dinner-indigo.mp3",
+   "size": 285733,
+   "sha256": "deaafa0bd934e012ccc66921947fe58c235f8da7a87d3a72cdc2bc05f8148c22"
+  },
+  {
+   "path": "audio/oct22/stop9-boba.mp3",
+   "size": 375013,
+   "sha256": "230df14e0541ac22da62ceb432c8bc716a99db7123ca92a61d3c965b02011fba"
+  },
+  {
+   "path": "audio/oct24/stop1-transfer-center.mp3",
+   "size": 251941,
+   "sha256": "f7f2aa951c8fbd78a78fb16692a7bb9b4c4527f400f503ecc332b7d66889ab60"
+  },
+  {
+   "path": "audio/oct24/stop2-yungu-cableway.mp3",
+   "size": 262117,
+   "sha256": "189187ac50236902d2df38b87065ed1eeef88212a50f107cafe3853fe0e65ffc"
+  },
+  {
+   "path": "audio/oct24/stop3-shixin-peak.mp3",
+   "size": 307813,
+   "sha256": "0524ac7bd9c4a90d96f684ce653ad8564c7193e0a4882672aadb7e2819e1d42b"
+  },
+  {
+   "path": "audio/oct24/stop4-black-tiger-pine.mp3",
+   "size": 240421,
+   "sha256": "10d50293d1dd6a36d8d181c38df86eb3d04bdc79b973e4672261f4908d81403c"
+  },
+  {
+   "path": "audio/oct24/stop5-beihai.mp3",
+   "size": 294181,
+   "sha256": "981c5a6650a2624e372f11d742a4d9ea9e7b4006ba1d771a2aab7e4589276d54"
+  },
+  {
+   "path": "audio/oct24/stop6-bright-summit.mp3",
+   "size": 276517,
+   "sha256": "319725bccb7df2f09253efbc383036ff44477d63e9bc07b188a00c0e46273b33"
+  },
+  {
+   "path": "audio/oct24/stop7-aoyu-peak.mp3",
+   "size": 258661,
+   "sha256": "f7ea4256a8fe171ed17b2c89a8a89f26cba9c5b6b3f6f35f0d61f7cdc0bfe1d7"
+  },
+  {
+   "path": "audio/oct24/stop8-hundred-steps.mp3",
+   "size": 276133,
+   "sha256": "dba73cc101d644bf16230546374fc29415a2eabf6c8b7876799b91a75df3b953"
+  },
+  {
+   "path": "audio/oct24/stop9-yuping-descent.mp3",
+   "size": 335077,
+   "sha256": "2cbb7e78b2fd7ccf87b47f9ea72114694b98dc2b2f3090a61bcbf8c1012f08d6"
+  },
+  {
+   "path": "audio/oct26/stop1-yunqi-entrance.mp3",
+   "size": 332909,
+   "sha256": "2d71839d395182f102220ce780976efde7af19220431a037ae6161412bb94bd2"
+  },
+  {
+   "path": "audio/oct26/stop10-baoshu-bluehour.mp3",
+   "size": 442229,
+   "sha256": "14657f500b278de1a9b98b3114d9434d872e49d1f71a7cd656193c644c92efc8"
+  },
+  {
+   "path": "audio/oct26/stop2-xixin-pavilion.mp3",
+   "size": 301421,
+   "sha256": "126eefb56964640d5c63bd3795b6db7b69b90c7e26b4a5cddbb70c5ed475bc45"
+  },
+  {
+   "path": "audio/oct26/stop3-huilong-pavilion.mp3",
+   "size": 336173,
+   "sha256": "cf6a84ee305a1859dae06af47ff679420b77bd41587df9b21ff64b9dfb0ed715"
+  },
+  {
+   "path": "audio/oct26/stop4-six-park.mp3",
+   "size": 365837,
+   "sha256": "7164a033f3e350b466c7c8f0bc9973e6a9b389db4d837ad5acec9bea3012e04a"
+  },
+  {
+   "path": "audio/oct26/stop5-broken-bridge.mp3",
+   "size": 340037,
+   "sha256": "beb30ce0ca42183393e03a880e927d813ce503c116c94c45d6611994bf7bc1bf"
+  },
+  {
+   "path": "audio/oct26/stop6-bai-causeway.mp3",
+   "size": 392261,
+   "sha256": "012a75d63ca56252735d643c436979fe24d46cc208fcec27ac5623e2b5a63ec0"
+  },
+  {
+   "path": "audio/oct26/stop7-pinghu-qiuyue.mp3",
+   "size": 382253,
+   "sha256": "af722acc180403e3402ab78fdec2d35aea6b087e47d2962ad7597f367f76c8a0"
+  },
+  {
+   "path": "audio/oct26/stop8-gushan-beishan.mp3",
+   "size": 393677,
+   "sha256": "8ee76ab93089889b0035e7bc79225339598ca774bd0aa93095b5a6bb8d942c1c"
+  },
+  {
+   "path": "audio/oct26/stop9-beishan-street.mp3",
+   "size": 419717,
+   "sha256": "ea5f5cd6b63235e7f50402a5519ed63abfcf483b57b2608e177a1c6be1dbd0f3"
+  },
+  {
+   "path": "audio/oct26/music/all-the-tea-in-china.mp3",
+   "size": 6413500,
+   "sha256": "96e8eb14216d03a8131ed8c561a82af25daf5786b53de4e304b133fe014eaf8d"
+  },
+  {
+   "path": "audio/oct26/music/guzheng-city.mp3",
+   "size": 3654552,
+   "sha256": "7d117a43cad22ff05b32340f2bd331368c48342f503eab85b1e5c403043d4be6"
+  },
+  {
+   "path": "audio/oct26/music/imperial-china-cinematic.mp3",
+   "size": 8070709,
+   "sha256": "4a8bf29f72af49ad3e031f2c4f6c4bc05af2b2fadc2013dccb4dbaa4e800bc54"
+  },
+  {
+   "path": "files/huangshan-official-map.pdf",
+   "size": 489506,
+   "sha256": "936800e079b2f26d8ad920217204f33fe3210d702ab3177decd13765ed967f5f"
+  },
+  {
+   "path": "files/packing.json",
+   "size": 2573,
+   "sha256": "3587b844094cc7381113748f2cbc8a80e3c255b04a3ecd1bebaf7fa40a511b24"
+  },
+  {
+   "path": "files/confirmations/2026_1014 JFK-PEK Asiana(ANA)-Tsai.pdf",
+   "size": 918478,
+   "sha256": "8cedbb2ab9ed333dd3052fb20f7e33f60a9be3ef914a65ee1cec671e43197243"
+  },
+  {
+   "path": "files/confirmations/2026_1015 Summit Beijing -Tsai T.AP1007 FHR$347.pdf",
+   "size": 416274,
+   "sha256": "b937d48672fab8498f91739c58d5fa60685ce3d42267f15576355323a24ba966"
+  },
+  {
+   "path": "files/confirmations/2026_1016 4seasons Beijing -Tsai J.AP51003 FHR$309.54.pdf",
+   "size": 416452,
+   "sha256": "93de874f25c976cdf1cefd9af454b737dff9bacc3d6250a33cfa108e89daba9c"
+  },
+  {
+   "path": "files/confirmations/2026_1017 Summit Beijing -Tsai J.AP1003 FHR $332.87.pdf",
+   "size": 416584,
+   "sha256": "460d34257826046d557fefb00c19bc1f6f3695e658ab61d40c031abed03417f2"
+  },
+  {
+   "path": "files/confirmations/2026_1018 Holiday Inn Tianjin Riverside -Tsai10k.pdf",
+   "size": 183431,
+   "sha256": "a7aee1ef3ee8a650018aa1e3245e57d1e1efa2b2856938663b79dd2f5d55f57b"
+  },
+  {
+   "path": "files/confirmations/2026_1018 JFK-PEK CX841 Andrew-eticket.pdf",
+   "size": 2311,
+   "sha256": "257424aaa3b2759051afdd96b2e8fb55a33076c57300f1e58fda367ba9010981"
+  },
+  {
+   "path": "files/confirmations/2026_1018 JFK-PEK CX841 J+A.pdf",
+   "size": 265483,
+   "sha256": "bd79be9afbf7003981f86b7efabcb13b460820ad3e9bf46a36ef92dc6a3623cf"
+  },
+  {
+   "path": "files/confirmations/2026_1018 JFK-PEK CX841 Justin-eticket.pdf",
+   "size": 2311,
+   "sha256": "551bd8303b303d92c64c50866f7ac7e82127cfe838d05792a21334b8dee947f8"
+  },
+  {
+   "path": "files/confirmations/2026_1019 Hampton ChangPing Beijing Andrew 22k.pdf",
+   "size": 43894,
+   "sha256": "25ceb230baec27a8b66cf60a2806edac8db6b02866b7d5dbb45f9b002250dce1"
+  },
+  {
+   "path": "files/confirmations/2026_1019 Summit Beijing -Tsai L.AP61000 FHR $345.pdf",
+   "size": 430317,
+   "sha256": "ebfa7ee1328ef7822b6ce460c53857e8d895b6715ad4dde894c620275a0cf012"
+  },
+  {
+   "path": "files/confirmations/2026_1020 Crowne Plaza Beijing Badaling -Tsai 10k.pdf",
+   "size": 190028,
+   "sha256": "ced6af00f1cf46ccdc5d47eab9444774bd378b783962e788f1369fb237c68438"
+  },
+  {
+   "path": "files/confirmations/2026_1020-23 3nts Beijing Summit A.AP21006 FHR $687.86.pdf",
+   "size": 4441865,
+   "sha256": "3f05923851ec438fbe54ce2e433079857fb5eb521fed35596ee27369f3f2d147"
+  },
+  {
+   "path": "files/confirmations/2026_1021 InterContinental Beijing Beichen -Tsai 27k.pdf",
+   "size": 209350,
+   "sha256": "349c19a0452ab0321601c68568dfb72de8676d7a5d3e38601df5f309955fccef"
+  },
+  {
+   "path": "files/confirmations/2026_1023 CA1551 PEK-TXN(HuangShan) booked on UA J&A.pdf",
+   "size": 126691,
+   "sha256": "f4b5ab545e7d80d086fc4d57768c947fd1d91f6b0ca10eef261cb8fa793fe83c"
+  },
+  {
+   "path": "files/confirmations/2026_1023 CA1551 PEK-TXN(HuangShan) booked on UA Tsai.pdf",
+   "size": 101541,
+   "sha256": "8014be330d9574904c3c41fcd34f3cd68002661946c7dc91ae4d02755317ea95"
+  },
+  {
+   "path": "files/confirmations/2026_1023 IHGx Huangshan 6.8k-J.pdf",
+   "size": 186680,
+   "sha256": "2b3d7afe0481d8071d553a46f81dc2742a61d7f7df6a4236b89ad337afc534b9"
+  },
+  {
+   "path": "files/confirmations/2026_1023 IHGx Huangshan 6.8k-Tsai.pdf",
+   "size": 185501,
+   "sha256": "5c87dfac4a92b0dc997b9f9d1681c4d77894b6663d0d3c8d234b4fb239028fa2"
+  },
+  {
+   "path": "files/confirmations/2026_1024 Huangshan Baiyun Hotel -Andrew \u00a52228 2026101123082670507614.jpg",
+   "size": 143071,
+   "sha256": "db01a8ca58111c8de5a6f0efe18d985c370645fe48dbf6031cdf6495a449e67e"
+  },
+  {
+   "path": "files/confirmations/2026_1024 IHG Huangshan 6.8k-J Cancel on 1023.pdf",
+   "size": 187130,
+   "sha256": "b85a6c24f0548ca550b7849b1b1896a864da2533b0eda3cf0f4003a906ecd271"
+  },
+  {
+   "path": "files/confirmations/2026_1024 IHG Huangshan 6.8k-Tsai Cancel on 1023.pdf",
+   "size": 185466,
+   "sha256": "87c1a29ae83c431808ee7605405a2d92e8b96239fbeea8adea26585fe1ad81bc"
+  },
+  {
+   "path": "files/confirmations/2026_1025 Crowne Plaza Wuzhen -Tsai 10.2k.pdf",
+   "size": 201203,
+   "sha256": "a988dce62ff3369c336eec8e34222b7c595d56fac85025308f084361c3cd2510"
+  },
+  {
+   "path": "files/confirmations/2026_1025 Huangshanbei-Tongxiang G7308 x3 12306 EG30152417.jpg",
+   "size": 149523,
+   "sha256": "cb4acfd8c656e0f3c43ba91eea5e8784518c90e295cfa56fe248c15145ea7996"
+  },
+  {
+   "path": "files/confirmations/2026_1026 Shangri-La HangZhou China -Justin A.AP31005 $177.12 FHR.pdf",
+   "size": 4730577,
+   "sha256": "14518e59f9ce08a79d180cc75f95fdaaf7767ec3e6e493ebc527552a9979320b"
+  },
+  {
+   "path": "files/confirmations/2026_1026 Shangri-La HangZhou China Andrew AP61000 $176.95 FHR.pdf",
+   "size": 4769601,
+   "sha256": "5c6391b7f911f65767492214a8c5a2847db1a582bf4e87c15451bd8ef9e461e2"
+  },
+  {
+   "path": "files/confirmations/2026_1027 Holiday Inn Hangzhou Airport Zone-Tsai 6.8k Rm1.pdf",
+   "size": 187472,
+   "sha256": "0fa0a2e9ac0f54110e0e1daf986c84188ccb4885f20b8452c0c497fb0cdbb1bd"
+  },
+  {
+   "path": "files/confirmations/2026_1027 Holiday Inn Hangzhou Airport Zone-Tsai 6.8k Rm2.pdf",
+   "size": 187875,
+   "sha256": "d9eeb62205cb9bd86a13401a52f3242ba406733c48e5258220885fb6ab646495"
+  },
+  {
+   "path": "files/confirmations/2026_1028 Hanzhou-Macao receipt-Tsai.pdf",
+   "size": 1686974,
+   "sha256": "06d608fc36cb1797d3e33a5c1b31b9b79cb75ff4121fd61b85ddb039cf5cb995"
+  },
+  {
+   "path": "files/confirmations/2026_1028 Hanzhou-Macao x3 Xiamen Airlines JSX01J.pdf",
+   "size": 239241,
+   "sha256": "49c309614e4f21e2c91949eb33db6693ad6e72716db4069520ee996fbbf9396e"
+  },
+  {
+   "path": "files/confirmations/2026_1028 Macau 4Seasons FHR $297.36 x2p J.AP51000.pdf",
+   "size": 5472068,
+   "sha256": "ab620d70192ba1d77dc1f8a86404c4166523626fb961fcff4ef04b0aeab4017b"
+  },
+  {
+   "path": "files/confirmations/2026_1028 Xiamen Airlines.pdf",
+   "size": 178457,
+   "sha256": "44aff017c9de5ea672251135e5576697c8a6c9d0d93606a3e1f96625d4d11794"
+  },
+  {
+   "path": "files/confirmations/2026_1029 Conrad Hong Kong -Andrew 85k.pdf",
+   "size": 43752,
+   "sha256": "9aea210a0a5bb6f372965b047d2111dcf2924451307c4ce448cc5f13794596d5"
+  },
+  {
+   "path": "files/confirmations/2026_1029 EvaAir Macau-Taipei BudgetAir-Tsai.pdf",
+   "size": 544056,
+   "sha256": "387361a7c056c25dd5f6cc30de45b981c9d6137d657f8a4794ae2bd49c56d193"
+  },
+  {
+   "path": "files/confirmations/2026_1029 Holiday Inn Taoyuan Airport -Tsai 13.6k.pdf",
+   "size": 217967,
+   "sha256": "1a230f952fa5b53b926e3fa7fed78d5ead564460b14f93cfa03e921cf3397c7b"
+  },
+  {
+   "path": "files/confirmations/2026_1030 Conrad Hong Kong -Andrew 85k.pdf",
+   "size": 43494,
+   "sha256": "a7050e9860174fe4ca609da393b3acecf5f8e69c8b67e0665f7eadb69737ec02"
+  },
+  {
+   "path": "files/confirmations/2026_1031 Conrad Hong Kong -Andrew 85k.pdf",
+   "size": 43410,
+   "sha256": "923b287c9527d6fa3c740dd567c13d43f45b68608c0a1781892b9fc99b9e8244"
+  },
+  {
+   "path": "files/confirmations/2026_1101 Cathay HKG-JFK A+J AA37.5kx2.pdf",
+   "size": 241914,
+   "sha256": "5e86942c8d29905a9d6b7fbf9c0072f4d82ca2bb7f2402a9ff437275f9227b41"
+  },
+  {
+   "path": "files/confirmations/2026_1101 HKG-JFK Cathay-B88V3W Andrew-eticket.pdf",
+   "size": 152984,
+   "sha256": "dcf6b8f048fc28c937593326f2617f03a7f944c33a3f5e0407dc411806a93a06"
+  },
+  {
+   "path": "files/confirmations/2026_1101 HKG-JFK Cathay-B88V3W J+A.pdf",
+   "size": 169970,
+   "sha256": "36e27a84cddeed65550f3cf687708b6802ae9c13b31290eec437f18491ddcd03"
+  },
+  {
+   "path": "files/confirmations/2026_1102 InterContinental New Taipei Hot Spring -Tsai fn+13k.pdf",
+   "size": 209038,
+   "sha256": "e83a3133e6077b1dbbc2182d49dfff8e1a0d4a765c1c30843c29feb5db04e4b7"
+  },
+  {
+   "path": "files/confirmations/2026_1103 Crowne Plaza Tainan-Tsai 63k.pdf",
+   "size": 209615,
+   "sha256": "7e4cd8552b9e74425117e89853b31d2490db68c790d216c00dab4ea4a88b91f6"
+  },
+  {
+   "path": "files/confirmations/2026_1108 InterContinental Taichung-Tsai fn.pdf",
+   "size": 210615,
+   "sha256": "dadc1175fb7f3cd77d0b476f4546afe0116c9add5a5a2b17ca4fe70023d67378"
+  },
+  {
+   "path": "files/confirmations/2026_1110 Shangri-La Taipei on andrewAP61000$299.pdf",
+   "size": 8303727,
+   "sha256": "55b58be2e2df7eb700827f0e03f464959bb3d5dda7c1c042143dfa89e13702e3"
+  },
+  {
+   "path": "files/confirmations/2026_1111 TPE-JFK ANA Tsai.pdf",
+   "size": 803857,
+   "sha256": "21f2c3a6426f492cc78419e896d8ffe6341cf156730a13c39980a019bd0ae815"
+  },
+  {
+   "path": "files/confirmations/PEK transfer confirmation.jpg",
+   "size": 160702,
+   "sha256": "76cc97442179ebf15f93507c3ba7b1f290b51eb21a678e73f66793d51ead9482"
+  },
+  {
+   "path": "files/confirmations/Tsai flight ticket to Taiwan.pdf",
+   "size": 72953,
+   "sha256": "5c088d93f204793771a8398c503d10a00526a73780931401027cc37f49b64705"
+  },
+  {
+   "path": "files/confirmations/donna-itinerary.md",
+   "size": 2241,
+   "sha256": "983c767b95ee0ed9dfdc014af3f29939968dbcbcd5b4cc0a727c1ad9e4455fde"
+  },
+  {
+   "path": "files/guide/PROJECT_GUIDE.md",
+   "size": 8178,
+   "sha256": "17dc08c20a0f433e58e697f4a41b7146fe439a750908d43938938c880b9988ea"
+  },
+  {
+   "path": "files/itinerary/China Trip Itinerary - Interactive.html",
+   "size": 48667,
+   "sha256": "3519e5a9090d92bd98e8cca9c464994094aaa313d4e7b0d2dee16fa700bed4b4"
+  },
+  {
+   "path": "files/itinerary/China Trip Itinerary - October 2026.pdf",
+   "size": 2286995,
+   "sha256": "4ef9b74c47bf89c05f2c98a5dec831be39e3c85a933108e9c873fd9e95db885c"
+  },
+  {
+   "path": "files/itinerary/master-itinerary.md",
+   "size": 48193,
+   "sha256": "93cec94bad0fba7792a43cf49f5a1c0313b63cf63bdf41a87cce516efe1bedcc"
+  },
+  {
+   "path": "files/itinerary/visa-packet-andrew.pdf",
+   "size": 2983552,
+   "sha256": "50a601f3f2779f719ff6dcea732061644692b44276b0c2a62516a481545a1f2b"
+  },
+  {
+   "path": "files/itinerary/visa-packet-justin.pdf",
+   "size": 2905889,
+   "sha256": "72573e506499a76d214ab0147596f2fae3d007e3bdcecec4caf148f40e80a772"
+  },
+  {
+   "path": "icons/apple-touch-icon.png",
+   "size": 3725,
+   "sha256": "852a4799ceac0b9251677d68665128f672c66484db1ad14df221616499eed2b5"
+  },
+  {
+   "path": "icons/icon-192.png",
+   "size": 4100,
+   "sha256": "1f5dcf88f1369a287cdf7b4380cef0f069a92a6a412c01f8738473041f8e3ec8"
+  },
+  {
+   "path": "icons/icon-512.png",
+   "size": 10772,
+   "sha256": "cffaf4f1d6d5482b4290970d4bc82e6207c564d2bc85c46d6f2a7c294f40d0f6"
+  }
+ ]
+}
