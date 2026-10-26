@@ -3,8 +3,8 @@
  "files": [
   {
    "path": "app.js",
-   "size": 41789,
-   "sha256": "5ce30d8bfadd0bcbfb7873fa999916f7b41b7b8ec3b0482d09e6bf7c283bfb20"
+   "size": 41837,
+   "sha256": "d57ab4ec24a2669086590edb7e616d53723ff1f2646d39d7bd19575c0f5e2048"
   },
   {
    "path": "esim-usage.json",
