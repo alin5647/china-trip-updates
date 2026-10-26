@@ -1,6 +1,6 @@
 {
- "versionCode": 27,
- "versionName": "1.19",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v1.19/china-trip-v1.19.apk",
- "notes": "Fixes the in-app updater: 'Install unknown apps' is now checked BEFORE downloading (it used to be checked only after the 54 MB download, so with it off the download finished and never opened the installer); downloads now show a progress bar, a 'Download complete' message, and a real failure reason instead of a generic toast; the installer file is verified present and complete before opening; the file provider now returns file name/size to installers. Published to the public updates repo, so v1.17/v1.18 users get it via Check for Updates once they install this version manually."
+ "versionCode": 28,
+ "versionName": "2.0",
+ "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.0/china-trip-v2.0.apk",
+ "notes": "v2.0 test release: Settings now has a light/dark theme toggle and an English/Chinese language toggle (app menus and Settings switch language; day itinerary content stays as authored, with Chinese place names already in it). The biome sounds are removed and the original walk music is back, fully offline: All The Tea In China, Guzheng City, and Imperial China Cinematic, with the narration tracks re-mixed over the music as they were in v1.16. Published to the public updates repo so v1.19 users can test the in-app update flow."
 }
