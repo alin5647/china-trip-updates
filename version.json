@@ -1,6 +1,6 @@
 {
- "versionCode": 26,
- "versionName": "1.18",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v1.18/china-trip-v1.18.apk",
- "notes": "Incorporates the revised Hangzhou 2-Day Itinerary you sent Oct 26: shown at the top of the Oct 26 and Oct 27 day pages (Day 1 peaks at Leifeng Pagoda golden hour; Day 2 is Maojiabu mist, Lingyin, Meijiawu tea, Xixi Wetland, Gongchen Bridge blue hour, then Holiday Inn Airport Zone). Dish names now include pinyin. Published to the public updates repo, so v1.17 users get it via Check for Updates in the app."
+ "versionCode": 27,
+ "versionName": "1.19",
+ "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v1.19/china-trip-v1.19.apk",
+ "notes": "Fixes the in-app updater: 'Install unknown apps' is now checked BEFORE downloading (it used to be checked only after the 54 MB download, so with it off the download finished and never opened the installer); downloads now show a progress bar, a 'Download complete' message, and a real failure reason instead of a generic toast; the installer file is verified present and complete before opening; the file provider now returns file name/size to installers. Published to the public updates repo, so v1.17/v1.18 users get it via Check for Updates once they install this version manually."
 }
