@@ -1,6 +1,6 @@
 {
- "versionCode": 25,
- "versionName": "1.17",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v1.17/china-trip-v1.17.apk",
- "notes": "eSIM page is now usage progress only — QR codes, activation codes and SIM numbers removed (all eSIMs already installed). Walk sound replaced with free CC0 biome ambience: forest birdsong (bamboo), ocean waves (lakeside), chicken clucking (farm/plains at sunset), plus cave drips as an extra walk sound, looped and mixed under the narration. In-app updates now check the public updates repo first, so Check for Updates works from the app without a signed-in browser. Main itinerary repo stays private."
+ "versionCode": 26,
+ "versionName": "1.18",
+ "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v1.18/china-trip-v1.18.apk",
+ "notes": "Incorporates the revised Hangzhou 2-Day Itinerary you sent Oct 26: shown at the top of the Oct 26 and Oct 27 day pages (Day 1 peaks at Leifeng Pagoda golden hour; Day 2 is Maojiabu mist, Lingyin, Meijiawu tea, Xixi Wetland, Gongchen Bridge blue hour, then Holiday Inn Airport Zone). Dish names now include pinyin. Published to the public updates repo, so v1.17 users get it via Check for Updates in the app."
 }
