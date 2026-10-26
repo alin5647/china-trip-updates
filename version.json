@@ -1,6 +1,6 @@
 {
- "versionCode": 28,
- "versionName": "2.0",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.0/china-trip-v2.0.apk",
- "notes": "v2.0 test release: Settings now has a light/dark theme toggle and an English/Chinese language toggle (app menus and Settings switch language; day itinerary content stays as authored, with Chinese place names already in it). The biome sounds are removed and the original walk music is back, fully offline: All The Tea In China, Guzheng City, and Imperial China Cinematic, with the narration tracks re-mixed over the music as they were in v1.16. Published to the public updates repo so v1.19 users can test the in-app update flow."
+ "versionCode": 29,
+ "versionName": "2.1",
+ "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.1/china-trip-v2.1.apk",
+ "notes": "Fixes the dark-mode layout bug on the Oct 26/27 pages: the Hangzhou 2-day page's stylesheet was injected globally, so its body { max-width:900px; margin:0 auto; padding:18px; background:#f8f9fa; color:#222 } shrank the whole app page, painted light margins around the dark cards, and forced dark text onto the dark topbar — invisible in light mode, glaring in dark mode. That stylesheet is now scoped to the 2-day section only, and its light boxes (timing, stops, food, DiDi table) get dark backgrounds in dark mode so text is readable. Topbar title now explicitly uses the theme text colour."
 }
