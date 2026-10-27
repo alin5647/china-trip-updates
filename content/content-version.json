@@ -1,0 +1,7 @@
+{
+  "version": 4,
+  "label": "Macau–Hong Kong deep dive",
+  "updated": "2026-10-27",
+  "apkVersion": "2.2",
+  "notes": "v1: initial v2.2 content manifest. v2: Settings footer test change. v3: Macau-HK deep dive guide + 8-stop audio tour. v4: content version display + honest update feedback in Settings, index.html and esim-usage.json excluded from the manifest (shell frame and volatile usage file), and the Huangshan Baiyun confirmation image added to the overlay."
+}

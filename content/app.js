@@ -1,6 +1,6 @@
 /* China Trip — one cohesive day-by-day itinerary.
    Each day is a container; inside it, tabs switch between plan styles. */
-const state = { data: null, files: null, packing: null, esim: null, esimUsage: null, dayPlans: {}, docQuery: "", guideOct21: null, guideOct22: null, guideOct24: null, guideOct26: null, guideMacauHk: null, hangzhou2Day: null, route: { page: "day", day: 0 } };
+const state = { data: null, files: null, packing: null, esim: null, esimUsage: null, dayPlans: {}, docQuery: "", guideOct21: null, guideOct22: null, guideOct24: null, guideOct26: null, guideMacauHk: null, contentVersion: null, hangzhou2Day: null, route: { page: "day", day: 0 } };
 const DOC_CACHE = "ct-docs-v1";
 
 function esc(s) {
@@ -47,6 +47,13 @@ const I18N = {
     content_checking: "Checking for content updates…",
     content_uptodate: "Content is up to date.",
     content_failed: "Content update failed: ",
+    content_installed: "Installed content: ",
+    content_bundled: "Installed content: bundled with the app (no content update applied yet).",
+    content_uptodate_with: "Content is up to date. ",
+    content_partial: " — reloading with the updated files…",
+    content_nofiles: "Content update failed — no files were updated. ",
+    content_couldnot: " file(s) could not be downloaded. Check connection and try again.",
+    content_conn: "Content update failed — check connection and try again.",
     esim_na: "eSIM data not available.", pack_na: "Packing list not available.",
     docs_na: "Document list not available."
   },
@@ -75,6 +82,13 @@ const I18N = {
     content_checking: "正在检查内容更新…",
     content_uptodate: "内容已是最新。",
     content_failed: "内容更新失败：",
+    content_installed: "已安装内容：",
+    content_bundled: "已安装内容：随应用内置（尚未应用任何内容更新）。",
+    content_uptodate_with: "内容已是最新。",
+    content_partial: "——正在用已更新的文件重新加载…",
+    content_nofiles: "内容更新失败——没有文件被更新。",
+    content_couldnot: " 个文件无法下载。请检查网络后重试。",
+    content_conn: "内容更新失败——请检查网络后重试。",
     esim_na: "暂无 eSIM 数据。", pack_na: "暂无行李清单。",
     docs_na: "暂无文件列表。"
   }
@@ -122,6 +136,8 @@ async function load() {
     // up here on the next load — no APK reinstall needed.
     try { const r = await fetch("guide-2026-10-28-macau-hk.html", {"cache":"no-cache"});
       if (r.ok) state.guideMacauHk = guideBodyOf(await r.text()); } catch (e) {}
+    try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
+      state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
   } else {
     const [a, b, c, e, u, g, h, i2, j26, mh, k2d] = await Promise.all([
       fetch("itineraries.json", {"cache":"no-cache"}).then(r => r.json()),
@@ -142,6 +158,8 @@ async function load() {
     state.guideOct24 = i2 ? guideBodyOf(i2) : null;
     state.guideOct26 = j26 ? guideBodyOf(j26) : null;
     state.guideMacauHk = mh ? guideBodyOf(mh) : null;
+    try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
+      state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
     state.hangzhou2Day = k2d ? docWithStyle(k2d) : null;
   }
   applySettings();
@@ -459,6 +477,7 @@ function settingsPageHTML() {
     <div id="set-test-results"><p class="muted">${t("test_intro")}</p></div>
   </div>
   <div class="card"><h3>${t("content_updates")}</h3>
+    <p class="muted" id="set-content-version">${state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label} (${state.contentVersion.updated})` : t("content_bundled")}</p>
     <div class="set-row"><button type="button" class="set-btn" id="set-content-check" ${inApp ? "" : "disabled"}>${t("check_content")}</button></div>
     ${inApp ? "" : `<p class="muted">${t("content_in_app_only")}</p>`}
     <label class="set-row"><span>${t("content_auto")}</span><input type="checkbox" id="set-content-auto"${chk(settings.contentAuto)}></label>
@@ -520,15 +539,19 @@ function wireSettingsPage(view) {
     try { r = typeof json === "string" ? JSON.parse(json) : json; } catch (e) { return; }
     const auto = !!window.__ctContentAuto;
     window.__ctContentAuto = false;
+    const versionLine = state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label}` : "";
     if (r.updated > 0) {
       const kb = r.bytes >= 1048576 ? (r.bytes / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(r.bytes / 1024)) + " KB";
-      if (contentResults) contentResults.innerHTML = `<p>✓ Updated ${r.updated} file${r.updated === 1 ? "" : "s"} (${kb}) — reloading…</p>`;
-      toast("Content updated (" + kb + ") — reloading…");
+      let msg = `✓ Updated ${r.updated} file${r.updated === 1 ? "" : "s"} (${kb})`;
+      if (r.failed > 0) msg += `, but ${r.failed} file${r.failed === 1 ? "" : "s"} could not be downloaded`;
+      msg += t("content_partial");
+      if (contentResults) contentResults.innerHTML = `<p>${msg}</p>`;
+      toast(msg);
       setTimeout(() => location.reload(), 1200);
     } else if (r.ok) {
-      if (!auto && contentResults) contentResults.innerHTML = `<p class="muted">${t("content_uptodate")}</p>`;
+      if (!auto && contentResults) contentResults.innerHTML = `<p class="muted">${t("content_uptodate_with")}${versionLine}</p>`;
     } else {
-      const msg = t("content_failed") + (r.error || "unknown error");
+      const msg = r.failed > 0 ? `${t("content_nofiles")}${r.failed}${t("content_couldnot")}` : (r.error ? t("content_failed") + r.error : t("content_conn"));
       if (contentResults) contentResults.innerHTML = `<p class="muted">${msg}</p>`;
       if (!auto) toast(msg);
     }
