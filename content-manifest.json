@@ -3,13 +3,13 @@
  "files": [
   {
    "path": "app.js",
-   "size": 44060,
-   "sha256": "f340fa1ed4f94ba714a6974903cdd5115661f401467066edb52c33fb96de443c"
+   "size": 46042,
+   "sha256": "96fd509a41c4cf523e9929846ffddb5a3d4635ce31e187067751ce4a8f90b1cf"
   },
   {
-   "path": "esim-usage.json",
-   "size": 727,
-   "sha256": "80c3a71b80f252704448aedefaebac08b83fda39b2f144a2e0af5864ce5c8cc5"
+   "path": "content-version.json",
+   "size": 472,
+   "sha256": "6d77d80c6ceddc2d77c090d975087f822b302c60ff69cc5b91b4c843c1369b9e"
   },
   {
    "path": "esim.json",
@@ -55,11 +55,6 @@
    "path": "hangzhou-day-trip.html",
    "size": 21789,
    "sha256": "1c4da3c8a726fc091416666535ab30f1f11b57e6114d13080b2de4970e25f70a"
-  },
-  {
-   "path": "index.html",
-   "size": 2916,
-   "sha256": "66ac287b3d97281ef7f126cad730054d7697c8538342de1aa56bcc5ad5ae623f"
   },
   {
    "path": "itineraries.json",
