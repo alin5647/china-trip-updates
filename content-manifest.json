@@ -3,13 +3,13 @@
  "files": [
   {
    "path": "app.js",
-   "size": 41837,
-   "sha256": "d57ab4ec24a2669086590edb7e616d53723ff1f2646d39d7bd19575c0f5e2048"
+   "size": 44060,
+   "sha256": "f340fa1ed4f94ba714a6974903cdd5115661f401467066edb52c33fb96de443c"
   },
   {
    "path": "esim-usage.json",
    "size": 727,
-   "sha256": "9ded4296735eb4f58f57712aebd6f31e0396a923eb1975b5247a22b4c4a521e7"
+   "sha256": "80c3a71b80f252704448aedefaebac08b83fda39b2f144a2e0af5864ce5c8cc5"
   },
   {
    "path": "esim.json",
@@ -42,6 +42,11 @@
    "sha256": "47c840032f961939748f977d3d116f6e637dfedbbe6890b45cf5bb8ec6198343"
   },
   {
+   "path": "guide-2026-10-28-macau-hk.html",
+   "size": 18428,
+   "sha256": "8025dbc67b52a88bc38b34330d790ae8ac26b69fc03f17dbdda0b11842935223"
+  },
+  {
    "path": "hangzhou-2day-itinerary.html",
    "size": 19851,
    "sha256": "eb69cc93351069f18f24d36f6cfd045709fd72b9f9f4c7b0723c07c40ef73787"
@@ -68,8 +73,48 @@
   },
   {
    "path": "styles.css",
-   "size": 21033,
-   "sha256": "3522ec9b35f58ef0bb026a142f032b89c1ff032ffc9d7f4f27b70d706a97eedc"
+   "size": 21667,
+   "sha256": "22bd70686868e03d3133c520b3f30231818dc4442f738f472d0a10781d16370f"
+  },
+  {
+   "path": "audio/macau-hk/stop1-ruins-golden-hour.mp3",
+   "size": 451085,
+   "sha256": "45be043274263e943d829e59ccca3c5ebb15b70d6e79eaad97171d12d95b95e4"
+  },
+  {
+   "path": "audio/macau-hk/stop2-taipa-morning.mp3",
+   "size": 360941,
+   "sha256": "d0348e2800cadc77cf57a10da8b4123a82554a867f48218f66135c9e1336cc5a"
+  },
+  {
+   "path": "audio/macau-hk/stop3-peak-sunset.mp3",
+   "size": 401837,
+   "sha256": "55371463de005112444a1d85de384e2549d3e203b30cf94a16d4f84ebbae2b72"
+  },
+  {
+   "path": "audio/macau-hk/stop4-dragons-back.mp3",
+   "size": 384557,
+   "sha256": "2563972dc2b19d0da13186a3036839a95805338bf382df1d320b3084ae423e74"
+  },
+  {
+   "path": "audio/macau-hk/stop5-star-ferry-temple-street.mp3",
+   "size": 423437,
+   "sha256": "22af29c4477c19af6051ee4e26a3b9924e8972c03508826b2e1aacd317775990"
+  },
+  {
+   "path": "audio/macau-hk/stop6-jardines-sunrise.mp3",
+   "size": 387437,
+   "sha256": "8060dac1aaf7da35a6e2ce5fdde9ea377e293e8041beb01d6738b2c280c3409e"
+  },
+  {
+   "path": "audio/macau-hk/stop7-mongkok-peak-farewell.mp3",
+   "size": 327245,
+   "sha256": "1f3325250a29a8c1d7dc6f5c9fcf43fb1dafcf5446760d061084a37a235bbb4e"
+  },
+  {
+   "path": "audio/macau-hk/stop8-hk-park-farewell.mp3",
+   "size": 335021,
+   "sha256": "ded80f2c4994e2301464ca1a978712ca1eb985bd28b99494435a87576ea2ad75"
   },
   {
    "path": "audio/oct21/stop1-tiantan.mp3",
