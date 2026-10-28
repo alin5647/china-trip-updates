@@ -54,6 +54,9 @@ const I18N = {
     content_nofiles: "Content update failed — no files were updated. ",
     content_couldnot: " file(s) could not be downloaded. Check connection and try again.",
     content_conn: "Content update failed — check connection and try again.",
+    content_local_files: "Downloaded content files on this phone: ",
+    content_itin_inuse: "Itinerary in use: ",
+    content_stops: "stops",
     esim_na: "eSIM data not available.", pack_na: "Packing list not available.",
     docs_na: "Document list not available."
   },
@@ -89,6 +92,9 @@ const I18N = {
     content_nofiles: "内容更新失败——没有文件被更新。",
     content_couldnot: " 个文件无法下载。请检查网络后重试。",
     content_conn: "内容更新失败——请检查网络后重试。",
+    content_local_files: "本机已下载内容文件：",
+    content_itin_inuse: "当前行程数据：",
+    content_stops: "站",
     esim_na: "暂无 eSIM 数据。", pack_na: "暂无行李清单。",
     docs_na: "暂无文件列表。"
   }
@@ -464,6 +470,31 @@ function startUsageRefresh() {
 
 /* ---------------- settings page ---------------- */
 
+/* "On this phone" diagnostics (content v7, at Justin's request): how many
+   downloaded content files are overriding the bundle, and a fingerprint
+   of the itinerary data actually in use — so a stale display is visible
+   at a glance instead of masquerading as "up to date". */
+function localFilesLine() {
+  try {
+    if (window.AndroidContent && window.AndroidContent.contentFileCount) {
+      return t("content_local_files") + window.AndroidContent.contentFileCount();
+    }
+  } catch (e) {}
+  return "";
+}
+function itinInUseLine() {
+  try {
+    const opts = state.data && state.data.options;
+    if (!opts || !opts.length) return "";
+    const day = (opts[0].days || []).find(d => d.date === "Oct 28");
+    if (!day) return "";
+    const acts = day.activities || [];
+    const gen = (state.data.generated_at || "").slice(0, 10);
+    return t("content_itin_inuse") + "Oct 28 · " + acts.length + " " + t("content_stops")
+      + (acts.length ? " · " + acts[0].name : "") + (gen ? " · " + gen : "");
+  } catch (e) { return ""; }
+}
+
 function settingsPageHTML() {
   const inApp = !!window.AndroidApp;
   const ver = inApp
@@ -488,6 +519,8 @@ function settingsPageHTML() {
   </div>
   <div class="card"><h3>${t("content_updates")}</h3>
     <p class="muted" id="set-content-version">${state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label} (${state.contentVersion.updated})` : t("content_bundled")}</p>
+    <p class="muted" id="set-content-files">${localFilesLine()}</p>
+    <p class="muted" id="set-itin-inuse">${itinInUseLine()}</p>
     <div class="set-row"><button type="button" class="set-btn" id="set-content-check" ${inApp ? "" : "disabled"}>${t("check_content")}</button></div>
     ${inApp ? "" : `<p class="muted">${t("content_in_app_only")}</p>`}
     <label class="set-row"><span>${t("content_auto")}</span><input type="checkbox" id="set-content-auto"${chk(settings.contentAuto)}></label>
@@ -543,12 +576,24 @@ function wireSettingsPage(view) {
         .catch(() => window.__ctShowTestResults([{ name: "This site", ok: false, detail: "Could not load version info" }]));
     }
   };
+  const refreshVersionLine = async () => {
+    try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
+      if (vr.ok) state.contentVersion = await vr.json(); } catch (e) {}
+    const vel = view.querySelector("#set-content-version");
+    if (vel) vel.textContent = state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label} (${state.contentVersion.updated})` : t("content_bundled");
+    const fel = view.querySelector("#set-content-files");
+    if (fel) fel.textContent = localFilesLine();
+    const iel = view.querySelector("#set-itin-inuse");
+    if (iel) iel.textContent = itinInUseLine();
+  };
+  refreshVersionLine();
   const contentResults = view.querySelector("#set-content-results");
   window.__ctContentUpdate = json => {
     let r;
     try { r = typeof json === "string" ? JSON.parse(json) : json; } catch (e) { return; }
     const auto = !!window.__ctContentAuto;
     window.__ctContentAuto = false;
+    refreshVersionLine();
     const versionLine = state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label}` : "";
     if (r.updated > 0) {
       const kb = r.bytes >= 1048576 ? (r.bytes / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(r.bytes / 1024)) + " KB";
