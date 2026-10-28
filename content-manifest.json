@@ -3,13 +3,13 @@
  "files": [
   {
    "path": "app.js",
-   "size": 46042,
-   "sha256": "96fd509a41c4cf523e9929846ffddb5a3d4635ce31e187067751ce4a8f90b1cf"
+   "size": 46733,
+   "sha256": "7289f1d27dda5b28893ba7372fad6babbc285a4734e5624065cc67374a1e1906"
   },
   {
    "path": "content-version.json",
-   "size": 855,
-   "sha256": "092653f5ffb54485114d7245422ba305b80d0c00f2903482cdc5d2cdfb14f67a"
+   "size": 1213,
+   "sha256": "a476de579636415bc3f399b618384517a72026923511c27826f643b08abf562a"
   },
   {
    "path": "esim.json",
