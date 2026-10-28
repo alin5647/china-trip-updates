@@ -138,6 +138,16 @@ async function load() {
       if (r.ok) state.guideMacauHk = guideBodyOf(await r.text()); } catch (e) {}
     try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
       state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
+    // Content-updated itinerary: the inlined copy above is frozen at APK
+    // build time, so also try the itineraries.json asset — TripWebClient
+    // serves the content updater's downloaded copy when one exists, and
+    // the bundled asset (same data as inlined) otherwise. Any failure or
+    // unexpected shape keeps the inlined copy. (Added in content v6 —
+    // before this, day-plan changes in itineraries.json never reached
+    // the installed app.)
+    try { const ir = await fetch("itineraries.json", {"cache":"no-cache"});
+      if (ir.ok) { const ij = await ir.json();
+        if (ij && Array.isArray(ij.options) && ij.options.length) state.data = ij; } } catch (e) {}
   } else {
     const [a, b, c, e, u, g, h, i2, j26, mh, k2d] = await Promise.all([
       fetch("itineraries.json", {"cache":"no-cache"}).then(r => r.json()),
