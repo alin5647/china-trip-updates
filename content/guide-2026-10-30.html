@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hong Kong · Oct 30 — Deep Dive</title>
+<style>
+  html{font-size:17.5px}
+  body{font-family:-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;margin:0;padding:14px 16px 32px;color:#22252a;background:#faf9f6;line-height:1.45}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:1.45rem;margin:6px 0 4px}
+  h2{font-size:1.12rem;margin:22px 0 6px;padding-top:10px;border-top:2px solid #e3ded2}
+  p{margin:5px 0}
+  .sub{color:#5c6068;font-size:.92rem}
+  .listen{background:#eef4ee;border:1.5px solid #b9d3ba;border-radius:10px;padding:9px 12px;margin:8px 0}
+  .listen span{font-weight:700;font-size:.95rem;display:block;margin-bottom:5px}
+  audio{width:100%;height:40px}
+  .musicbar{background:#1f3d2b;color:#fff;border-radius:12px;padding:12px;margin:10px 0}
+  .musicbar b{font-size:1rem}
+  .musicbar p{color:#cfe3d6;font-size:.9rem}
+  .musicbar button{background:#fff;color:#1f3d2b;border:0;border-radius:999px;padding:7px 13px;margin:4px 4px 0 0;font-size:.9rem;font-weight:700;cursor:pointer}
+  .musicbar button.stop{background:#e8b93a}
+  .note{background:#fdeeee;border:1.5px solid #e5a3a3;border-radius:10px;padding:9px 12px;margin:10px 0;font-size:.95rem}
+  .hard{color:#b3001b;font-weight:700}
+  .waypoint{background:#eef2fb;border-left:4px solid #5b7fc4;padding:7px 11px;margin:7px 0;font-size:.95rem}
+  .look{background:#f0f9f4;border-left:4px solid #34b780;padding:9px 12px;margin:8px 0;font-size:.95rem}
+  .look b{color:#208b65}
+  a{color:#2456c4}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Hong Kong — Oct 30 Deep Dive</h1>
+<p class="sub">Dragon's Back hike + Shek O in the morning (Stop 4), Star Ferry at blue hour and Temple Street night market in the evening (Stop 5). Two audio tours, walk music underneath.</p>
+
+<div class="musicbar" id="musicbar">
+  <b>🎵 Walk music — downloaded and built into this app, plays offline</b>
+  <p>Three real recorded tracks, bundled in the app — no streaming, no data, no separate download. Press play and the track loops while you walk. The narration players below already have walk music mixed underneath them at low volume, so the music is part of each guide track, not a separate stream.</p>
+  <audio id="walk-music" controls loop preload="none" src="audio/oct26/music/all-the-tea-in-china.mp3" style="width:100%"></audio>
+  <p id="music-now" style="margin-top:8px">Now loaded: All The Tea In China, by Shane Ivers (CC BY 4.0)</p>
+  <button type="button" data-track="audio/oct26/music/all-the-tea-in-china.mp3" data-label="All The Tea In China, by Shane Ivers (CC BY 4.0)">🎋 All The Tea In China</button>
+  <button type="button" data-track="audio/oct26/music/guzheng-city.mp3" data-label="Guzheng City, by Kevin MacLeod (CC BY 4.0)">🌊 Guzheng City</button>
+  <button type="button" data-track="audio/oct26/music/imperial-china-cinematic.mp3" data-label="Imperial China Cinematic, by Shane Ivers (CC BY 4.0)">🌇 Imperial China Cinematic</button>
+  <button type="button" class="stop" id="music-stop">⏹ Stop music</button>
+</div>
+
+<h2>Audio tour — Stop 4: Dragon's Back hike + Shek O (Oct 30, 7:30 AM)</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Dragon's Back</span><audio controls preload="none" src="audio/macau-hk/stop4-dragons-back.mp3"></audio></div>
+<div class="waypoint">📌 <strong>Your itinerary slot:</strong> Oct 30, 7:30 AM — Dragon's Back hike (龙脊, Lóng Jǐ), 2–3 hours along the ridge with South China Sea views, ending at Shek O. Breakfast before the hike: Lin Heung Tea House (莲香楼, Lián Xiāng Lóu) pushcart dim sum. Lunch in Shek O village.</div>
+<div class="look"><b>Look for:</b> the famous ridge trail, sea views down to Shek O beach. This is also your best candidate area to safely test the DJI Flip — check the HK CAD drone map first, never fly over crowds.</div>
+
+<h2>Audio tour — Stop 5: Star Ferry + Temple Street night (Oct 30, 6:00 PM / 8:00 PM)</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Star Ferry + Temple Street</span><audio controls preload="none" src="audio/macau-hk/stop5-star-ferry-temple-street.mp3"></audio></div>
+<div class="waypoint">📌 <strong>Your itinerary slot:</strong> Oct 30, 6:00 PM Star Ferry + Avenue of Stars at blue hour, 8:00 PM Temple Street Night Market, claypot rice dinner in Yau Ma Tei.</div>
+<div class="look"><b>Look for:</b> the 10-minute Star Ferry crossing (TST ↔ Central) — cheap, iconic blue hour harbour crossing, fantastic in-transit photos. Then neon signs, fortune tellers, street night photography at Temple Street — avoid close-up shots of people without consent, especially fortune tellers.</div>
+
+<p class="sub">Music credits (CC BY 4.0, as required by the licence): Music: All The Tea In China by Shane Ivers — https://www.silvermansound.com · Music: Imperial China Cinematic by Shane Ivers — https://www.silvermansound.com · “Guzheng City” by Kevin MacLeod (incompetech.com) · All three tracks licensed under Creative Commons Attribution 4.0. The narration voice is DAJD's guide voice, mixed over the music at low volume — the music is part of each narration track, not a separate stream.</p>
+
+</div>
+<script>
+(function(){
+  var player = document.getElementById("walk-music");
+  var now = document.getElementById("music-now");
+  function playTrack(src, label){
+    if(!player) return;
+    if(player.getAttribute("src") !== src) player.setAttribute("src", src);
+    player.play().catch(function(){});
+    if(now) now.textContent = "Now playing: " + label;
+  }
+  document.querySelectorAll("[data-track]").forEach(function(b){
+    b.addEventListener("click", function(){
+      playTrack(b.getAttribute("data-track"), b.getAttribute("data-label"));
+    });
+  });
+  var st = document.getElementById("music-stop");
+  if(st) st.addEventListener("click", function(){ if(player){ player.pause(); } if(now) now.textContent = "Music: stopped"; });
+})();
+</script>
+</body>
+</html>

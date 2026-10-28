@@ -1,0 +1,28 @@
+{
+ "provider": "eSIM.dog (Billion Connect network)",
+ "plan": "10GB · 12-day validity · LTE + 5G · China mainland",
+ "route": "Pink",
+ "updated": "2026-10-23",
+ "sims": [
+  {
+   "id": "andrew",
+   "name": "Andrew",
+   "plan": "10GB · 12-day validity · LTE + 5G · China mainland"
+  },
+  {
+   "id": "andrew2",
+   "name": "Andrew (new)",
+   "plan": "20GB · 12-day validity · LTE + 5G · China mainland"
+  },
+  {
+   "id": "donna",
+   "name": "Donna",
+   "plan": "10GB · 12-day validity · LTE + 5G · China mainland"
+  },
+  {
+   "id": "justin",
+   "name": "Justin",
+   "plan": "10GB · 12-day validity · LTE + 5G · China mainland"
+  }
+ ]
+}

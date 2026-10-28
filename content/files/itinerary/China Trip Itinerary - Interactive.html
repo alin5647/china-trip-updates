@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China Trip — October 2026 · Interactive Itinerary</title>
+<style>
+:root{
+  --bg:#faf7f1; --card:#ffffff; --ink:#211d18; --muted:#6f6659;
+  --accent:#b3402a; --accent-dk:#8f3220; --line:#e8e0d2;
+  --amber-bg:#fff6e3; --amber-bd:#d99a2b; --amber-tx:#7a5410;
+  --red-bg:#fdeeee; --red-bd:#d64545; --red-tx:#8f2323;
+  --green-bg:#eef7ee; --green-bd:#4c9a4c;
+  --chip:#f1eadd; --radius:12px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.55;-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px 64px}
+
+/* ---------- top nav ---------- */
+.topnav{position:sticky;top:0;z-index:50;background:rgba(33,29,24,.97);color:#fff;
+  backdrop-filter:blur(4px)}
+.topnav .inner{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;gap:6px;align-items:center;overflow-x:auto;white-space:nowrap}
+.topnav .brand{font-weight:700;margin-right:10px;color:#ffd9a8;text-decoration:none;font-size:.95rem}
+.topnav a.lnk{color:#f3ede1;text-decoration:none;font-size:.85rem;padding:6px 10px;border-radius:8px}
+.topnav a.lnk:hover{background:rgba(255,255,255,.12)}
+.topnav a.warn{color:#ffcf7d;font-weight:700}
+
+/* ---------- hero ---------- */
+.hero{background:linear-gradient(135deg,#2b2320 0%,#5a2f22 60%,#8f3220 100%);color:#fff;
+  padding:40px 0 34px;margin-bottom:0}
+.hero h1{margin:0 0 6px;font-size:clamp(1.7rem,4.5vw,2.6rem);letter-spacing:.5px}
+.hero .sub{color:#f3d9c2;margin:0 0 16px;font-size:1.02rem}
+.travelers{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.travelers span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);
+  padding:5px 12px;border-radius:999px;font-size:.88rem}
+.route{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.9rem;color:#ffe9d2}
+.route b{color:#fff}
+.route .sep{opacity:.5}
+
+/* ---------- sections ---------- */
+section.block{margin:34px 0;scroll-margin-top:70px}
+section.block>h2{font-size:1.35rem;margin:0 0 4px;display:flex;align-items:center;gap:8px}
+section.block>.lede{color:var(--muted);margin:0 0 16px;font-size:.95rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;margin:12px 0;box-shadow:0 1px 3px rgba(60,40,20,.06)}
+
+/* ---------- conflicts ---------- */
+.conflict{border-left:6px solid var(--amber-bd);background:var(--amber-bg);border-radius:10px;
+  padding:12px 16px;margin:10px 0}
+.conflict.red{border-left-color:var(--red-bd);background:var(--red-bg)}
+.conflict h3{margin:0 0 4px;font-size:1rem;color:var(--amber-tx)}
+.conflict.red h3{color:var(--red-tx)}
+.conflict p{margin:0;font-size:.93rem}
+.conflict .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.4px;
+  text-transform:uppercase;background:var(--amber-bd);color:#fff;border-radius:6px;padding:2px 8px;margin-right:8px}
+.conflict.red .tag{background:var(--red-bd)}
+
+/* ---------- day chips ---------- */
+.daychips{position:sticky;top:52px;z-index:40;background:var(--bg);padding:10px 0;
+  border-bottom:1px solid var(--line)}
+.daychips .row{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 6px}
+.daychips a.chip{flex:0 0 auto;text-decoration:none;color:var(--ink);background:var(--chip);
+  border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.82rem;font-weight:600}
+.daychips a.chip small{display:block;font-weight:400;color:var(--muted);font-size:.7rem}
+.daychips a.chip.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.daychips a.chip.active small{color:#ffe2d2}
+.daychips a.chip.has-warn{border-color:var(--amber-bd)}
+.tl-controls{display:flex;gap:8px;margin:14px 0}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:7px 14px;
+  font-size:.85rem;cursor:pointer;color:var(--ink)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.btn.primary:hover{background:var(--accent-dk)}
+
+/* ---------- day cards ---------- */
+.day-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  margin:12px 0;overflow:hidden;scroll-margin-top:130px;box-shadow:0 1px 3px rgba(60,40,20,.06)}
+.day-head{width:100%;display:flex;align-items:center;gap:12px;padding:14px 16px;background:none;
+  border:0;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.day-head:hover{background:#fdfaf4}
+.day-num{flex:0 0 auto;width:44px;height:44px;border-radius:12px;background:var(--accent);color:#fff;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.1}
+.day-num b{font-size:1.05rem}.day-num span{font-size:.62rem;opacity:.85}
+.day-title{flex:1 1 auto;min-width:0}
+.day-title .d{font-weight:700;font-size:1.02rem}
+.day-title .r{color:var(--muted);font-size:.86rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.day-warn{flex:0 0 auto;font-size:.72rem;font-weight:700;color:var(--amber-tx);
+  background:var(--amber-bg);border:1px solid var(--amber-bd);border-radius:6px;padding:3px 8px}
+.day-warn.red{color:var(--red-tx);background:var(--red-bg);border-color:var(--red-bd)}
+.chev{flex:0 0 auto;color:var(--muted);font-size:1.2rem;transition:transform .25s}
+.day-card.open .chev{transform:rotate(180deg)}
+.day-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.day-card.open .day-body{grid-template-rows:1fr}
+.day-inner{overflow:hidden}
+.day-inner .pad{padding:2px 18px 18px}
+.fact{display:flex;gap:10px;padding:8px 0;border-top:1px dashed var(--line);font-size:.93rem}
+.fact:first-child{border-top:0}
+.fact .k{flex:0 0 86px;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.4px;padding-top:2px}
+.code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85em;
+  background:#f4efe4;border:1px solid var(--line);border-radius:6px;padding:1px 7px;white-space:nowrap}
+.day-notes{margin:10px 0 0;padding-left:20px;font-size:.93rem}
+.day-notes li{margin:4px 0}
+.mini{font-size:.85rem;color:var(--muted)}
+
+/* ---------- tables ---------- */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:640px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f5efe3;font-size:.78rem;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+tbody tr:hover{background:#fdfaf4}
+
+/* ---------- checklists ---------- */
+.check{list-style:none;margin:8px 0;padding:0}
+.check li{display:flex;gap:10px;align-items:flex-start;background:var(--card);
+  border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0;font-size:.93rem}
+.check input{margin-top:4px;width:17px;height:17px;accent-color:var(--accent);flex:0 0 auto;cursor:pointer}
+.check li.done{opacity:.62}
+.check li.done .t{text-decoration:line-through}
+.check .t b{display:block}
+.check .t small{color:var(--muted)}
+h4.group{margin:20px 0 4px;font-size:1rem;color:var(--accent-dk)}
+
+/* ---------- link buttons ---------- */
+.linkgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:600px){.linkgrid{grid-template-columns:1fr}}
+.biglink{display:block;background:var(--card);border:2px solid var(--accent);border-radius:var(--radius);
+  padding:18px;text-decoration:none;color:var(--ink);text-align:center}
+.biglink:hover{background:#fdf3ec}
+.biglink b{display:block;font-size:1.1rem;color:var(--accent-dk);margin-bottom:4px}
+.biglink span{font-size:.86rem;color:var(--muted)}
+.biglink code{display:block;margin-top:8px;font-size:.72rem;color:var(--muted);word-break:break-all;
+  background:#f4f1ec;border-radius:6px;padding:6px 8px;text-align:left}
+
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem}
+
+/* ---------- print ---------- */
+@media print{
+  .topnav,.daychips,.tl-controls,.btn{display:none!important}
+  .day-body{grid-template-rows:1fr!important}
+  .day-inner{overflow:visible}
+  body{background:#fff}
+  .wrap{max-width:100%}
+  .hero{padding:18px 0}
+  section.block{margin:18px 0;break-inside:avoid}
+  .day-card{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+
+<nav class="topnav" aria-label="Sections">
+  <div class="inner">
+    <a class="brand" href="#top">🇨🇳 China Trip</a>
+    <a class="lnk warn" href="#conflicts">⚠️ Conflicts</a>
+    <a class="lnk" href="#timeline">Day by day</a>
+    <a class="lnk" href="#bookings">Bookings</a>
+    <a class="lnk" href="#tech">Before you go</a>
+    <a class="lnk" href="#packing">Packing</a>
+    <a class="lnk" href="#links">Links</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap" style="padding-bottom:0">
+    <h1>China Trip — October 2026</h1>
+    <p class="sub">Sunday, October 18 → Sunday, November 1, 2026 · 15 days</p>
+    <div class="travelers">
+      <span>Justin Lin</span><span>Andrew Lin</span>
+      <span>Donna Lin (Chunyin Tsai)</span>
+    </div>
+    <div class="route">
+      <b>Beijing</b><span class="sep">→</span><b>Huangshan</b><span class="sep">→</span>
+      <b>Wuzhen</b><span class="sep">→</span><b>Hangzhou</b><span class="sep">→</span>
+      <b>Macao</b><span class="sep">→</span><b>Hong Kong</b>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ================= CONFLICTS ================= -->
+<section class="block" id="conflicts">
+  <h2>⚠️ Conflicts &amp; open issues</h2>
+  <p class="lede">Six items that need a human decision before or during the trip. Nothing here resolves itself.</p>
+
+  <div class="conflict red">
+    <h3><span class="tag">Action needed</span>Cathay flagged an operational change on CX840 (Nov 1)</h3>
+    <p>The return flight <strong>CX840 Hong Kong → JFK, 4:35–7:05 PM</strong> (AA <span class="code">SSQSTQ</span> / Cathay <span class="code">B88V3W</span>) shows an operational-change notice in Cathay's system. Review the current itinerary in the Cathay app before you fly — times or aircraft may have shifted.</p>
+  </div>
+
+  <div class="conflict red">
+    <h3><span class="tag">Action needed</span>Donna may hold two tickets for MF8719 (Oct 28)</h3>
+    <p>Donna appears twice in the Xiamen Airlines booking for <strong>MF8719 Hangzhou → Macao</strong>: PNR <span class="code">JSX01J</span> (with Justin &amp; Andrew) and a second record <span class="code">NBQ046</span>. Verify which one is live and cancel/void the other — a duplicate could cause check-in problems.</p>
+  </div>
+
+  <div class="conflict red">
+    <h3><span class="tag">Action needed</span>No confirmation for the Oct 24 Huangshan mountain-top night</h3>
+    <p>The plan is to <strong>sleep on Huangshan mountain on Oct 24</strong> (the South Gate rooms for that night were cancelled), but no mountain-top hotel confirmation was found in the saved files. The sunrise is the payoff for the overnight — make sure this is actually booked.</p>
+  </div>
+
+  <div class="conflict">
+    <h3><span class="tag">Unresolved</span>Southwest flights on Oct 28 clash with Macao</h3>
+    <p>The calendar shows <strong>Southwest LGA → MDW → CHS (WN 2414/3460) on Oct 28</strong> — the same day the family flies Hangzhou → Macao. Check whose booking that is and cancel or move it.</p>
+  </div>
+
+  <div class="conflict">
+    <h3><span class="tag">Heads up</span>Four Seasons Macao is booked for 2 adults, but 3 people overnight there</h3>
+    <p>The Oct 28 Four Seasons Macao booking (Amex <span class="code">ZO-AX1089-43101</span>, $297.36) covers <strong>2 adults</strong>, but Justin, Andrew, and Donna all overnight in Macao before Donna flies to Taiwan on Oct 29. Confirm the rooming arrangement with the hotel.</p>
+  </div>
+
+  <div class="conflict">
+    <h3><span class="tag">Cleanup</span>Stale calendar entries: cancelled St. Regis Beijing stays</h3>
+    <p>The calendar still shows <strong>St. Regis Beijing stays Oct 19–23</strong>, but those Amex reservations were cancelled in June 2026. Delete them so reminders don't misfire mid-trip.</p>
+  </div>
+</section>
+<!-- ================= TIMELINE ================= -->
+<section class="block" id="timeline">
+  <h2>📅 Day by day</h2>
+  <p class="lede">Tap a day to expand it. Amber flags mark the days with open issues.</p>
+  <div class="tl-controls">
+    <button class="btn" id="expandAll">Expand all</button>
+    <button class="btn" id="collapseAll">Collapse all</button>
+  </div>
+</section>
+
+<div class="daychips" aria-label="Jump to a day">
+  <div class="row" id="chipRow">
+    <a class="chip" href="#d1018">Oct 18<small>Sun · Fly</small></a>
+    <a class="chip" href="#d1019">Oct 19<small>Mon · Beijing</small></a>
+    <a class="chip" href="#d1020">Oct 20<small>Tue · Beijing</small></a>
+    <a class="chip" href="#d1021">Oct 21<small>Wed · Beijing</small></a>
+    <a class="chip" href="#d1022">Oct 22<small>Thu · Beijing</small></a>
+    <a class="chip" href="#d1023">Oct 23<small>Fri · Huangshan</small></a>
+    <a class="chip has-warn" href="#d1024">Oct 24<small>Sat · Mountain ⚠</small></a>
+    <a class="chip" href="#d1025">Oct 25<small>Sun · Wuzhen</small></a>
+    <a class="chip" href="#d1026">Oct 26<small>Mon · Hangzhou</small></a>
+    <a class="chip" href="#d1027">Oct 27<small>Tue · Hangzhou</small></a>
+    <a class="chip has-warn" href="#d1028">Oct 28<small>Wed · Macao ⚠</small></a>
+    <a class="chip" href="#d1029">Oct 29<small>Thu · Hong Kong</small></a>
+    <a class="chip" href="#d1030">Oct 30<small>Fri · Hong Kong</small></a>
+    <a class="chip" href="#d1031">Oct 31<small>Sat · Hong Kong</small></a>
+    <a class="chip has-warn" href="#d1101">Nov 1<small>Sun · Fly ⚠</small></a>
+  </div>
+</div>
+
+<section class="block" style="margin-top:6px">
+
+<article class="day-card" id="d1018">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>18</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Sun Oct 18 — Departure</span><br><span class="r">JFK → Hong Kong · Cathay CX841</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">✈️ Flight</span><span><strong>CX841</strong> JFK → HKG · departs <strong>10:00 AM</strong>, arrives 1:55 PM Oct 19. Justin + Andrew.<br><span class="code">AA CUNUXA</span> <span class="code">Cathay AGQTVD</span></span></div>
+    <div class="fact"><span class="k">🔁 Connect</span><span><strong>CX336</strong> HKG → PEK · departs 3:00 PM, arrives <strong>6:25 PM</strong> Oct 19.</span></div>
+    <div class="fact"><span class="k">🏨 Sleep</span><span>On the plane.</span></div>
+    <ul class="day-notes">
+      <li>~15 hours in the air — entertainment loaded, neck pillow, compression socks.</li>
+      <li>Carry the passport used for bookings; major attractions use real-name, passport-checked entry.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1019">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>19</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Mon Oct 19 — Arrive Beijing</span><br><span class="r">PEK T3 → Hampton by Hilton Beijing Changping</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🛬 Arrive</span><span><strong>CX336</strong> lands PEK T3 at <strong>6:25 PM</strong>.</span></div>
+    <div class="fact"><span class="k">🚗 Pickup</span><span>Pre-booked <strong>business car</strong> from T3 to the hotel — order <span class="code">WYOO1GZNNK</span> (700 pts via mobile banking, 上海盛世大联汽车服务). Driver contacts Mr. Lin after landing.</span></div>
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Hampton by Hilton Beijing Changping</strong> — Andrew's booking, <span class="code">85761252</span>, 22,000 Hilton points.</span></div>
+    <ul class="day-notes">
+      <li>Jet-lag day: light dinner, sleep early.</li>
+      <li>Delete the stale St. Regis Beijing calendar entries (cancelled June) so reminders don't misfire.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1020">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>20</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Tue Oct 20 — Forbidden City</span><br><span class="r">Move to China World Summit Wing</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>China World Summit Wing, Beijing</strong> (No. 1 Jianguomenwai Ave, Chaoyang) — Amex <span class="code">ZO-AX1064-57317</span>, $687.86 for 3 nights. Check-in 2:00 PM. Base through Oct 22.</span></div>
+    <ul class="day-notes">
+      <li><strong>Forbidden City</strong> (Palace Museum): 8:30 AM–5:00 PM, closed Mondays — Tuesday works. Real-name tickets ~CNY 60, released <strong>7 days ahead at 8:00 PM Beijing time</strong> (set an alarm for Oct 13 US time); enter via Meridian Gate (south) only.</li>
+      <li>Tiananmen Square in the morning (separate real-name check), Jingshan Park at closing for the classic palace view.</li>
+      <li>Beijing late-Oct weather: ~16–19°C days, ~5–7°C nights. Layers.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1021">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>21</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Wed Oct 21 — Great Wall</span><br><span class="r">Mutianyu day trip · Peking duck dinner</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span>China World Summit Wing (night 2).</span></div>
+    <ul class="day-notes">
+      <li><strong>Mutianyu Great Wall</strong>: ~73 km NE, 75–90 min by car. Leave by <strong>7:00 AM</strong> to beat tour buses; private driver via hotel or DiDi.</li>
+      <li>Costs: entry ~CNY 45, shuttle ~CNY 15–20 return, enclosed cable car ~CNY 100 one-way / 140 return (or chairlift + toboggan down — pick one system).</li>
+      <li>Route: cable car to Tower 14, walk west toward Tower 20 (steep, photogenic), 2–3 hours on the wall. Grippy shoes + wind layer — the wall is colder and windier than the city.</li>
+      <li>Evening: <strong>Peking duck dinner</strong> — book ahead (Siji Minfu, Quanjude); order duck-frame soup too.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1022">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>22</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Thu Oct 22 — Temples &amp; hutongs</span><br><span class="r">Buffer day in Beijing</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span>China World Summit Wing (night 3).</span></div>
+    <ul class="day-notes">
+      <li><strong>Temple of Heaven</strong> early (best before 9 AM), then hutong walk (Nanluoguxiang, or quieter lanes west of the Drum Tower) + <strong>Lama Temple (Yonghegong)</strong> — both on Metro Line 5.</li>
+      <li>Buffer slot if Forbidden City tickets landed here instead of Oct 20.</li>
+      <li>Pack tonight for the Huangshan leg: warm, waterproof layer is non-negotiable on the mountain.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1023">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>23</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Fri Oct 23 — Fly to Huangshan</span><br><span class="r">PEK → Tunxi · Air China CA1551</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">✈️ Flight</span><span><strong>CA1551</strong> PEK → TXN (Tunxi/Huangshan) · <strong>1:05–3:15 PM</strong>.<br>Justin + Andrew: <span class="code">UA H2GPV5</span> <span class="code">Air China NLXSXY</span>, seats 14A/14C.<br>Donna (same flight): <span class="code">UA MD83EF</span> <span class="code">Air China PDE5G7</span>, seat 15A.</span></div>
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Holiday Inn Express Huangshan Mountain South Gate</strong> — Justin <span class="code">49804652</span>, Donna <span class="code">41296616</span>; 6,800 IHG points each.</span></div>
+    <ul class="day-notes">
+      <li>Transfer to South Gate (Tangkou), check in, early night — the mountain day starts early.</li>
+      <li>Book Huangshan entry + cable cars in advance on the official mini-program; check the Oct 24 forecast in the evening.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1024">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>24</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Sat Oct 24 — Huangshan mountain</span><br><span class="r">Full mountain day · overnight on the summit</span></span>
+    <span class="day-warn red">⚠ No hotel confirmation</span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Sleep</span><span><strong>On the mountain</strong> — the Oct 24 South Gate rooms were cancelled. <strong>No mountain-top confirmation was in the saved files — make sure it is booked.</strong></span></div>
+    <ul class="day-notes">
+      <li>Classic route: shuttle to Yungu (Cloud Valley) station, cable car up (~CNY 80), walk Beginning-to-Believe Peak → Beihai → Bright Summit (1,860 m) → Guest-Greeting Pine. ~5–6 hours of paved steps.</li>
+      <li>Scenic entry ~CNY 190 (valid 3 days), shuttle ~CNY 19 each way. Cable cars stop ~5:00–5:40 PM.</li>
+      <li><strong>Sunrise is the payoff</strong> — Bright Summit and Refreshing Terrace are the classic viewpoints; set the alarm.</li>
+      <li>Luggage stays at the South Gate hotel; bring an overnight daypack. Carry water/snacks up — summit prices are steep. Trekking poles help (buy cheap in Tangkou).</li>
+      <li>Weather call: heavy rain/fog = steps without views. Fallback: Tunxi Old Street + Hongcun/Xidi villages.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1025">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>25</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Sun Oct 25 — Wuzhen</span><br><span class="r">Water town · Xizha after dark</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🚄 Transit</span><span>Travel to Wuzhen — confirm exact mode (high-speed rail to Tongxiang + shuttle/taxi is the usual pattern).</span></div>
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Crowne Plaza Wuzhen</strong> — <span class="code">47798101</span>, 10,200 IHG points.</span></div>
+    <ul class="day-notes">
+      <li><strong>Xizha (West Scenic Zone)</strong>: ~9:00 AM–10:00 PM, entry ~CNY 150 (combined with Dongzha ~CNY 190). Arrive mid-afternoon, boat at dusk (~CNY 60 shared), walk the lit canals after dinner. White Lotus Pagoda + waterside theatre are the evening landmarks.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1026">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>26</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Mon Oct 26 — Hangzhou</span><br><span class="r">West Lake at golden hour</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Midtown Shangri-La, Hangzhou</strong> — 2 rooms: Amex <span class="code">ZO-AX1064-61022</span> $177.12 / <span class="code">ZO-AX1063-07696</span> $176.95.</span></div>
+    <ul class="day-notes">
+      <li>Morning in Wuzhen (Dongzha is the lived-in morning side, opens ~7 AM — optional), then Hangzhou.</li>
+      <li><strong>West Lake</strong>: free, always open. Walk or cycle the Su Causeway, rowing boat from Zhongshan Park wharf, east shore for sunset behind Leifeng Pagoda.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1027">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>27</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Tue Oct 27 — Lingyin &amp; tea villages</span><br><span class="r">Move to airport hotel</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Holiday Inn Hangzhou Airport Zone</strong> — 2 rooms: <span class="code">42630461</span> / <span class="code">45439890</span>; 6,800 IHG points each.</span></div>
+    <ul class="day-notes">
+      <li><strong>Lingyin Temple + Feilai Peak</strong> at opening (~7:30 AM): ~CNY 75 total, booked via West Lake scenic WeChat channels. Major pilgrimage site — crowds build fast. Modest dress, no photos inside halls.</li>
+      <li>After lunch: 15-min taxi to Meijiawu or Longjing village for Dragon Well tea in a farmhouse courtyard.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1028">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>28</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Wed Oct 28 — Macao</span><br><span class="r">HGH → MFM · Xiamen MF8719</span></span>
+    <span class="day-warn">⚠ 2 flags</span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">✈️ Flight</span><span><strong>MF8719</strong> Hangzhou → Macao · <strong>2:45–5:30 PM</strong>. Justin + Andrew + Donna. PNR <span class="code">JSX01J</span>.<br><span class="mini">⚠ Donna may also hold a second ticket under PNR <span class="code">NBQ046</span> — verify which is live.</span></span></div>
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Four Seasons Macao</strong> — Amex <span class="code">ZO-AX1089-43101</span>, <strong>2 adults</strong>, $297.36.<br><span class="mini">⚠ Three people overnight here — confirm rooming with the hotel.</span></span></div>
+    <ul class="day-notes">
+      <li><strong>Ruins of St Paul's</strong> at dusk (free, always open) via Senado Square + St Dominic's Church — UNESCO Historic Centre.</li>
+      <li>Eat: Lord Stow's egg tarts, pork chop bun, Macanese dinner (African chicken or minchi) in the old town.</li>
+      <li>⚠ The calendar's Southwest LGA→MDW→CHS flights today clash with being in Macao — cancel or move them.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1029">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>29</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Thu Oct 29 — Hong Kong</span><br><span class="r">Macao → Hong Kong · Conrad Hong Kong</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">⛴️ Transit</span><span>Morning Macao heritage walk, then Hong Kong — <strong>fast ferry or HZMB bridge bus</strong> (decide as a group the night before). Ferry lands on Hong Kong Island near the Conrad.</span></div>
+    <div class="fact"><span class="k">🏨 Hotel</span><span><strong>Conrad Hong Kong</strong> — 3 × 1-night awards, 85,000 Hilton points each: <span class="code">3482316537</span> / <span class="code">3490690954</span> / <span class="code">3485284263</span>. Base through Nov 1.</span></div>
+    <div class="fact"><span class="k">👋 Donna</span><span>Donna splits off: <strong>EVA BR802</strong> MFM → TPE <strong>1:15–2:55 PM</strong> (<span class="code">BUSA-36010336</span>, check-in <span class="code">DX5LH8</span>), then Taiwan through Nov 10.</span></div>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1030">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>30</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Fri Oct 30 — Hong Kong</span><br><span class="r">Victoria Peak · markets · dim sum</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span>Conrad Hong Kong (night 2).</span></div>
+    <ul class="day-notes">
+      <li><strong>Victoria Peak</strong>: tram ~7:00 AM–midnight, Sky Terrace 428 ~10:00 AM–10/11:00 PM. Buy tram + terrace combo online; pick the clearest evening of Oct 30–31 — haze decides the view.</li>
+      <li>Classic loop: Star Ferry from Tsim Sha Tsui, tram up late afternoon, Lugard Road walk (~3.5 km, free) at sunset, dinner in SoHo.</li>
+      <li>Proper dim sum lunch — book ahead on weekends.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1031">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>31</b><span>OCT</span></span>
+    <span class="day-title"><span class="d">Sat Oct 31 — Hong Kong</span><br><span class="r">West Kowloon · markets · half-day unplanned</span></span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">🏨 Hotel</span><span>Conrad Hong Kong (night 3).</span></div>
+    <ul class="day-notes">
+      <li>West Kowloon + M+ / Hong Kong Palace Museum, Temple Street or Ladies' Market.</li>
+      <li>Keep one half-day unplanned. If the Peak was hazy on Oct 30, tonight is the backup.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+<article class="day-card" id="d1101">
+  <button class="day-head" aria-expanded="false">
+    <span class="day-num"><b>1</b><span>NOV</span></span>
+    <span class="day-title"><span class="d">Sun Nov 1 — Fly home</span><br><span class="r">HKG → JFK · Cathay CX840</span></span>
+    <span class="day-warn red">⚠ Operational change</span>
+    <span class="chev">▾</span>
+  </button>
+  <div class="day-body"><div class="day-inner"><div class="pad">
+    <div class="fact"><span class="k">✈️ Flight</span><span><strong>CX840</strong> HKG → JFK · departs <strong>4:35 PM</strong>, arrives <strong>7:05 PM</strong> same day (date line).<br><span class="code">AA SSQSTQ</span> <span class="code">Cathay B88V3W</span><br><span class="mini">⚠ Cathay flagged an operational change on this booking — review the itinerary in the Cathay app before flying.</span></span></div>
+    <ul class="day-notes">
+      <li>Airport Express from Hong Kong Station: ~24 minutes. Leave the Conrad by <strong>12:30 PM</strong> with bags; in-town check-in at Hong Kong Station is an option if supported that day.</li>
+    </ul>
+  </div></div></div>
+</article>
+
+</section>
+<!-- ================= DONNA ================= -->
+<section class="block" id="donna">
+  <h2>🧭 Donna's arrangements differ</h2>
+  <p class="lede">Donna (Chunyin Tsai) arrives earlier and continues to Taiwan after Macao. She rejoins the family Oct 20–28.</p>
+  <div class="card">
+    <div class="fact"><span class="k">✈️ Oct 14–15</span><span><strong>Asiana OZ223</strong> JFK → ICN dep 1:30 AM Oct 14, arr 6:05 AM Oct 15; <strong>OZ331</strong> ICN → PEK 8:20–9:40 AM. Business, ANA award <span class="code">CBP00ST</span>.</span></div>
+    <div class="fact"><span class="k">🏨 Oct 15–22</span><span>Own Beijing/Tianjin circuit: Summit Wing Oct 15, 17, 19 · Four Seasons Beijing Oct 16 · Tianjin Holiday Inn Riverside Oct 18 · Crowne Plaza Badaling Oct 20 · InterContinental Beichen Oct 21.</span></div>
+    <div class="fact"><span class="k">👨‍👩‍👦 Oct 23–28</span><span>With the family — own CA1551 booking (<span class="code">UA MD83EF</span> / <span class="code">Air China PDE5G7</span>) and MF8719 to Macao.</span></div>
+    <div class="fact"><span class="k">✈️ Oct 29</span><span><strong>EVA BR802</strong> MFM → TPE 1:15–2:55 PM (<span class="code">BUSA-36010336</span>, check-in <span class="code">DX5LH8</span>). Holiday Inn Taoyuan Airport.</span></div>
+    <div class="fact"><span class="k">🏨 Oct 30–Nov 10</span><span>Taiwan: IC New Taipei Hot Spring Nov 2 · Crowne Plaza Tainan Nov 3–7 · IC Taichung Nov 8 · Shangri-La Taipei Nov 10.</span></div>
+    <div class="fact"><span class="k">✈️ Nov 11</span><span><strong>ANA NH854</strong> TPE → JFK dep 4:50 PM, business (<span class="code">F7IY75</span>).</span></div>
+  </div>
+</section>
+
+<!-- ================= BOOKINGS ================= -->
+<section class="block" id="bookings">
+  <h2>🎫 Bookings at a glance</h2>
+  <p class="lede">Every flight and hotel with confirmation codes, exactly as recorded. Re-check codes in the airline and hotel apps before departure.</p>
+
+  <h4 class="group">Flights</h4>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Date</th><th>Flight</th><th>Route &amp; time</th><th>Travelers</th><th>Confirmation</th></tr></thead>
+    <tbody>
+      <tr><td>Oct 18</td><td><strong>CX841</strong></td><td>JFK → HKG, dep 10:00 AM, arr 1:55 PM Oct 19</td><td>Justin, Andrew</td><td><span class="code">AA CUNUXA</span> · <span class="code">CX AGQTVD</span></td></tr>
+      <tr><td>Oct 19</td><td><strong>CX336</strong></td><td>HKG → PEK, 3:00–6:25 PM</td><td>Justin, Andrew</td><td><span class="code">AA CUNUXA</span> · <span class="code">CX AGQTVD</span></td></tr>
+      <tr><td>Oct 23</td><td><strong>CA1551</strong></td><td>PEK → TXN, 1:05–3:15 PM, seats 14A/14C</td><td>Justin, Andrew</td><td><span class="code">UA H2GPV5</span> · <span class="code">CA NLXSXY</span></td></tr>
+      <tr><td>Oct 23</td><td><strong>CA1551</strong></td><td>PEK → TXN, 1:05–3:15 PM, seat 15A</td><td>Donna</td><td><span class="code">UA MD83EF</span> · <span class="code">CA PDE5G7</span></td></tr>
+      <tr><td>Oct 28</td><td><strong>MF8719</strong></td><td>HGH → MFM, 2:45–5:30 PM</td><td>Justin, Andrew, Donna</td><td><span class="code">JSX01J</span></td></tr>
+      <tr><td>Nov 1</td><td><strong>CX840</strong></td><td>HKG → JFK, 4:35–7:05 PM ⚠</td><td>Justin, Andrew</td><td><span class="code">AA SSQSTQ</span> · <span class="code">CX B88V3W</span></td></tr>
+      <tr><td>Oct 14–15</td><td><strong>OZ223 / OZ331</strong></td><td>JFK → ICN → PEK, dep 1:30 AM Oct 14, arr 9:40 AM Oct 15</td><td>Donna</td><td><span class="code">ANA CBP00ST</span> (business)</td></tr>
+      <tr><td>Oct 29</td><td><strong>BR802</strong></td><td>MFM → TPE, 1:15–2:55 PM</td><td>Donna</td><td><span class="code">BUSA-36010336</span> · <span class="code">DX5LH8</span></td></tr>
+      <tr><td>Nov 11</td><td><strong>NH854</strong></td><td>TPE → JFK, dep 4:50 PM</td><td>Donna</td><td><span class="code">F7IY75</span> (business)</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4 class="group">Hotels</h4>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Nights</th><th>Hotel</th><th>Confirmation</th><th>Cost / points</th></tr></thead>
+    <tbody>
+      <tr><td>Oct 19</td><td>Hampton by Hilton Beijing Changping</td><td><span class="code">85761252</span></td><td>22,000 Hilton pts</td></tr>
+      <tr><td>Oct 20–22</td><td>China World Summit Wing, Beijing</td><td><span class="code">ZO-AX1064-57317</span></td><td>$687.86 (Amex)</td></tr>
+      <tr><td>Oct 23</td><td>Holiday Inn Express Huangshan South Gate</td><td><span class="code">49804652</span> / <span class="code">41296616</span></td><td>6,800 IHG pts each</td></tr>
+      <tr><td>Oct 24</td><td><strong>On Huangshan mountain ⚠</strong></td><td>— none on file —</td><td>book it</td></tr>
+      <tr><td>Oct 25</td><td>Crowne Plaza Wuzhen</td><td><span class="code">47798101</span></td><td>10,200 IHG pts</td></tr>
+      <tr><td>Oct 26</td><td>Midtown Shangri-La, Hangzhou (2 rooms)</td><td><span class="code">ZO-AX1064-61022</span> / <span class="code">ZO-AX1063-07696</span></td><td>$177.12 / $176.95 (Amex FHR)</td></tr>
+      <tr><td>Oct 27</td><td>Holiday Inn Hangzhou Airport Zone (2 rooms)</td><td><span class="code">42630461</span> / <span class="code">45439890</span></td><td>6,800 IHG pts each</td></tr>
+      <tr><td>Oct 28</td><td>Four Seasons Macao (2 adults ⚠)</td><td><span class="code">ZO-AX1089-43101</span></td><td>$297.36 (Amex)</td></tr>
+      <tr><td>Oct 29–Nov 1</td><td>Conrad Hong Kong (3 × 1-night awards)</td><td><span class="code">3482316537</span> / <span class="code">3490690954</span> / <span class="code">3485284263</span></td><td>85,000 Hilton pts each</td></tr>
+    </tbody>
+  </table></div>
+
+  <h4 class="group">Ground transport</h4>
+  <div class="card">
+    <div class="fact"><span class="k">🚗 Oct 19</span><span>Business-car pickup PEK T3 → hotel — order <span class="code">WYOO1GZNNK</span> (700 pts via mobile banking, 上海盛世大联汽车服务). Driver contacts Mr. Lin after landing.</span></div>
+    <div class="fact"><span class="k">⛴️ Oct 29</span><span>Macao → Hong Kong: fast ferry or HZMB bridge bus — decide as a group on Oct 28.</span></div>
+  </div>
+</section>
+
+<!-- ================= TECH ================= -->
+<section class="block" id="tech">
+  <h2>📱 Before you go — tech checklist</h2>
+  <p class="lede">Mainland China blocks Google and all Meta apps. Set up <strong>two independent ways around it</strong> before you fly — the Play Store and VPN sites are blocked once you're there. (Hong Kong and Macao have open internet; none of this applies there.) Checkboxes save on this device.</p>
+  <ul class="check" id="techCheck">
+    <li><input type="checkbox" id="t1"><label class="t" for="t1"><b>Travel eSIM installed before departure</b><small>Cheapest pick (Oct 11 esimdb scrape): ESIM.DOG 30 GB / 12 days, $10.23 — covers all 10 mainland days, routes via Hong Kong so Google/WhatsApp/Instagram work with no VPN. Runner-up: Stellar 30 GB / 20 days, $10.24. True 3 GB/day: Giga.Tel 15 days, $14.25 (also covers HK + Macao). <b>Not purchased yet.</b> Install the profile on open internet; data-only, no +86 number.</small></label></li>
+    <li><input type="checkbox" id="t2"><label class="t" for="t2"><b>VPN fallback installed and tested</b><small>Two apps (e.g. NordVPN + ExpressVPN; Astrill is the pricey reliability pick). Turn on obfuscation/stealth mode and pre-save servers in Hong Kong, Taiwan, Japan, Singapore.</small></label></li>
+    <li><input type="checkbox" id="t3"><label class="t" for="t3"><b>Alipay + WeChat Pay registered</b><small>Link a no-foreign-transaction-fee card and complete passport identity verification before the trip. Small vendors, taxis, and ticket mini-programs assume mobile pay.</small></label></li>
+    <li><input type="checkbox" id="t4"><label class="t" for="t4"><b>China apps installed: Amap (高德地图) + DiDi + Trip.com</b><small>Amap in English mode is the maps pick for visitors (Google Maps data in China is years stale); DiDi for ride-hailing with foreign numbers/cards; Trip.com for trains and tickets. Download offline maps for Beijing, Huangshan, Wuzhen, Hangzhou.</small></label></li>
+    <li><input type="checkbox" id="t5"><label class="t" for="t5"><b>Google Translate offline Chinese pack downloaded</b><small>Typed translation and live camera overlay then work fully on-device. Microsoft Translator or Baidu Translate as backup; Pleco is a fully offline dictionary.</small></label></li>
+  </ul>
+
+  <h4 class="group">Action timeline</h4>
+  <div class="card">
+    <div class="fact"><span class="k">This week</span><span>Confirm mainland China visas for all four (most time-sensitive item); resolve the Oct 28 Southwest conflict; delete stale St. Regis calendar entries; decide Macao→Hong Kong transfer; book Peking duck (Oct 21) and Hong Kong dim sum.</span></div>
+    <div class="fact"><span class="k">Oct 12–13</span><span>Forbidden City tickets for Oct 20–22 (released 7 days ahead, 8 PM Beijing time); Huangshan entry + cable cars for Oct 24; Wuzhen Xizha tickets for Oct 25; Lingyin/Feilai Peak reservation for Oct 27.</span></div>
+    <div class="fact"><span class="k">Travel week</span><span>Peak Tram + Sky Terrace combo for the clearest evening Oct 30–31; re-check Air China <span class="code">H2GPV5</span>, Xiamen Airlines Oct 28, and Cathay <span class="code">B88V3W</span> in the airline apps.</span></div>
+  </div>
+</section>
+
+<!-- ================= PACKING ================= -->
+<section class="block" id="packing">
+  <h2>🎒 Packing list</h2>
+  <p class="lede">Late-October on this route spans ~5°C Beijing nights to 25°C+ Macao afternoons. Pack layers you can peel heading south — one checked bag + daypack per person.</p>
+
+  <h4 class="group">Clothing</h4>
+  <ul class="check" id="packClothes">
+    <li><input type="checkbox" id="p1"><label class="t" for="p1">Merino/synthetic base layers (2–3 tops)</label></li>
+    <li><input type="checkbox" id="p2"><label class="t" for="p2">Long-sleeve shirts / light knits (3–4)</label></li>
+    <li><input type="checkbox" id="p3"><label class="t" for="p3">T-shirts for Hangzhou / Macao / Hong Kong (3)</label></li>
+    <li><input type="checkbox" id="p4"><label class="t" for="p4">Mid-weight water-resistant jacket + warm insulated layer (Huangshan + Great Wall)</label></li>
+    <li><input type="checkbox" id="p5"><label class="t" for="p5">Long trousers (2), one nicer pair for hotel dinners</label></li>
+    <li><input type="checkbox" id="p6"><label class="t" for="p6">Light scarf, thin gloves, warm hat (mountain days) · sunglasses</label></li>
+    <li><input type="checkbox" id="p7"><label class="t" for="p7">Sleepwear, underwear, socks (merino for hiking days)</label></li>
+  </ul>
+  <h4 class="group">Footwear</h4>
+  <ul class="check" id="packShoes">
+    <li><input type="checkbox" id="p8"><label class="t" for="p8">Broken-in walking shoes (primary)</label></li>
+    <li><input type="checkbox" id="p9"><label class="t" for="p9">Grippy hiking shoes (Huangshan / Great Wall)</label></li>
+    <li><input type="checkbox" id="p10"><label class="t" for="p10">Compact sandals or hotel shoes</label></li>
+  </ul>
+  <h4 class="group">Weather &amp; day kit</h4>
+  <ul class="check" id="packKit">
+    <li><input type="checkbox" id="p11"><label class="t" for="p11">Packable rain shell or compact umbrella · daypack (20 L) + water bottle</label></li>
+    <li><input type="checkbox" id="p12"><label class="t" for="p12">Trekking poles (or buy cheap in Tangkou) · blister kit</label></li>
+    <li><input type="checkbox" id="p13"><label class="t" for="p13">Sunscreen, lip balm, hand cream (Beijing is dry) · personal meds + pain relief</label></li>
+  </ul>
+  <h4 class="group">Documents &amp; money</h4>
+  <ul class="check" id="packDocs">
+    <li><input type="checkbox" id="p14"><label class="t" for="p14">Passport used for bookings + phone photos of it · visa paperwork</label></li>
+    <li><input type="checkbox" id="p15"><label class="t" for="p15">Flight + hotel confirmations saved offline</label></li>
+    <li><input type="checkbox" id="p16"><label class="t" for="p16">No-foreign-transaction-fee cards + small RMB cash · travel insurance details offline</label></li>
+  </ul>
+  <h4 class="group">Tech &amp; comfort</h4>
+  <ul class="check" id="packTech">
+    <li><input type="checkbox" id="p17"><label class="t" for="p17">Phone with eSIM set up · VPN installed &amp; tested · China plug adapter</label></li>
+    <li><input type="checkbox" id="p18"><label class="t" for="p18">Power bank (carry-on only — China flights are strict) · cables · earbuds</label></li>
+    <li><input type="checkbox" id="p19"><label class="t" for="p19">Offline maps + translation app downloaded · entertainment loaded for long-hauls</label></li>
+    <li><input type="checkbox" id="p20"><label class="t" for="p20">Neck pillow · compression socks · tissues (carry daily — squat toilets are common)</label></li>
+  </ul>
+  <p class="mini">Packing split: Beijing/Huangshan warm layers in one cube, southern lightweight clothes in another — by Oct 28 the cold cube can travel checked while you go light through Macao and Hong Kong.</p>
+</section>
+
+<!-- ================= LINKS ================= -->
+<section class="block" id="links">
+  <h2>🔗 Shared trip sheets</h2>
+  <p class="lede">Live Google Sheets for planning with Andrew.</p>
+  <div class="linkgrid">
+    <a class="biglink" href="https://docs.google.com/spreadsheets/d/1UmtYFrM_jByNjetPzLcpPlmihEnabJ6tMsCHK4EGuT8/edit?usp=drivesdk">
+      <b>💰 Trip Expense Tracker</b><span>Log who's paying for what — running totals for splitting later</span>
+      <code>docs.google.com/spreadsheets/d/1UmtYFrM_jByNjetPzLcpPlmihEnabJ6tMsCHK4EGuT8</code>
+    </a>
+    <a class="biglink" href="https://docs.google.com/spreadsheets/d/11OldmPBDFEIZ3msddDY3nOygJlfv_vRhga4whImDVJ0/edit?usp=drivesdk">
+      <b>🎒 Packing Checklist</b><span>Shared, checkable list — don't double-pack or forget things</span>
+      <code>docs.google.com/spreadsheets/d/11OldmPBDFEIZ3msddDY3nOygJlfv_vRhga4whImDVJ0</code>
+    </a>
+  </div>
+</section>
+
+<footer>
+  Prepared from the family's saved confirmations (updated Oct 11, 2026). Confirmation codes are listed exactly as recorded — re-check them in the airline and hotel apps before departure. Prices are 2026 guide prices and can change; booking apps at purchase time are authoritative.
+</footer>
+
+</div><!-- /wrap -->
+
+<script>
+(function(){
+  "use strict";
+  // ---- expand/collapse day cards ----
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.day-card'));
+  function setCard(card, open){
+    card.classList.toggle('open', open);
+    card.querySelector('.day-head').setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  cards.forEach(function(card){
+    card.querySelector('.day-head').addEventListener('click', function(){
+      setCard(card, !card.classList.contains('open'));
+    });
+  });
+  document.getElementById('expandAll').addEventListener('click', function(){
+    cards.forEach(function(c){ setCard(c, true); });
+  });
+  document.getElementById('collapseAll').addEventListener('click', function(){
+    cards.forEach(function(c){ setCard(c, false); });
+  });
+
+  // ---- scrollspy for day chips ----
+  var chips = Array.prototype.slice.call(document.querySelectorAll('#chipRow .chip'));
+  var chipById = {};
+  chips.forEach(function(ch){ chipById[ch.getAttribute('href').slice(1)] = ch; });
+  if ('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){
+          chips.forEach(function(ch){ ch.classList.remove('active'); });
+          var ch = chipById[e.target.id];
+          if (ch){
+            ch.classList.add('active');
+            ch.scrollIntoView({block:'nearest', inline:'center', behavior:'smooth'});
+          }
+        }
+      });
+    }, {rootMargin:'-30% 0px -60% 0px'});
+    cards.forEach(function(c){ obs.observe(c); });
+  }
+
+  // ---- persistent checklists ----
+  var KEY = 'china-trip-checklist-v1';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e){ state = {}; }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e){} }
+  document.querySelectorAll('.check input[type=checkbox]').forEach(function(box){
+    var id = box.id;
+    function paint(){ box.closest('li').classList.toggle('done', box.checked); }
+    if (state[id]){ box.checked = true; }
+    paint();
+    box.addEventListener('change', function(){ state[id] = box.checked; save(); paint(); });
+  });
+})();
+</script>
+</body>
+</html>

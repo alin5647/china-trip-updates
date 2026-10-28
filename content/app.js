@@ -1,6 +1,6 @@
 /* China Trip — one cohesive day-by-day itinerary.
    Each day is a container; inside it, tabs switch between plan styles. */
-const state = { data: null, files: null, packing: null, esim: null, esimUsage: null, dayPlans: {}, docQuery: "", guideOct21: null, guideOct22: null, guideOct24: null, guideOct26: null, guideMacauHk: null, contentVersion: null, hangzhou2Day: null, route: { page: "day", day: 0 } };
+const state = { data: null, files: null, packing: null, esim: null, esimUsage: null, dayPlans: {}, docQuery: "", guideOct21: null, guideOct22: null, guideOct24: null, guideOct26: null, guideMacauHk: null, guideOct28: null, guideOct29: null, guideOct30: null, guideOct31: null, guideNov1: null, contentVersion: null, hangzhou2Day: null, route: { page: "day", day: 0 } };
 const DOC_CACHE = "ct-docs-v1";
 
 function esc(s) {
@@ -136,12 +136,24 @@ async function load() {
     state.guideOct24 = d.guideOct24 || null;
     state.guideOct26 = d.guideOct26 || null;
     state.guideMacauHk = d.guideMacauHk || null;
+    state.guideOct28 = d.guideOct28 || null;
+    state.guideOct29 = d.guideOct29 || null;
+    state.guideOct30 = d.guideOct30 || null;
+    state.guideOct31 = d.guideOct31 || null;
+    state.guideNov1 = d.guideNov1 || null;
     state.hangzhou2Day = d.hangzhou2Day || null;
     // Content-only guides: a guide published after the APK was built is
     // served by the content updater (TripWebClient interception) and picked
     // up here on the next load — no APK reinstall needed.
-    try { const r = await fetch("guide-2026-10-28-macau-hk.html", {"cache":"no-cache"});
-      if (r.ok) state.guideMacauHk = guideBodyOf(await r.text()); } catch (e) {}
+    // Per-day Macau/HK deep dives (content v8 — split from the combined
+    // guide-2026-10-28-macau-hk.html at Justin's request, so each day page
+    // shows only its own day). The combined guide stays as the fallback for
+    // any day whose split file has not been downloaded yet.
+    const _ddFiles = { guideOct28: "guide-2026-10-28-macau.html", guideOct29: "guide-2026-10-29.html", guideOct30: "guide-2026-10-30.html", guideOct31: "guide-2026-10-31.html", guideNov1: "guide-2026-11-01.html" };
+    for (const _k of Object.keys(_ddFiles)) {
+      try { const r = await fetch(_ddFiles[_k], {"cache":"no-cache"});
+        if (r.ok) state[_k] = guideBodyOf(await r.text()); } catch (e) {}
+    }
     try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
       state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
     // Content-updated itinerary: the inlined copy above is frozen at APK
@@ -155,7 +167,7 @@ async function load() {
       if (ir.ok) { const ij = await ir.json();
         if (ij && Array.isArray(ij.options) && ij.options.length) state.data = ij; } } catch (e) {}
   } else {
-    const [a, b, c, e, u, g, h, i2, j26, mh, k2d] = await Promise.all([
+    const [a, b, c, e, u, g, h, i2, j26, m28, m29, m30, m31, m01, k2d] = await Promise.all([
       fetch("itineraries.json", {"cache":"no-cache"}).then(r => r.json()),
       fetch("files.json", {"cache":"no-cache"}).then(r => r.json()).catch(() => null),
       fetch("files/packing.json", {"cache":"no-cache"}).then(r => r.json()).catch(() => null),
@@ -165,7 +177,11 @@ async function load() {
       fetch("guide-2026-10-22.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
       fetch("guide-2026-10-24.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
       fetch("guide-2026-10-26-hangzhou.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
-      fetch("guide-2026-10-28-macau-hk.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
+      fetch("guide-2026-10-28-macau.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
+      fetch("guide-2026-10-29.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
+      fetch("guide-2026-10-30.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
+      fetch("guide-2026-10-31.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
+      fetch("guide-2026-11-01.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null),
       fetch("hangzhou-2day-itinerary.html", {"cache":"no-cache"}).then(r => r.text()).catch(() => null)
     ]);
     state.data = a; state.files = b; state.packing = c; state.esim = e; state.esimUsage = u;
@@ -173,7 +189,11 @@ async function load() {
     state.guideOct22 = h ? guideBodyOf(h) : null;
     state.guideOct24 = i2 ? guideBodyOf(i2) : null;
     state.guideOct26 = j26 ? guideBodyOf(j26) : null;
-    state.guideMacauHk = mh ? guideBodyOf(mh) : null;
+    state.guideOct28 = m28 ? guideBodyOf(m28) : null;
+    state.guideOct29 = m29 ? guideBodyOf(m29) : null;
+    state.guideOct30 = m30 ? guideBodyOf(m30) : null;
+    state.guideOct31 = m31 ? guideBodyOf(m31) : null;
+    state.guideNov1 = m01 ? guideBodyOf(m01) : null;
     try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
       state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
     state.hangzhou2Day = k2d ? docWithStyle(k2d) : null;
@@ -400,10 +420,21 @@ function dayPageHTML(di) {
   if (day0.date === "Oct 24" && state.guideOct24) {
     html += `<article class="card guide-doc"><div class="muted" style="margin-bottom:6px">🎧 Today's full tour guide — tap play at each stop to hear the narration.</div>` + state.guideOct24 + `</article>`;
   }
-  if ((day0.date === "Oct 28" || day0.date === "Oct 29") && state.guideMacauHk) {
+  // Per-day deep dives (content v8): each day renders only its own guide.
+  const _deepDive = {
+    "Oct 28": ["📸 Macau deep dive — customs, apps, top 10, the drone warning, and the Stop 1 golden-hour audio tour with walk music underneath.", state.guideOct28],
+    "Oct 29": ["📸 Taipa morning → Hong Kong deep dive — the Stop 2 audio tour, the crossing, HK customs, apps and top 10, and the Stop 3 Peak sunset audio tour.", state.guideOct29],
+    "Oct 30": ["📸 Hong Kong deep dive — Stop 4 (Dragon's Back) and Stop 5 (Star Ferry + Temple Street) audio tours with walk music underneath.", state.guideOct30],
+    "Oct 31": ["📸 Hong Kong deep dive — Stop 6 (Jardine's Lookout sunrise) and Stop 7 (Mong Kok + farewell Peak) audio tours with walk music underneath.", state.guideOct31],
+    "Nov 1": ["📸 Hong Kong deep dive — the Stop 8 farewell audio tour (Hong Kong Park + departure) with walk music underneath.", state.guideNov1]
+  };
+  const _dd = _deepDive[day0.date];
+  if (_dd && _dd[1]) {
+    html += `<article class="card guide-doc"><div class="muted" style="margin-bottom:6px">${_dd[0]}</div>` + _dd[1] + `</article>`;
+  } else if ((day0.date === "Oct 28" || day0.date === "Oct 29") && state.guideMacauHk) {
+    // Fallback until the split files download: the pre-v8 combined guide.
     html += `<article class="card guide-doc"><div class="muted" style="margin-bottom:6px">📸 Macau → Hong Kong deep dive — customs, apps, top 10, drone warnings, and an 8-stop audio tour with walk music underneath. Macau is Oct 28–29 morning, Hong Kong Oct 29–Nov 1.</div>` + state.guideMacauHk + `</article>`;
-  }
-  if ((day0.date === "Oct 30" || day0.date === "Oct 31" || day0.date === "Nov 1") && state.guideMacauHk) {
+  } else if ((day0.date === "Oct 30" || day0.date === "Oct 31" || day0.date === "Nov 1") && state.guideMacauHk) {
     html += `<article class="card"><h3>📸 Macau → Hong Kong deep dive</h3><p class="muted">Customs, apps, top 10, drone warnings, and the 8-stop audio tour with walk music — the full guide is on the Oct 28 and Oct 29 pages.</p><p><a href="guide-2026-10-28-macau-hk.html">Open the full Macau → Hong Kong deep dive + audio tour</a></p></article>`;
   }
   if (day0.date === "Oct 26" && state.guideOct26) {

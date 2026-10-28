@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taipa → Hong Kong · Oct 29 — Deep Dive</title>
+<style>
+  html{font-size:17.5px}
+  body{font-family:-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;margin:0;padding:14px 16px 32px;color:#22252a;background:#faf9f6;line-height:1.45}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:1.45rem;margin:6px 0 4px}
+  h2{font-size:1.12rem;margin:22px 0 6px;padding-top:10px;border-top:2px solid #e3ded2}
+  p{margin:5px 0}
+  .sub{color:#5c6068;font-size:.92rem}
+  .listen{background:#eef4ee;border:1.5px solid #b9d3ba;border-radius:10px;padding:9px 12px;margin:8px 0}
+  .listen span{font-weight:700;font-size:.95rem;display:block;margin-bottom:5px}
+  audio{width:100%;height:40px}
+  .musicbar{background:#1f3d2b;color:#fff;border-radius:12px;padding:12px;margin:10px 0}
+  .musicbar b{font-size:1rem}
+  .musicbar p{color:#cfe3d6;font-size:.9rem}
+  .musicbar button{background:#fff;color:#1f3d2b;border:0;border-radius:999px;padding:7px 13px;margin:4px 4px 0 0;font-size:.9rem;font-weight:700;cursor:pointer}
+  .musicbar button.stop{background:#e8b93a}
+  .note{background:#fdeeee;border:1.5px solid #e5a3a3;border-radius:10px;padding:9px 12px;margin:10px 0;font-size:.95rem}
+  .hard{color:#b3001b;font-weight:700}
+  .waypoint{background:#eef2fb;border-left:4px solid #5b7fc4;padding:7px 11px;margin:7px 0;font-size:.95rem}
+  .look{background:#f0f9f4;border-left:4px solid #34b780;padding:9px 12px;margin:8px 0;font-size:.95rem}
+  .look b{color:#208b65}
+  a{color:#2456c4}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Taipa Morning → Hong Kong — Oct 29 Deep Dive</h1>
+<p class="sub">Start in Taipa Village (Stop 2 audio tour), then cross to Hong Kong: customs, your core app toolkit, the top 10, drone rules — and the Victoria Peak sunset audio stop (Stop 3). Base from tonight: Conrad Hong Kong.</p>
+
+<div class="musicbar" id="musicbar">
+  <b>🎵 Walk music — downloaded and built into this app, plays offline</b>
+  <p>Three real recorded tracks, bundled in the app — no streaming, no data, no separate download. Press play and the track loops while you walk. The narration players below already have walk music mixed underneath them at low volume, so the music is part of each guide track, not a separate stream.</p>
+  <audio id="walk-music" controls loop preload="none" src="audio/oct26/music/all-the-tea-in-china.mp3" style="width:100%"></audio>
+  <p id="music-now" style="margin-top:8px">Now loaded: All The Tea In China, by Shane Ivers (CC BY 4.0)</p>
+  <button type="button" data-track="audio/oct26/music/all-the-tea-in-china.mp3" data-label="All The Tea In China, by Shane Ivers (CC BY 4.0)">🎋 All The Tea In China</button>
+  <button type="button" data-track="audio/oct26/music/guzheng-city.mp3" data-label="Guzheng City, by Kevin MacLeod (CC BY 4.0)">🌊 Guzheng City</button>
+  <button type="button" data-track="audio/oct26/music/imperial-china-cinematic.mp3" data-label="Imperial China Cinematic, by Shane Ivers (CC BY 4.0)">🌇 Imperial China Cinematic</button>
+  <button type="button" class="stop" id="music-stop">⏹ Stop music</button>
+</div>
+
+<h2>Audio tour — Stop 2: Taipa Village morning + snacks (Oct 29, 10:00 AM)</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Taipa morning</span><audio controls preload="none" src="audio/macau-hk/stop2-taipa-morning.mp3"></audio></div>
+<div class="waypoint">📌 <strong>Your itinerary slot:</strong> Oct 29, 10:00 AM — Taipa Village morning walk, then breakfast at Tai Lei Loi Kei, then cross to Hong Kong at 2:00 PM.</div>
+<div class="look"><b>Look for:</b> morning light on the old shophouses and the church of Our Lady of Carmel. Pastel colonial houses, cobblestone lanes — and cash for the small street vendors, who prefer MOP (HKD also commonly accepted 1:1 rough).</div>
+
+<h2>🇭🇰 Hong Kong — Oct 29 – Nov 1, Conrad Hong Kong</h2>
+<p>Hong Kong is your main photography base. Locals speak Cantonese; many people in Central / Tsim Sha Tsui speak good English.</p>
+
+<h2>Hong Kong: Cultural Customs &amp; Etiquette</h2>
+<ul>
+<li><strong>MTR / public transit:</strong> Queuing is taken very seriously. Stand on the right side of escalators to let people walk past on left. Do not eat or drink inside MTR stations / trains.</li>
+<li><strong>Dim sum teahouse culture (Lin Heung Tea House / Maxim's Palace):</strong> It's normal to share tables with strangers at old-school yum cha spots. Be patient, pushcart service at Lin Heung is traditional, just signal to the aunties.</li>
+<li><strong>Street photography:</strong> Generally very tolerant, but avoid close-up shots of people without consent, especially fortune tellers in Temple Street.</li>
+</ul>
+<div class="note"><strong class="hard">🚁 Drone rules — Hong Kong:</strong> Victoria Harbour, airport, Disneyland are restricted zones. For your trip: Dragon's Back / Shek O area is your best candidate to safely test your DJI Flip, still double check HK CAD drone map before each flight, never fly over crowds of people.</div>
+
+<h2>Hong Kong: Useful Apps &amp; Services (your core toolkit)</h2>
+<ul>
+<li><strong>MTR Mobile</strong> — official subway app, real-time train times, station exit maps, super useful for navigating Central / Mong Kok.</li>
+<li><strong>Citymapper</strong> — better than Google Maps for combined MTR + bus + ferry + tram routes.</li>
+<li><strong>Octopus / Tourist Octopus Card:</strong> #1 essential. Tap-and-go for MTR, buses, Star Ferry, convenience stores. Grab a physical tourist Octopus card at airport for reliability.</li>
+<li><strong>OpenRice</strong> — HK's local restaurant review app, great to check opening hours for noodle shops, roast goose.</li>
+<li><strong>MyObservatory</strong> — official HK weather, rain / fog alerts, very helpful for sunrise / sunset photo planning.</li>
+<li><strong>DiDi HK</strong> for ride hailing when tired after hikes.</li>
+</ul>
+
+<h2>Audio tour — Stop 3: Crossing to Hong Kong + Victoria Peak sunset (Oct 29, 2:00 PM / 5:00 PM)</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Peak sunset</span><audio controls preload="none" src="audio/macau-hk/stop3-peak-sunset.mp3"></audio></div>
+<div class="waypoint">📌 <strong>Your itinerary slot:</strong> Oct 29, 2:00 PM cross to Hong Kong (ferry or Hong Kong-Zhuhai-Macao Bridge bus), check in at the Conrad, then 5:00 PM Peak Tram up, Lugard Road for the sunset-to-night transition over the harbour. Lunch before the Peak: Mak's Noodle (麦奀, Mài Kuài) — springy thin noodles with big shrimp wontons. Dinner after the night shoot: Yung Kee (镛记, Yōng Jì) roast goose, booked.</div>
+<div class="look"><b>Look for:</b> Victoria Peak + Lugard Road — your sunset to night shoot location, the classic harbour skyline view (far better than the paid observation deck). Stay through the transition: sunset, then the skyline lights coming on.</div>
+
+<h2>Hong Kong Top 10 Must-See / Must-Eat (aligned to your itinerary)</h2>
+<ol>
+<li><strong>Victoria Peak + Lugard Road</strong> — your sunset to night shoot location, the classic harbour skyline view (far better than the paid observation deck).</li>
+<li><strong>Dragon's Back Hike ending at Shek O</strong> — your 7:30 AM hike, famous ridge trail, sea views down to Shek O beach.</li>
+<li><strong>Star Ferry crossing (TST ↔ Central)</strong> — cheap, iconic blue hour harbour crossing, fantastic in-transit photos.</li>
+<li><strong>Temple Street Night Market</strong> — neon signs, fortune tellers, street night photography + claypot rice dinner.</li>
+<li><strong>Jardine's Lookout sunrise</strong> (渣甸山, Zhā Diān Shān) — your Oct 31 sunrise spot, local secret viewpoint over Victoria Harbour, far quieter than Peak sunrise.</li>
+<li><strong>Dim Sum yum cha</strong> — shrimp har gow (虾饺皇, Xiā Jiǎo Huáng), siu mai (烧卖, Shāo Mài), char siu bao (叉烧包, Chā Shāo Bāo) — Lin Heung old-school pushcart style, Maxim's Palace for weekend dim sum.</li>
+<li><strong>Wonton Noodles</strong> (云吞面, Yún Tūn Miàn) — springy thin noodles with big shrimp wontons, Mak's Noodle (your lunch stop Oct 29).</li>
+<li><strong>Roast Goose</strong> (烧鹅, Shāo É) — crispy skin roast goose, Yung Kee for your booked dinner.</li>
+<li><strong>Mong Kok street food grazing</strong> — curry fish balls (咖喱鱼蛋, Gā Lí Yú Dàn), egg waffles (鸡蛋仔, Jī Dàn Zǎi), cheung fun rice rolls (肠粉, Cháng Fěn).</li>
+<li><strong>Hong Kong Park (Central)</strong> — your slow morning before departure, peaceful green oasis in the middle of dense Central skyscrapers.</li>
+</ol>
+
+<p class="sub">Music credits (CC BY 4.0, as required by the licence): Music: All The Tea In China by Shane Ivers — https://www.silvermansound.com · Music: Imperial China Cinematic by Shane Ivers — https://www.silvermansound.com · “Guzheng City” by Kevin MacLeod (incompetech.com) · All three tracks licensed under Creative Commons Attribution 4.0. The narration voice is DAJD's guide voice, mixed over the music at low volume — the music is part of each narration track, not a separate stream.</p>
+
+</div>
+<script>
+(function(){
+  var player = document.getElementById("walk-music");
+  var now = document.getElementById("music-now");
+  function playTrack(src, label){
+    if(!player) return;
+    if(player.getAttribute("src") !== src) player.setAttribute("src", src);
+    player.play().catch(function(){});
+    if(now) now.textContent = "Now playing: " + label;
+  }
+  document.querySelectorAll("[data-track]").forEach(function(b){
+    b.addEventListener("click", function(){
+      playTrack(b.getAttribute("data-track"), b.getAttribute("data-label"));
+    });
+  });
+  var st = document.getElementById("music-stop");
+  if(st) st.addEventListener("click", function(){ if(player){ player.pause(); } if(now) now.textContent = "Music: stopped"; });
+})();
+</script>
+</body>
+</html>

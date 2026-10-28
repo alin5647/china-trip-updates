@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hangzhou · Mon Oct 26 — Yunqi Bamboo + West Lake Sunset: a walking tour</title>
+<style>
+  html{font-size:17.5px}
+  body{font-family:-apple-system,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;margin:0;padding:14px 16px 32px;color:#22252a;background:#faf9f6;line-height:1.45}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-size:1.45rem;margin:6px 0 4px}
+  h2{font-size:1.12rem;margin:22px 0 6px;padding-top:10px;border-top:2px solid #e3ded2}
+  p{margin:5px 0}
+  .sub{color:#5c6068;font-size:.92rem}
+  .listen{background:#eef4ee;border:1.5px solid #b9d3ba;border-radius:10px;padding:9px 12px;margin:8px 0}
+  .listen span{font-weight:700;font-size:.95rem;display:block;margin-bottom:5px}
+  audio{width:100%;height:40px}
+  .musicbar{background:#1f3d2b;color:#fff;border-radius:12px;padding:12px;margin:10px 0}
+  .musicbar b{font-size:1rem}
+  .musicbar p{color:#cfe3d6;font-size:.9rem}
+  .musicbar button,.walkbtn{background:#fff;color:#1f3d2b;border:0;border-radius:999px;padding:7px 13px;margin:4px 4px 0 0;font-size:.9rem;font-weight:700;cursor:pointer}
+  .musicbar button.stop{background:#e8b93a}
+  .navtip{background:#fdf6e0;border:1.5px solid #ecd27f;border-radius:10px;padding:9px 12px;margin:8px 0;font-size:.95rem}
+  .waypoint{background:#eef2fb;border-left:4px solid #5b7fc4;padding:7px 11px;margin:7px 0;font-size:.95rem}
+  .transit{background:#f2efe9;border-left:4px solid #b3a488;padding:7px 11px;margin:7px 0;font-size:.95rem}
+  .look{background:#f0f9f4;border-left:4px solid #34b780;padding:9px 12px;margin:8px 0;font-size:.95rem}
+  .look b{color:#208b65}
+  .photo{background:#fff;border:1.5px solid #d8e2d5;border-radius:12px;padding:10px 12px;margin:8px 0;font-size:.95rem}
+  .scene{background:#e7f3ee;border-radius:12px;padding:10px 12px;margin:8px 0;text-align:center}
+  .scene svg{max-width:100%;height:auto;display:block;margin:0 auto}
+  .scene figcaption{font-size:.85rem;color:#4a6b5c;margin-top:6px}
+  .note{background:#fdeeee;border:1.5px solid #e5a3a3;border-radius:10px;padding:9px 12px;margin:10px 0;font-size:.95rem}
+  .hard{color:#b3001b;font-weight:700}
+  .route{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+  .route span{background:#fff;border:1px solid #d8d2c2;border-radius:999px;padding:4px 9px;font-size:.85rem}
+  .route span.ar{background:none;border:0;padding:4px 0}
+  a{color:#2456c4}
+  .walkbtn{background:#eef4ee;border:1.5px solid #b9d3ba}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Mon Oct 26 — Yunqi Bamboo + West Lake Sunset</h1>
+<p class="sub">A Rick Steves-style walking tour: start at the Yunqi entrance, then walk the West Lake north shore from Six Park to Pinghu Qiuyue, and finish on Beishan Street at blue hour. Read it stop by stop, or press play at each stop and walk with the narration. Dinner is back at the hotel tonight — only snacks on the route.</p>
+
+<div class="musicbar" id="musicbar">
+  <b>🎵 Walk music — downloaded and built into this app, plays offline</b>
+  <p>These are three real recorded tracks, bundled in the app — no streaming, no data, no separate download. Press play and the track loops while you walk. Tap a leg button below a stop to switch to that leg's track. The narration players below already have walk music mixed underneath them at low volume, so the music is part of each guide track, not a separate stream.</p>
+  <audio id="walk-music" controls loop preload="none" src="audio/oct26/music/all-the-tea-in-china.mp3" style="width:100%"></audio>
+  <p id="music-now" style="margin-top:8px">Now loaded: Bamboo walk — All The Tea In China, by Shane Ivers (CC BY 4.0)</p>
+  <button type="button" data-track="audio/oct26/music/all-the-tea-in-china.mp3" data-label="Bamboo walk — All The Tea In China, by Shane Ivers (CC BY 4.0)">🎋 Bamboo walk</button>
+  <button type="button" data-track="audio/oct26/music/guzheng-city.mp3" data-label="Lakeside walk — Guzheng City, by Kevin MacLeod (CC BY 4.0)">🌊 Lakeside walk</button>
+  <button type="button" data-track="audio/oct26/music/imperial-china-cinematic.mp3" data-label="Sunset / blue hour — Imperial China Cinematic, by Shane Ivers (CC BY 4.0)">🌇 Sunset / blue hour</button>
+  <button type="button" class="stop" id="music-stop">⏹ Stop music</button>
+</div>
+
+<p>📄 Also updated: the original day-trip sheet itself, with every placeholder filled — <a href="hangzhou-day-trip.html">hangzhou-day-trip.html</a> (same walk, condensed, bilingual headings).</p>
+<p><strong>Today, Mon Oct 26:</strong> mostly sunny, 24°C falling to about 18°C by night, clear evening. <strong>Sunset 17:17</strong> — so golden hour is 16:30–17:17, and blue hour is roughly 17:40–18:20. The original draft's 18:30–19:45 “blue hour” is too late: by then it is simply dark, so this guide ends the walk at about 18:45 and sends you back to the hotel for dinner.</p>
+<p><strong>Route at a glance:</strong></p>
+<div class="route"><span>🏨 Midtown Shangri-La</span><span class="ar">→</span><span>🎋 Yunqi Bamboo Path 云栖竹径</span><span class="ar">→</span><span>🚕 Six Park 六公园</span><span class="ar">→</span><span>🌉 Broken Bridge 断桥</span><span class="ar">→</span><span>🌿 Bai Causeway 白堤</span><span class="ar">→</span><span>🌙 Pinghu Qiuyue 平湖秋月</span><span class="ar">→</span><span>🏝️ Gushan 孤山</span><span class="ar">→</span><span>🏡 Beishan Street 北山街</span><span class="ar">→</span><span>🗼 Baoshu Pagoda 保俶塔</span><span class="ar">→</span><span>🏨 hotel dinner</span></div>
+<p><strong>Walking totals:</strong> Yunqi main loop about 1–1.5 km, easy and mostly flat. Lakeside: Six Park → Broken Bridge → Bai Causeway → Pinghu Qiuyue → Beishan Street, about 4 km total, flat. No mountain climb today — that is deliberate. Tomorrow morning, 07:30, is Feilai Peak and Lingyin Temple. Do not go there today.</p>
+
+<div class="navtip"><strong>🎫 Tickets and what is free:</strong> Yunqi Bamboo Path — <strong>¥8 per person</strong> (hours about 07:00–17:00; seniors 60–70 half price, over 70s, children, disabled visitors and active military free with ID; Hangzhou Park Card free). Everything on the West Lake north shore — Six Park, Broken Bridge, Bai Causeway, Pinghu Qiuyue, Beishan Street — is <strong>free and open all day</strong>. Bring water, a power bank, and a light layer for after sunset. Toilets are at Yunqi entrance, Six Park, and along Bai Causeway.</div>
+
+<h2>Stop 0 — Leave the hotel: Midtown Shangri-La, Hangzhou</h2>
+<p><strong>Where:</strong> Midtown Shangri-La, Kerry Centre, at Yan'an Road and Qingchun Road — about a 10-minute walk from West Lake itself, but Yunqi is the other way, about 12 km southwest of the lake. <strong>Allow 45 minutes by car.</strong> Show the driver: <strong>去云栖竹径，梅灵南路8号</strong> — “to Yunqi Bamboo Path, No. 8 Meiling South Road.” Buy water and a snack before you leave; Yunqi has small shops at the entrance, but the bamboo walk itself has no food stalls.</p>
+<p><strong>What to skip:</strong> do not try to add Nine Creeks (Jiuxi) or the Longjing tea terraces today. They are right in this same southwest corner and they are tempting, but they would eat the sunset. The whole point of this afternoon is to be standing at Pinghu Qiuyue when the light turns gold.</p>
+
+<h2>Stop 1 — 13:00 Yunqi entrance: the archway and the stele</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Yunqi entrance</span><audio controls preload="none" src="audio/oct26/stop1-yunqi-entrance.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/all-the-tea-in-china.mp3">▶ Walk music to the next stop: bamboo</button>
+<div class="waypoint">📌 <strong>START HERE.</strong> Stand in front of the three-gate stone archway at the entrance, facing into the bamboo. Do not rush past this gate — it is the photo that tells everyone where you are.</div>
+<figure class="scene">
+<svg viewBox="0 0 640 220" role="img" aria-label="Diagram of the Yunqi entrance archway with bamboo behind it"><rect width="640" height="220" fill="#dcefe4"/><g stroke="#2f6b4f" stroke-width="3" stroke-linecap="round"><line x1="60" y1="200" x2="70" y2="40"/><line x1="110" y1="200" x2="100" y2="50"/><line x1="540" y1="200" x2="550" y2="45"/><line x1="590" y1="200" x2="580" y2="55"/></g><rect x="150" y="60" width="340" height="150" fill="none" stroke="#5a4632" stroke-width="6"/><rect x="130" y="45" width="380" height="22" fill="#5a4632"/><text x="320" y="140" text-anchor="middle" font-size="34" fill="#274d3a">云栖竹径</text><text x="320" y="185" text-anchor="middle" font-size="15" fill="#4a6b5c">Yunqi Bamboo Path — entrance archway and stele</text></svg>
+<figcaption>Not a photograph — a “what you are looking at” diagram, so you recognise the gate the moment you see it.</figcaption>
+</figure>
+<div class="look"><b>Look for:</b> the four characters <strong>云栖竹径 (Yúnqī Zhú Jìng, “Yunqi Bamboo Path”)</strong> on the stele pavilion, written by Chen Yun. Behind the gate, bamboo 20 metres tall closes overhead into a green tunnel. Listen before you photograph: wind in bamboo is the sound of this place, and it is why monks and poets came here to think.</div>
+<p><strong>History in 60 seconds:</strong> Yunqi Temple was founded here in 967, in the Wuyue kingdom. In the Ming dynasty the monk Lianchi rebuilt it and revived it as a Buddhist centre. In the Qing dynasty the Kangxi and Qianlong emperors came here on their southern tours — that is why the path under your feet matters (next stop). After a 1983 restoration, Yunqi was named one of the New Ten Scenes of West Lake in 1985. The site is also called a “museum of ancient trees”: three sweetgum trees over 1,000 years old, a grove of ancient nanmu, and nine trees over 500 years old.</p>
+<p><strong>Photo:</strong> stand in the middle of the gate, phone low, and shoot straight down the path so the bamboo trunks make a symmetrical corridor. A person walking away from you, small in the frame, gives the bamboo its scale.</p>
+
+<h2>Stop 2 — The imperial path: walk where emperors walked</h2>
+<div class="waypoint">📌 <strong>Walk in:</strong> stay on the main bluestone slab path. Do not branch off toward Wuyun Mountain (五云山) — that is the deep hike, and today you are saving your legs for the lake.</div>
+<div class="look"><b>Look down:</b> the central bluestone slabs are the old <strong>imperial path (御道, yù dào)</strong>, said to have been walked by Kangxi and Qianlong. <b>Look up:</b> the canopy is so thick that even at midday the light comes down in patches — that is why this walk works at 13:00, when the lake would be harsh and bright. <b>Look sideways:</b> a clear stream runs beside the path in places; crouch and you will hear it before you see it.</div>
+<p>Keep a slow pace. The whole Yunqi loop is only about an hour if you stop at the pavilions, and the point is the quiet, not the distance. If a tour group comes through, let them pass and wait thirty seconds — the bamboo goes quiet again, and that quiet is the experience.</p>
+
+<h2>Stop 3 — Xixin Pavilion 洗心亭: the pond that washes the heart</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Xixin Pavilion</span><audio controls preload="none" src="audio/oct26/stop2-xixin-pavilion.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/all-the-tea-in-china.mp3">▶ Walk music to the next stop: bamboo</button>
+<div class="waypoint">📌 <strong>First pavilion stop.</strong> Xixin Pavilion sits beside a clear, cool pond. Stop here even if you skip every other pavilion — this is the classic Yunqi photograph.</div>
+<div class="look"><b>Look for:</b> the pavilion reflected in the pond, bamboo trunks behind it, and the temperature drop as you step into the shade — visitors notice it immediately in summer, and it is still noticeable on a mild autumn day. <b>The name tells you what to do:</b> 洗心 (xǐ xīn) means “wash the heart” — the idea is that clear water and bamboo quiet clear the mind. Stand still for a minute and let the place do that, instead of photographing and moving on.</div>
+<p><strong>Photo:</strong> get low, at pond level, so the pavilion and its reflection fill the frame and the bamboo forms a vertical curtain behind it. Do not stand on the pavilion steps and shoot down — you lose the reflection.</p>
+
+<h2>Stop 4 — Boardwalk, suspension bridge and the pavilion chain</h2>
+<p>From Xixin, follow the wooden boardwalk. You will cross a small <strong>suspension bridge</strong> over the stream — it sways a little, which is normal — then pass a chain of rest pavilions in order: <strong>Yuyu Pavilion (遇雨亭, “Meeting Rain”)</strong>, <strong>Miyun Pavilion</strong>, <strong>Huangzhu Pavilion</strong> and <strong>Douyun Pavilion</strong>. None of them needs a long stop. Think of them as punctuation marks: each one is a place to sit, drink water, and look back down the path you just walked, which always looks better behind you than ahead.</p>
+<div class="look"><b>Look for:</b> light on the boardwalk. Between about 13:00 and 14:00 the sun is high, but the bamboo breaks it into moving patches — if you want a portrait, put the person in a patch of light with dark bamboo behind them, not in full shade, or the phone will wash the whole picture out.</div>
+<p>If anyone in the group is tired, this is the place to say so. The next pavilion is the turnaround, and everything after it is downhill in effort, not distance.</p>
+
+<h2>Stop 5 — Shuangbei Pavilion and Huilong Pavilion 回龙亭: the turnaround</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Huilong Pavilion, the turnaround</span><audio controls preload="none" src="audio/oct26/stop3-huilong-pavilion.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/all-the-tea-in-china.mp3">▶ Walk music to the exit: bamboo</button>
+<div class="waypoint">📌 <strong>TURN AROUND HERE.</strong> Shuangbei Pavilion preserves a Kangxi inscription; just beyond it is <strong>Huilong Pavilion (回龙亭, “Returning Dragon”)</strong> — the cinematic frame shot of Yunqi. After Huilong, head back toward the entrance. Do not continue deep toward Wuyun Mountain.</div>
+<div class="look"><b>Look for:</b> bamboo shadows falling across the pavilion floor and the path, and the way the pavilion frames a slice of bamboo forest like a picture. <b>Photo:</b> stand inside the pavilion and shoot outward through its opening, so the pavilion roof and posts become a dark frame around bright green bamboo — that “frame within a frame” is the shot people remember from Yunqi.</div>
+<p>On the way back out, pass the <strong>Yunqi Bamboo Path monument pavilion</strong> and the famous <strong>“lonely tree”</strong> near the exit — a single tree standing apart from the bamboo, which is why everyone photographs it. The ruins of Yunqi Temple itself are nearby: little remains above ground, but the Zen quiet is the point — a temple that was once grand, now mostly bamboo and stone, which is a very Yunqi kind of ending.</p>
+<p><strong>Exit by about 14:30.</strong> You need the full transit window to the lake, and the lake light will not wait.</p>
+
+<h2>14:30 Transit — Yunqi → Six Park 六公园</h2>
+<div class="transit"><strong>Car / DiDi, about 30–45 minutes.</strong> Show the driver: <strong>去西湖六公园</strong> (“to West Lake Six Park”). Yunqi is southwest of the city; Six Park is on the east shore of the lake, so you cross the whole southwest corner of Hangzhou. Traffic around the lake is slow in the afternoon — if the car is crawling, do not panic. You still have golden hour, as long as you are at Pinghu Qiuyue by about 16:30. Snack now if you are hungry, but keep it light: dinner is at the hotel.</div>
+
+<h2>Stop 6 — 15:15 Six Park: where the city meets the lake</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Six Park and the lakeside</span><audio controls preload="none" src="audio/oct26/stop4-six-park.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/guzheng-city.mp3">▶ Walk music to the next stop: lakeside</button>
+<div class="waypoint">📌 <strong>Start the lakeside walk here, not at Broken Bridge.</strong> Six Park is the northernmost of the six Hubin (Lakeside) Parks, and it is quieter than the bridge. Stand at the water's edge first and get the whole lake in your head before you start walking.</div>
+<figure class="scene">
+<svg viewBox="0 0 640 220" role="img" aria-label="Diagram of the West Lake north shore walk from Six Park to Pinghu Qiuyue"><rect width="640" height="220" fill="#dbeaf2"/><rect y="150" width="640" height="70" fill="#7fb3c8"/><path d="M0 150 Q160 135 320 150 T640 150 L640 220 L0 220 Z" fill="#5b8fa8"/><g fill="#2f6b4f"><circle cx="90" cy="120" r="10"/><circle cx="130" cy="110" r="8"/></g><path d="M60 150 L90 95 L120 150 Z" fill="#8a7a5a"/><text x="90" y="80" text-anchor="middle" font-size="14" fill="#274d3a">Baoshu Pagoda</text><text x="320" y="50" text-anchor="middle" font-size="16" fill="#274d3a">Six Park → Broken Bridge → Bai Causeway → Pinghu Qiuyue</text><text x="320" y="195" text-anchor="middle" font-size="14" fill="#fff">West Lake — north shore, walking west</text></svg>
+<figcaption>Route diagram: you walk west along the north shore, with the lake on your left and Baoshi Mountain behind you on the right.</figcaption>
+</figure>
+<div class="look"><b>Look for:</b> across the water to the north, the slender Baoshu Pagoda on Baoshi Mountain (you will meet it properly at blue hour); to the west, the long line of Bai Causeway cutting across the lake; and at your feet, the willows that line every lakeside path in Hangzhou. <b>History:</b> the Lakeside Parks were made after Hangzhou's city wall was demolished in 1912 and Hubin Road was built along the shore. Parks One to Five came first; Sixth Park was reclaimed from lake mud in 1930. Sixth Park also holds a bronze statue of Marco Polo — a reminder that Hangzhou has been a travellers' city for 700 years.</div>
+<p><strong>Photo:</strong> wide shot, lake on the left two-thirds, willow branch hanging into the top of the frame as a foreground curtain. Do not centre the pagoda — put it on the left third and let the water breathe on the right.</p>
+<p>Walk north along the lakeside promenade toward Broken Bridge. It is a short, flat walk — about 10 minutes — and the crowd thickens as you approach the bridge. That thickening is your cue: you are nearly there.</p>
+
+<h2>Stop 7 — Broken Bridge 断桥: the bridge that is not broken</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Broken Bridge</span><audio controls preload="none" src="audio/oct26/stop5-broken-bridge.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/guzheng-city.mp3">▶ Walk music to the next stop: lakeside</button>
+<div class="waypoint">📌 <strong>Do not stop on the bridge deck for your photo.</strong> Walk to the lakeside at the foot of the bridge, turn, and shoot the bridge from the side. The deck itself is a crowd; the lakeside is the photograph.</div>
+<div class="look"><b>Look for:</b> the single stone arch and its reflection in the water, making a full circle — and, in the right light, the reason for the name. <b>Why “broken”?</b> 断桥残雪 (Duànqiáo Cánxuě, “Lingering Snow on Broken Bridge”) is one of the Ten Scenes of West Lake: after snow, the sunny side of the bridge melts first and the shady side stays white, so from a distance the bridge looks broken in half. In October there is no snow, but the arch-and-reflection trick is the same idea — the bridge looks whole and broken at once. <b>The legend:</b> this is where, in the White Snake legend (白蛇传, Báishé Zhuàn), the white snake spirit Bai Suzhen, in human form, met the scholar Xu Xian in the rain and lent him her umbrella. Lovers still come here for photographs, which is another reason to shoot from the side, not the deck.</div>
+<p><strong>Where you stand:</strong> Broken Bridge is the junction of Beishan Street (behind you, to the north) and Bai Causeway (ahead, to the west). You are about to turn west onto the causeway, with water on both sides. Before you go, look back east along Beishan Street — you will walk that street at dusk, and it looks completely different in lamplight.</p>
+
+<h2>Stop 8 — Bai Causeway 白堤: walking on water, almost</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Bai Causeway</span><audio controls preload="none" src="audio/oct26/stop6-bai-causeway.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/guzheng-city.mp3">▶ Walk music to the next stop: lakeside</button>
+<div class="waypoint">📌 <strong>Walk west, lake on both sides.</strong> Bai Causeway is about 1 km long, flat, and lined with willows and peach trees in alternating planting — green willow, pink peach in spring, green-on-green in autumn, which is why autumn photographs here are all about light, not colour.</div>
+<div class="look"><b>Look for:</b> <strong>(1)</strong> the willow branches trailing toward the water on both sides — walk in the middle of the path and let them frame you; <strong>(2)</strong> halfway along, <strong>Jindai Bridge (金带桥, “Golden Ribbon Bridge”)</strong>, the small arched bridge that breaks the causeway — stop on it, it is the highest point and the best place to look both ways along the causeway; <strong>(3)</strong> to the north, Baoshi Mountain and Baoshu Pagoda getting closer and taller; <strong>(4)</strong> to the south, open lake, tour boats, and far across the water the bulk of Leifeng Pagoda in the south — the pagoda that faces Baoshu across the lake, “Baochu like a beauty, Leifeng like an old man.”</div>
+<p><strong>History:</strong> the causeway is named for <strong>Bai Juyi (白居易, 772–846)</strong>, Tang-dynasty poet and governor of Hangzhou, who dredged West Lake and built dikes to help the city — the same Bai Juyi whose statue you can find on the lakeside. The causeway you walk is a later rebuilding on the same line, but the idea is his: a road across the water so people could reach Gushan Island without a boat.</p>
+<p><strong>Photo:</strong> from Jindai Bridge, shoot west down the causeway with the willows converging and Pinghu Qiuyue's pavilions in the distance. Keep people small in the frame — the causeway is the subject, not the crowd.</p>
+
+<h2>Stop 9 — 16:30 Pinghu Qiuyue 平湖秋月: golden hour</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Pinghu Qiuyue at golden hour</span><audio controls preload="none" src="audio/oct26/stop7-pinghu-qiuyue.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/imperial-china-cinematic.mp3">▶ Walk music to the next stop: sunset</button>
+<div class="waypoint">📌 <strong>BE HERE FOR SUNSET, 17:17.</strong> Arrive by 16:30, claim a spot at the water terrace, and stay put. This is the best photography window of the whole day — warm, low, sideways light — and it lasts about 45 minutes, not all evening.</div>
+<figure class="scene">
+<svg viewBox="0 0 640 220" role="img" aria-label="Diagram of Pinghu Qiuyue pavilion at sunset over the lake"><rect width="640" height="220" fill="#f7d9a0"/><circle cx="480" cy="90" r="38" fill="#f2a93b"/><rect y="150" width="640" height="70" fill="#5b8fa8"/><path d="M180 150 L230 95 L280 150 Z" fill="#7a5a3a"/><rect x="215" y="80" width="30" height="20" fill="#8a7a5a"/><text x="320" y="40" text-anchor="middle" font-size="16" fill="#5a4632">Pinghu Qiuyue — sun setting over the lake, pavilion reflection</text></svg>
+<figcaption>What to frame: pavilion on the left, sun low over the water on the right, boats crossing between them.</figcaption>
+</figure>
+<div class="look"><b>Look for:</b> the stone stele inscribed <strong>平湖秋月 (Pínghú Qiūyuè, “Autumn Moon over the Calm Lake”)</strong>; the waterside terrace jutting into the lake, which is the moon-viewing platform; the octagonal pavilion and its reflection; and, as the sun drops, willow silhouettes against gold water and boats cutting slow lines across the light. <b>Photo order:</b> (1) wide — pavilion + sun + lake; (2) reflection — pavilion in still water, phone low; (3) detail — a single willow branch, black against gold, with a boat behind it. Shoot the reflection shots before the wind picks up at sunset.</div>
+<p><strong>History in 60 seconds:</strong> Pinghu Qiuyue is one of the Ten Scenes of West Lake, at the west end of Bai Causeway on the southeast corner of Gushan Island. In the Tang dynasty there was a Wanghu (Lake-Viewing) Pavilion here; in 1699 the Kangxi emperor remodelled the Dragon King Temple on the site into an Imperial Book Pavilion, with a water terrace in front — built, in other words, as a place to look at the moon. In 1919 a garden called Luo's Garden was built just west of it; the whole area was later rebuilt as the pavilion, hall and tower you see now. The “autumn moon” of the name is literal: this is Hangzhou's classic Mid-Autumn moon-viewing spot, and on a full-moon night the terrace is packed. Tonight you get the sunset version instead, which is quieter and, for photographs, better.</p>
+<p><strong>Do not leave at sunset.</strong> Stay ten minutes past it. The sky keeps changing after the sun goes down, and the next stop — Beishan Street in lamplight — needs that in-between light.</p>
+
+<h2>Stop 10 — Gushan 孤山 and Xiling Bridge: the shortcut to Beishan</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Gushan to Beishan Street</span><audio controls preload="none" src="audio/oct26/stop8-gushan-beishan.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/imperial-china-cinematic.mp3">▶ Walk music to the next stop: sunset</button>
+<div class="waypoint">📌 <strong>Walk west from Pinghu Qiuyue onto Gushan, then north across Xiling Bridge to Beishan Street.</strong> This avoids walking all the way back east along Bai Causeway, and it gives you the north-shore street at exactly the right light.</div>
+<div class="look"><b>Look for, in passing:</b> Gushan (孤山, “Solitary Hill”) is West Lake's only natural island — palaces, libraries and gardens were built here by Song and Qing dynasties, and today it holds the Zhejiang Provincial Museum and the Xiling Seal Society (西泠印社, founded 1904, the famous seal-carving and calligraphy society). You do not have time to go inside either tonight; note them for a return visit. On Xiling Bridge, stop and look back east: Bai Causeway, Pinghu Qiuyue and the last of the sunset light in one line.</div>
+<p>Cross to the north shore and turn <strong>east</strong> onto Beishan Street. The lake is now on your right (south), the villas and plane trees on your left (north), and Baoshi Mountain rising behind the villas.</p>
+
+<h2>Stop 11 — Beishan Street 北山街 at dusk: villas, plane trees, pagoda</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Beishan Street villas</span><audio controls preload="none" src="audio/oct26/stop9-beishan-street.mp3"></audio></div>
+<button type="button" class="walkbtn" data-track="audio/oct26/music/imperial-china-cinematic.mp3">▶ Walk music to the finale: blue hour</button>
+<div class="waypoint">📌 <strong>Walk east, slowly.</strong> Beishan Street is not a sight to tick off; it is a street to walk while the light changes. The S-curve of the road, the plane-tree canopy, and the villas are the whole show.</div>
+<div class="look"><b>Look for, in order as you walk east:</b> <strong>Qiushui Villa, No. 59 (秋水山庄)</strong> — built 1932, named for Shen Qiushui and the media tycoon Shi Liangcai, Western structure with a Chinese grey-tile roof, now part of the Xinxin Hotel; <strong>Guyun Hut, No. 58</strong> — a 1920s garden-style house, Chinese name, Romanesque building, facing Gushan; <strong>West Lake Expo Museum, No. 40</strong> — the yellow European-style Industry Hall from the 1929 West Lake Expo, now the first lake-themed museum (open Tue–Sun 09:00–17:00, so closed by now — admire the facade); <strong>Jianpao / Xiaolian Villa, No. 32 (坚匏别墅)</strong> — late-Qing to early-Republic, one of the first villas to combine Western and Chinese styles, hiding behind high white walls, easy to miss, which is why it is worth looking for. <b>And above them all:</b> keep glancing up through the plane trees to Baoshu Pagoda on the hill — it appears and disappears between branches, which is a better photograph than a straight-on pagoda shot.</div>
+<p><strong>Photo:</strong> stand in the middle of a straight stretch, shoot down the S-curve with the tree canopy arching over the road and the pagoda small in the far background. Wait for the moment when the street lamps have just come on but the sky is still pink-orange — that mixed light, sunset plus lamplight, lasts only about ten minutes. That is the Beishan shot.</p>
+
+<h2>Stop 12 — Blue hour finale: Baoshu Pagoda 保俶塔, lit</h2>
+<div class="listen"><span>🎧 Hear your guide, with walk music underneath — Baoshu Pagoda at blue hour</span><audio controls preload="none" src="audio/oct26/stop10-baoshu-bluehour.mp3"></audio></div>
+<div class="waypoint">📌 <strong>END HERE, about 18:15–18:45.</strong> Find a lakeside spot on Beishan Street where you can see both the pagoda and the water. Stay until the lake has turned deep blue and the pagoda is lit — then stop. You have the shot; walking further in the dark adds nothing.</div>
+<figure class="scene">
+<svg viewBox="0 0 640 220" role="img" aria-label="Diagram of Baoshu Pagoda lit at blue hour over West Lake"><rect width="640" height="220" fill="#1f3d5a"/><rect y="150" width="640" height="70" fill="#2a5a7a"/><g fill="#e8c87a"><rect x="300" y="40" width="40" height="110"/><polygon points="320,15 285,45 355,45"/></g><circle cx="520" cy="50" r="18" fill="#f2e6c0"/><text x="320" y="195" text-anchor="middle" font-size="14" fill="#fff">Baoshu Pagoda, lit — slender, seven storeys, 45.3 metres</text></svg>
+<figcaption>Blue hour: pagoda lit, lake deep blue, street lamps reflected in rippling water. Long exposure if your phone offers it.</figcaption>
+</figure>
+<div class="look"><b>Look for:</b> the pagoda's silhouette — small base, seven storeys, 45.3 metres, octagonal brick, no internal staircase, so it cannot be climbed — standing on Precious Stone Hill (宝石山, Bǎoshí Shān) like a needle. Its name, Baochu (保俶, “protect Chu”), is said to recall Qian Chu, last king of Wuyue, whose minister built a pagoda here in 963 to pray for the king's safe return from Kaifeng. The present tower is the 1933 rebuilding, after six earlier reconstructions. <b>Photo:</b> long exposure for a silky lake surface, pagoda against twilight sky, lamp reflections rippling. If your phone has a night mode, use it and hold still for the full count — brace on a railing, not your hand.</div>
+<p><strong>Then go home for dinner.</strong> DiDi / taxi back to Midtown Shangri-La is about 10–15 minutes from Beishan Street. Dinner at the hotel, as planned. Tomorrow: Feilai Peak and Lingyin Temple, 07:30 booking — set an alarm tonight, and do not try to squeeze anything else into tonight.</p>
+
+<h2>🎵 Walk music in this app — downloaded, offline, no streaming needed</h2>
+<p>The walk music is <strong>part of this app download</strong> — the MP3 files are bundled in the app (audio/oct26/music/), so they play with no data and no separate download or streaming account:</p>
+<ul>
+<li><strong>Bamboo walk — “All The Tea In China” by Shane Ivers</strong> (2:40) — shakuhachi, guzheng, erhu, koto and gongs; serene and intimate. Used under the narration at Yunqi (stops 1–3) and as the bamboo walk track.</li>
+<li><strong>Lakeside walk — “Guzheng City” by Kevin MacLeod</strong> (1:54) — guzheng-led, bright and walking-paced. Used under the narration on the lakeside (stops 4–6) and as the lakeside walk track.</li>
+<li><strong>Sunset / blue hour — “Imperial China Cinematic” by Shane Ivers</strong> (3:22) — shakuhachi, guzheng, erhu, taiko drums and orchestral strings; more expansive. Used under the narration at golden hour and dusk (stops 7–10) and as the sunset walk track.</li>
+</ul>
+<p class="sub">Music credits (CC BY 4.0, as required by the licence): Music: All The Tea In China by Shane Ivers — https://www.silvermansound.com · Music: Imperial China Cinematic by Shane Ivers — https://www.silvermansound.com (© 2016 by Shane Ivers) · “Guzheng City” by Kevin MacLeod (incompetech.com) · All three tracks licensed under Creative Commons Attribution 4.0. The narration voice is DAJD's guide voice, mixed over the music at low volume — the music is part of each narration track, not a separate stream.</p>
+
+<h2>💡 Tips, kept short</h2>
+<ul>
+<li>Yunqi is far from downtown — the 45-minute taxi allowance is real, not padding.</li>
+<li>Tomorrow 07:30 Feilai Peak / Lingyin — do not go there today, however tempting it looks on the map.</li>
+<li>Water, power bank, light layer for after sunset. Snacks only on the route; dinner back at the hotel.</li>
+<li>West Lake is free to walk, but the boats, museums and pagoda interiors are not part of tonight — the walk is the sight.</li>
+</ul>
+
+<p class="sub">Sources and official links: West Lake Scenic Area official site <a href="https://westlake.hangzhou.gov.cn/">westlake.hangzhou.gov.cn</a> (Yunqi, Bai Causeway, Beishan Street and Pinghu Qiuyue pages, including the official Yunqi feature and the Pinghu Qiuyue / Bai Causeway route article from the original draft) · Hangzhou culture and tourism Pinghu Qiuyue page <a href="https://wgly.hangzhou.gov.cn/art/2013/9/12/art_1229490939_58932044.html">wgly.hangzhou.gov.cn</a> · Today's Hangzhou weather and 17:17 sunset: weather.com Hangzhou hourly forecast for Mon Oct 26, 2026. Ticket and hour figures vary slightly between listings (Yunqi 07:00 vs 07:30 opening) — the gate price, ¥8, is consistent; confirm last entry at the gate if you arrive late.</p>
+</div>
+<script>
+(function(){
+  var player = document.getElementById("walk-music");
+  var now = document.getElementById("music-now");
+  function playTrack(src, label){
+    if(!player) return;
+    if(player.getAttribute("src") !== src) player.setAttribute("src", src);
+    player.play().catch(function(){});
+    if(now) now.textContent = "Now playing: " + label;
+  }
+  document.querySelectorAll("[data-track]").forEach(function(b){
+    b.addEventListener("click", function(){
+      var label = b.getAttribute("data-label");
+      if(!label){
+        var t = b.getAttribute("data-track");
+        label = t.indexOf("all-the-tea") >= 0 ? "Bamboo walk — All The Tea In China, by Shane Ivers (CC BY 4.0)" : (t.indexOf("guzheng") >= 0 ? "Lakeside walk — Guzheng City, by Kevin MacLeod (CC BY 4.0)" : "Imperial China Cinematic, by Shane Ivers (CC BY 4.0)");
+      }
+      playTrack(b.getAttribute("data-track"), label);
+    });
+  });
+  var st = document.getElementById("music-stop");
+  if(st) st.addEventListener("click", function(){ if(player){ player.pause(); } if(now) now.textContent = "Music: stopped"; });
+})();
+</script>
+</body>
+</html>
