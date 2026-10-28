@@ -1,6 +1,6 @@
 {
- "versionCode": 30,
- "versionName": "2.2",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.2/china-trip-v2.2.apk",
- "notes": "Base APK + content updates: the APK is now just the shell (layout, WebView, updater code). Trip content — itinerary, guides, app code, audio, documents — is pulled from GitHub and cached on the phone, and Settings > Content updates downloads only the files that changed (verified by SHA-256), falling back to the bundled copy if anything fails. This version itself is still a full APK install once; every content change after it is small. Settings gains a Content updates section with an auto-check toggle."
+ "versionCode": 31,
+ "versionName": "2.3",
+ "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.3/china-trip-v2.3.apk",
+ "notes": "Fresh bundle of current docs/ (content v7: corrected Oct 28 Macao arrival day, Settings on-device diagnostics). Native fix: content-update manifest fetch is cache-busted (?t= timestamp + Cache-Control: no-cache) so a stale edge/proxy manifest can't freeze updates at 'up to date' with zero downloads; update result now includes the downloaded content-file count. Master itinerary Oct 25-26 rows reconciled. Same signing key as v2.2, so it installs as an update over the old APK."
 }
