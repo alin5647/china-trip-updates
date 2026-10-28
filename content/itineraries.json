@@ -542,55 +542,101 @@
         {
           "activities": [
             {
-              "detail": "Morning light on the old shophouses and the church of Our Lady of Carmel.",
+              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away. Then the day is yours.",
+              "name": "Donna departs for the airport",
+              "reserve": false,
+              "time": "10:30 AM"
+            },
+            {
+              "detail": "Morning light on the old shophouses, Our Lady of Carmel church, the Taipa Houses Museum (free entry) and a Rua do Cunha graze.",
               "name": "Taipa Village morning walk",
               "reserve": false,
-              "time": "10:00 AM"
+              "time": "10:30 AM"
             },
             {
-              "detail": "Ferry to Hong Kong Island, check in, then straight up for the sunset slot.",
-              "name": "Cross to Hong Kong",
+              "detail": "FHR late checkout runs to 4:00 PM. Leave the bags with the concierge and travel light for the evening.",
+              "name": "Check out of the Four Seasons",
               "reserve": false,
-              "time": "2:00 PM"
+              "time": "3:45 PM"
             },
             {
-              "detail": "Peak Tram up, Lugard Road for the sunset-to-night transition over the harbour.",
-              "name": "Victoria Peak sunset + night shoot",
+              "detail": "Free gondola loop over the fountain lake, then a lake show from the promenade (every 30 min until 6 PM). If the line runs past ~20 minutes, drop A-Ma Temple below — not the Ruins.",
+              "name": "SkyCab over Performance Lake (Wynn Palace)",
+              "reserve": false,
+              "time": "4:00 PM"
+            },
+            {
+              "detail": "Macao's oldest temple, where the city got its name. First thing to drop if the SkyCab line ate the buffer.",
+              "name": "A-Ma Temple (flex stop)",
               "reserve": false,
               "time": "5:00 PM"
+            },
+            {
+              "detail": "The wave-pattern mosaic square and the yellow baroque church, five minutes from the Ruins.",
+              "name": "Senado Square + St Dominic's Church",
+              "reserve": false,
+              "time": "5:30 PM"
+            },
+            {
+              "detail": "Sunset 5:51 PM — the fortress walls and the Ruins steps are the classic golden-hour spots, in evening light at last.",
+              "name": "Ruins of St Paul's + Mount Fortress sunset",
+              "reserve": false,
+              "time": "5:45 PM"
+            },
+            {
+              "detail": "Be there by 8:00 for the 8:30 sailing; luggage check-in closes 20 minutes before departure. Tickets: buy in the TurboJET app or via the concierge.",
+              "name": "Taipa Ferry Terminal — check in",
+              "reserve": false,
+              "time": "8:00 PM"
+            },
+            {
+              "detail": "Taipa → Sheung Wan, night fare HK$242. Taxi from Sheung Wan to the Conrad ~15 min; check in ~10:05 PM (hotel told to expect a late arrival). Yung Kee, if it was booked for tonight, moves to Oct 30 or 31.",
+              "name": "TurboJET night sailing to Hong Kong",
+              "reserve": false,
+              "time": "8:30 PM"
             }
           ],
-          "city": "Hong Kong",
+          "city": "Macao → Hong Kong",
           "date": "Oct 29",
           "highlights": [
-            "Taipa Village morning",
-            "Victoria Peak sunset-to-night"
+            "SkyCab over Performance Lake",
+            "Ruins of St Paul's at sunset",
+            "Night ferry to Hong Kong"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
+              "area": "Cotai",
+              "detail": "All three of you — the last family meal of the trip. Your FHR rate covers breakfast for two; Donna's plate (~MOP 284 with service) is the only extra.",
+              "name": "Belcanção buffet (Four Seasons)",
+              "reserve": false,
+              "type": "breakfast",
+              "time": "9:00 AM"
+            },
+            {
               "area": "Taipa",
-              "detail": "The famous pork chop bun (猪扒包) before the crossing.",
+              "detail": "The famous pork chop bun (猪扒包) on Rua do Cunha — snack-sized after the big breakfast.",
               "name": "Tai Lei Loi Kei (大利来记)",
               "reserve": false,
-              "type": "breakfast"
+              "type": "snack"
             },
             {
-              "area": "Central",
-              "detail": "Quick wonton noodles before the Peak.",
-              "name": "Mak's Noodle (麦奀)",
+              "area": "Cotai",
+              "detail": "Michelin-starred dim sum at the Four Seasons, paid with your $100 FHR property credit: à la carte baskets run MOP 88–98, so seven or eight between two lands almost exactly on the credit.",
+              "name": "Zi Yat Heen (紫逸軒)",
               "reserve": false,
-              "type": "lunch"
+              "type": "lunch",
+              "time": "12:45 PM"
             },
             {
-              "area": "Central",
-              "detail": "Roast goose after the night shoot.",
-              "name": "Yung Kee (镛记)",
-              "reserve": true,
+              "area": "Macau Peninsula",
+              "detail": "African chicken or minchi — keep it moderate after the Zi Yat Heen lunch.",
+              "name": "Macanese dinner near Senado Square",
+              "reserve": false,
               "type": "dinner"
             }
           ],
-          "transit": "Morning in Macao; ferry or Hong Kong-Zhuhai-Macao Bridge bus to Hong Kong; check in at the Conrad",
+          "transit": "Full day in Macao (Donna flies out 10:30 AM); 8:30 PM TurboJET Taipa → Sheung Wan; taxi to the Conrad, check in ~10:05 PM",
           "weekday": "Thursday"
         },
         {
@@ -1287,55 +1333,101 @@
         {
           "activities": [
             {
-              "detail": "郑家大屋 — the courtyard mansion of a Qing reformist thinker, part of the UNESCO listing.",
-              "name": "Mandarin's House",
+              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away. Then the day is yours.",
+              "name": "Donna departs for the airport",
               "reserve": false,
-              "time": "10:00 AM"
+              "time": "10:30 AM"
             },
             {
-              "detail": "Ferry to Hong Kong Island, check in at the Conrad.",
-              "name": "Cross to Hong Kong",
+              "detail": "The mint-green colonial houses of old Taipa (free entry), then the snack street and Pak Tai Temple.",
+              "name": "Taipa Houses Museum + Rua do Cunha",
               "reserve": false,
-              "time": "1:00 PM"
+              "time": "10:45 AM"
             },
             {
-              "detail": "大馆 — the restored Central Police Station compound: heritage architecture, galleries, and courtyard performances.",
-              "name": "Tai Kwun",
+              "detail": "FHR late checkout runs to 4:00 PM. Leave the bags with the concierge and travel light for the evening.",
+              "name": "Check out of the Four Seasons",
               "reserve": false,
-              "time": "3:30 PM"
+              "time": "3:45 PM"
             },
             {
-              "detail": "戏曲中心 — Cantonese opera in a world-class venue built for it, with surtitles. Book ahead.",
-              "name": "Cantonese opera at Xiqu Centre",
-              "reserve": true,
-              "time": "7:30 PM"
+              "detail": "Free gondola loop over the fountain lake, then a lake show from the promenade (every 30 min until 6 PM). If the line runs past ~20 minutes, drop A-Ma Temple below — not the Ruins.",
+              "name": "SkyCab over Performance Lake (Wynn Palace)",
+              "reserve": false,
+              "time": "4:00 PM"
+            },
+            {
+              "detail": "郑家大屋 — the Qing reformist's courtyard mansion — and Macao's oldest temple, five minutes apart in Barra. (Mandarin's House is the flex drop if the SkyCab line ran long.)",
+              "name": "Mandarin's House + A-Ma Temple",
+              "reserve": false,
+              "time": "5:00 PM"
+            },
+            {
+              "detail": "UNESCO-listed square and church on the way up to the Ruins.",
+              "name": "Senado Square + St Dominic's Church",
+              "reserve": false,
+              "time": "5:35 PM"
+            },
+            {
+              "detail": "The façade lit by the last of the day (sunset 5:51 PM), Mount Fortress right behind it.",
+              "name": "Ruins of St Paul's at sunset",
+              "reserve": false,
+              "time": "5:50 PM"
+            },
+            {
+              "detail": "Be there by 8:00 for the 8:30 sailing; luggage check-in closes 20 minutes before departure. Tickets: buy in the TurboJET app or via the concierge.",
+              "name": "Taipa Ferry Terminal — check in",
+              "reserve": false,
+              "time": "8:00 PM"
+            },
+            {
+              "detail": "Taipa → Sheung Wan, night fare HK$242. Taxi from Sheung Wan to the Conrad ~15 min; check in ~10:05 PM (hotel told to expect a late arrival). Yung Kee, if it was booked for tonight, moves to Oct 30 or 31.",
+              "name": "TurboJET night sailing to Hong Kong",
+              "reserve": false,
+              "time": "8:30 PM"
             }
           ],
-          "city": "Hong Kong",
+          "city": "Macao → Hong Kong",
           "date": "Oct 29",
           "highlights": [
-            "Mandarin's House in Macao",
-            "Tai Kwun heritage compound",
-            "Cantonese opera at Xiqu Centre"
+            "Mandarin's House + A-Ma Temple",
+            "Ruins of St Paul's at sunset",
+            "Night ferry to Hong Kong"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Taipa",
-              "detail": "Pork chop bun (猪扒包) farewell to Macao.",
-              "name": "Tai Lei Loi Kei (大利来记)",
+              "area": "Cotai",
+              "detail": "All three of you — the last family meal of the trip. Your FHR rate covers breakfast for two; Donna's plate (~MOP 284 with service) is the only extra.",
+              "name": "Belcanção buffet (Four Seasons)",
               "reserve": false,
-              "type": "breakfast"
+              "type": "breakfast",
+              "time": "9:00 AM"
             },
             {
-              "area": "West Kowloon",
-              "detail": "Quick bite before the opera.",
-              "name": "Light dinner near Xiqu Centre",
+              "area": "Taipa",
+              "detail": "The famous pork chop bun (猪扒包) on Rua do Cunha — snack-sized after the big breakfast.",
+              "name": "Tai Lei Loi Kei (大利来记)",
+              "reserve": false,
+              "type": "snack"
+            },
+            {
+              "area": "Cotai",
+              "detail": "Michelin-starred dim sum at the Four Seasons, paid with your $100 FHR property credit: à la carte baskets run MOP 88–98, so seven or eight between two lands almost exactly on the credit.",
+              "name": "Zi Yat Heen (紫逸軒)",
+              "reserve": false,
+              "type": "lunch",
+              "time": "12:45 PM"
+            },
+            {
+              "area": "Macau Peninsula",
+              "detail": "African chicken or minchi — keep it moderate after the Zi Yat Heen lunch.",
+              "name": "Macanese dinner near Senado Square",
               "reserve": false,
               "type": "dinner"
             }
           ],
-          "transit": "Morning in Macao; ferry or Hong Kong-Zhuhai-Macao Bridge bus to Hong Kong; check in at the Conrad",
+          "transit": "Full day in Macao (Donna flies out 10:30 AM); 8:30 PM TurboJET Taipa → Sheung Wan; taxi to the Conrad, check in ~10:05 PM",
           "weekday": "Thursday"
         },
         {
@@ -2031,42 +2123,101 @@
         {
           "activities": [
             {
-              "detail": "Last Macao wander — Our Lady of Carmel church, the old shophouses.",
-              "name": "Taipa Village morning",
+              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away. Then the day is yours.",
+              "name": "Donna departs for the airport",
               "reserve": false,
-              "time": "10:00 AM"
+              "time": "10:30 AM"
             },
             {
-              "detail": "Ferry lands near the Conrad on Hong Kong Island; the bridge bus is cheaper and scenic.",
-              "name": "Cross to Hong Kong",
+              "detail": "Rua do Cunha snack street, the Taipa Houses Museum (free), Our Lady of Carmel church — appetite management after the buffet.",
+              "name": "Taipa Village graze",
               "reserve": false,
-              "time": "2:00 PM"
+              "time": "10:30 AM"
+            },
+            {
+              "detail": "FHR late checkout runs to 4:00 PM. Leave the bags with the concierge and travel light for the evening.",
+              "name": "Check out of the Four Seasons",
+              "reserve": false,
+              "time": "3:45 PM"
+            },
+            {
+              "detail": "Free gondola loop over the fountain lake, then a lake show from the promenade (every 30 min until 6 PM). If the line runs past ~20 minutes, drop A-Ma Temple below — not the Ruins.",
+              "name": "SkyCab over Performance Lake (Wynn Palace)",
+              "reserve": false,
+              "time": "4:00 PM"
+            },
+            {
+              "detail": "A quick look at Macao's oldest temple on the way up the peninsula; drop it if the SkyCab line ran long.",
+              "name": "A-Ma Temple (flex stop)",
+              "reserve": false,
+              "time": "5:00 PM"
+            },
+            {
+              "detail": "The wave-pattern mosaic square and the yellow baroque church, five minutes from the Ruins.",
+              "name": "Senado Square + St Dominic's Church",
+              "reserve": false,
+              "time": "5:30 PM"
+            },
+            {
+              "detail": "Sunset 5:51 PM from the fortress walls — the shot today was supposed to end with.",
+              "name": "Ruins of St Paul's + Mount Fortress sunset",
+              "reserve": false,
+              "time": "5:45 PM"
+            },
+            {
+              "detail": "Be there by 8:00 for the 8:30 sailing; luggage check-in closes 20 minutes before departure. Tickets: buy in the TurboJET app or via the concierge.",
+              "name": "Taipa Ferry Terminal — check in",
+              "reserve": false,
+              "time": "8:00 PM"
+            },
+            {
+              "detail": "Taipa → Sheung Wan, night fare HK$242. Taxi from Sheung Wan to the Conrad ~15 min; check in ~10:05 PM (hotel told to expect a late arrival). Yung Kee, if it was booked for tonight, moves to Oct 30 or 31.",
+              "name": "TurboJET night sailing to Hong Kong",
+              "reserve": false,
+              "time": "8:30 PM"
             }
           ],
-          "city": "Hong Kong",
+          "city": "Macao → Hong Kong",
           "date": "Oct 29",
           "highlights": [
+            "Zi Yat Heen dim sum on the FHR credit",
             "Pork chop bun farewell to Macao",
-            "Roast goose in Central"
+            "Ruins of St Paul's at sunset"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Taipa",
-              "detail": "The famous pork chop bun (猪扒包) — Macao's signature sandwich.",
-              "name": "Tai Lei Loi Kei (大利来记)",
+              "area": "Cotai",
+              "detail": "All three of you — the last family meal of the trip. Your FHR rate covers breakfast for two; Donna's plate (~MOP 284 with service) is the only extra.",
+              "name": "Belcanção buffet (Four Seasons)",
               "reserve": false,
-              "type": "breakfast"
+              "type": "breakfast",
+              "time": "9:00 AM"
             },
             {
-              "area": "Central",
-              "detail": "Hong Kong's landmark roast goose in the upstairs dining room. An institution since 1942.",
-              "name": "Yung Kee (镛记)",
-              "reserve": true,
+              "area": "Taipa",
+              "detail": "The famous pork chop bun (猪扒包) on Rua do Cunha — snack-sized after the big breakfast.",
+              "name": "Tai Lei Loi Kei (大利来记)",
+              "reserve": false,
+              "type": "snack"
+            },
+            {
+              "area": "Cotai",
+              "detail": "Michelin-starred dim sum at the Four Seasons, paid with your $100 FHR property credit: à la carte baskets run MOP 88–98, so seven or eight between two lands almost exactly on the credit.",
+              "name": "Zi Yat Heen (紫逸軒)",
+              "reserve": false,
+              "type": "lunch",
+              "time": "12:45 PM"
+            },
+            {
+              "area": "Macau Peninsula",
+              "detail": "African chicken or minchi — keep it moderate after the Zi Yat Heen lunch.",
+              "name": "Macanese dinner near Senado Square",
+              "reserve": false,
               "type": "dinner"
             }
           ],
-          "transit": "Morning in Macao; ferry or Hong Kong-Zhuhai-Macao Bridge bus to Hong Kong; check in at the Conrad",
+          "transit": "Full day in Macao (Donna flies out 10:30 AM); 8:30 PM TurboJET Taipa → Sheung Wan; taxi to the Conrad, check in ~10:05 PM",
           "weekday": "Thursday"
         },
         {
