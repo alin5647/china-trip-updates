@@ -1,0 +1,2219 @@
+{
+  "generated_at": "2026-10-28T04:16:39.488860+00:00",
+  "options": [
+    {
+      "days": [
+        {
+          "activities": [
+            {
+              "detail": "CX841 to Hong Kong, then CX336 onward to Beijing. Force yourself onto Beijing time — the Wall hike rewards an early start.",
+              "name": "Depart JFK",
+              "reserve": false,
+              "time": "10:00 AM"
+            }
+          ],
+          "city": "En route",
+          "date": "Oct 18",
+          "highlights": [
+            "Long-haul day — sleep on Beijing time"
+          ],
+          "hotel": "In flight (Cathay Pacific)",
+          "meals": [
+            {
+              "area": "Cathay Pacific",
+              "detail": "Eat on Beijing time to start beating jet lag.",
+              "name": "In-flight dining",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Cathay CX841 departs JFK 10:00 AM → Hong Kong; connect to CX336 → Beijing",
+          "weekday": "Sunday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Pre-booked business-car pickup to Changping. Early night — tomorrow starts at dawn.",
+              "name": "Arrive PEK T3",
+              "reserve": false,
+              "time": "6:25 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 19",
+          "highlights": [
+            "Land in Beijing",
+            "Early night — dawn start tomorrow"
+          ],
+          "hotel": "Hampton by Hilton Beijing Changping",
+          "meals": [
+            {
+              "area": "Changping",
+              "detail": "Light noodles near the hotel, then sleep.",
+              "name": "Noodle shop near the hotel",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Arrive PEK 6:25 PM (CX336, T3); pre-booked business-car pickup to the hotel",
+          "weekday": "Monday"
+        },
+        {
+          "date": "Oct 20",
+          "weekday": "Tuesday",
+          "city": "Beijing",
+          "hotel": "China World Summit Wing, Beijing",
+          "highlights": [
+            "Day with grandmother in Changping",
+            "Move downtown to the Summit Wing"
+          ],
+          "activities": [
+            {
+              "name": "Check out — Hampton by Hilton Beijing Changping",
+              "time": "9:00 AM",
+              "detail": "Leave bags with the front desk; you'll swing back for them this afternoon. Same district as your grandmother — no cross-city backtracking.",
+              "reserve": false
+            },
+            {
+              "name": "Visit grandmother — Taikang Zhijia (泰康之家)",
+              "time": "10:00 AM",
+              "detail": "Nanfeng Rd (南丰路), Changping District. Spend the day together — bring the photo frame gift.",
+              "reserve": false
+            },
+            {
+              "name": "Collect luggage + move downtown",
+              "time": "3:30 PM",
+              "detail": "Back to the Hampton for bags, then ~45-60 min transfer to the China World Summit Wing. Check in and decompress.",
+              "reserve": false
+            }
+          ],
+          "meals": [
+            {
+              "name": "Hotel breakfast",
+              "type": "breakfast",
+              "area": "Hampton Changping",
+              "detail": "Quick and early — checkout is at noon.",
+              "reserve": false
+            },
+            {
+              "name": "Lunch with grandmother",
+              "type": "lunch",
+              "area": "Changping",
+              "detail": "With her at or near the Taikang community.",
+              "reserve": false
+            },
+            {
+              "area": "Dengshikou",
+              "detail": "The one anchor food reservation of the trip — you've earned the duck. Book ahead.",
+              "name": "Siji Minfu Peking Duck (四季民福)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ]
+        },
+        {
+          "activities": [
+            {
+              "detail": "Private car ~2.5 hours in the dark. Photographers do this for a reason: the ramparts at first light, empty.",
+              "name": "Pre-dawn departure for Jinshanling",
+              "reserve": false,
+              "time": "4:30 AM"
+            },
+            {
+              "detail": "金山岭 — the photographer's section of the Wall. Sunrise on the ramparts, then hike the 10 km ridge to Simatai (4-5 hours, steep in parts).",
+              "name": "Jinshanling sunrise + ridge hike to Simatai",
+              "reserve": false,
+              "time": "6:30 AM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 21",
+          "highlights": [
+            "Sunrise on the Great Wall",
+            "10 km ridge hike Jinshanling → Simatai",
+            "The trip's biggest photo day"
+          ],
+          "hotel": "China World Summit Wing, Beijing",
+          "meals": [
+            {
+              "area": "Beijing",
+              "detail": "Grab from the hotel before the 4:30 AM departure.",
+              "name": "Packed hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Near Jinshanling",
+              "detail": "Simple farmhouse cooking after the descent — hot, fast, and well-earned.",
+              "name": "Farmhouse lunch near the Wall",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Near the hotel",
+              "detail": "Early, easy dinner — you'll be asleep by nine.",
+              "name": "Early dinner near Guomao",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Wednesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Locals practicing tai chi and diabolo in the cypress groves at first light — great people shots.",
+              "name": "Temple of Heaven at dawn",
+              "reserve": false,
+              "time": "6:30 AM"
+            },
+            {
+              "area": "Dashanzi",
+              "detail": "Bauhaus factory halls turned galleries and street art — the afternoon street-photography fix.",
+              "name": "798 Art District",
+              "reserve": false,
+              "time": "2:00 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 22",
+          "highlights": [
+            "Dawn at the Temple of Heaven",
+            "798 Art District street photography"
+          ],
+          "hotel": "China World Summit Wing, Beijing",
+          "meals": [
+            {
+              "area": "Huguo Temple, Xicheng",
+              "detail": "Old-Beijing breakfast after the dawn shoot.",
+              "name": "Huguosi Snacks (护国寺小吃)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "798 Art District",
+              "detail": "Cafes and small eateries among the galleries.",
+              "name": "Lunch at 798",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Nanluoguxiang",
+              "detail": "Wander the hutong lanes for dinner — pick whatever smells best.",
+              "name": "Hutong dinner, Nanluoguxiang area",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Thursday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Charge every battery tonight — the mountain has limited outlets. Pack layers; the summit runs 8-10 C colder than town.",
+              "name": "Gear check for the mountain",
+              "reserve": false,
+              "time": "4:30 PM"
+            },
+            {
+              "detail": "Huizhou merchant architecture under lantern light — good night-street shots.",
+              "name": "Tunxi Old Street evening",
+              "reserve": false,
+              "time": "6:00 PM"
+            }
+          ],
+          "city": "Huangshan",
+          "date": "Oct 23",
+          "highlights": [
+            "Fly to Huangshan",
+            "Tunxi Old Street by lantern light",
+            "Gear up for the summit"
+          ],
+          "hotel": "Holiday Inn Express Huangshan South Gate",
+          "meals": [
+            {
+              "area": "Beijing Capital Airport",
+              "detail": "Eat before the flight.",
+              "name": "Light bite at PEK",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Tunxi Old Street",
+              "detail": "Stinky mandarin fish (臭鳜鱼) and hairy tofu (毛豆腐) — the Anhui classics.",
+              "name": "Huizhou dinner on Tunxi Old Street",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Air China CA1551 PEK 1:05 PM → Tunxi (Huangshan) 3:15 PM; road transfer to Tangkou (~1 hour)",
+          "weekday": "Friday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Shuttle from Tangkou, cable car to the Back Mountain. Luggage stays at the South Gate hotel — daypack only.",
+              "name": "Cable car up (Yungu)",
+              "reserve": false,
+              "time": "7:30 AM"
+            },
+            {
+              "detail": "西海大峡谷 — the trip's best hike. Descend into the canyon loop (4-5 hours, serious steps), with the 'fairy walking a tightrope' rock formations.",
+              "name": "West Sea Grand Canyon loop",
+              "reserve": false,
+              "time": "9:30 AM"
+            },
+            {
+              "detail": "排云亭 — sunset over the sea of clouds from the pavilion.",
+              "name": "Sunset at Cloud-Dispelling Pavilion",
+              "reserve": false,
+              "time": "5:00 PM"
+            }
+          ],
+          "city": "Huangshan",
+          "date": "Oct 24",
+          "highlights": [
+            "West Sea Grand Canyon — the big hike",
+            "Sunset at Cloud-Dispelling Pavilion",
+            "Sleep on the summit"
+          ],
+          "hotel": "Huangshan Baiyun Hotel (summit)",
+          "meals": [
+            {
+              "area": "Tangkou",
+              "detail": "Big breakfast — it's a 5-hour hiking day.",
+              "name": "Holiday Inn Express breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Huangshan summit",
+              "detail": "Trail snacks and summit noodles — keep moving.",
+              "name": "Packed lunch on the trail",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Huangshan summit",
+              "detail": "Hearty and hot after the canyon loop.",
+              "name": "Baiyun Hotel dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Saturday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "光明顶 — the sea-of-clouds sunrise, the single most-photographed dawn in China. Confirm the viewpoint with the hotel.",
+              "name": "Sunrise at Bright Summit",
+              "reserve": false,
+              "time": "5:45 AM"
+            },
+            {
+              "detail": "Cable car down, shuttle to Tangkou, transfer to Huangshanbei station (~1 hour) for the 13:00 train.",
+              "name": "Descend and transfer",
+              "reserve": false,
+              "time": "8:30 AM"
+            },
+            {
+              "detail": "White Lotus Pagoda and the canal bridges at blue hour — tripod, reflections, lanterns.",
+              "name": "Xizha blue-hour shoot",
+              "reserve": false,
+              "time": "6:30 PM"
+            }
+          ],
+          "city": "Wuzhen",
+          "date": "Oct 25",
+          "highlights": [
+            "Summit sunrise over the sea of clouds",
+            "High-speed rail to Wuzhen",
+            "Xizha canals at blue hour"
+          ],
+          "hotel": "Crowne Plaza Wuzhen",
+          "meals": [
+            {
+              "area": "Huangshan summit",
+              "detail": "Fast — the descent starts at 8:30.",
+              "name": "Summit hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "On the train",
+              "detail": "Grab baozi at Huangshanbei station.",
+              "name": "Station snacks",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Xizha, Wuzhen",
+              "detail": "Red-braised mutton and white-water fish after the travel day.",
+              "name": "Xizha riverside dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Sunrise on the summit, descend by cable car; transfer to Huangshanbei station; G7308 13:00 → Tongxiang 15:07; shuttle/taxi to Wuzhen (~30 min)",
+          "weekday": "Sunday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Full 15 km lakeside loop before the crowds — rent bikes near the hotel. Dawn mist on the water if you're lucky.",
+              "name": "West Lake cycling loop at dawn",
+              "reserve": false,
+              "time": "6:30 AM"
+            },
+            {
+              "detail": "Feilai Peak grottoes first (best light), then the temple halls before tour groups arrive.",
+              "name": "Lingyin Temple",
+              "reserve": false,
+              "time": "9:30 AM"
+            },
+            {
+              "detail": "East shore behind the pagoda — sunset over the lake with the pagoda silhouette.",
+              "name": "Leifeng Pagoda sunset",
+              "reserve": false,
+              "time": "4:30 PM"
+            }
+          ],
+          "city": "Hangzhou",
+          "date": "Oct 26",
+          "highlights": [
+            "Dawn bike loop around West Lake",
+            "Lingyin Temple grottoes",
+            "Sunset at Leifeng Pagoda"
+          ],
+          "hotel": "Midtown Shangri-La, Hangzhou",
+          "meals": [
+            {
+              "area": "Jiefang Road",
+              "detail": "Hangzhou's legendary noodle house before the ride.",
+              "name": "Kuiyuanguan (奎元馆)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Near Lingyin",
+              "detail": "Simple vegetarian noodles by the temple.",
+              "name": "Temple-area lunch",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Gushan, West Lake",
+              "detail": "The West Lake institution: vinegar fish, Longjing shrimp. Book ahead.",
+              "name": "Lou Wai Lou (楼外楼)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Monday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Layered tea terraces in morning mist — the landscape shot of the Hangzhou leg.",
+              "name": "Longjing tea terraces at dawn",
+              "reserve": false,
+              "time": "6:30 AM"
+            },
+            {
+              "detail": "Walk the terraces, visit the China National Tea Museum, then head to the airport hotel.",
+              "name": "Meijiawu tea village",
+              "reserve": false,
+              "time": "9:00 AM"
+            }
+          ],
+          "city": "Hangzhou",
+          "date": "Oct 27",
+          "highlights": [
+            "Tea terraces in morning mist",
+            "Easy afternoon — rest the legs"
+          ],
+          "hotel": "Holiday Inn Hangzhou Airport Zone",
+          "meals": [
+            {
+              "area": "Midtown Shangri-La",
+              "detail": "Slow start after the dawn shoot.",
+              "name": "Hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Meijiawu",
+              "detail": "Tea-farmer lunch among the terraces.",
+              "name": "Meijiawu farmhouse lunch",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Xiaoshan",
+              "detail": "Light and early.",
+              "name": "Dinner near the airport hotel",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Morning in Longjing tea country; afternoon move to the airport-zone hotel",
+          "weekday": "Tuesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Check out and taxi to Hangzhou Xiaoshan T4 international departures (~30 min). Keep tax-refund receipts and purchased goods handy for the refund counter.",
+              "name": "Depart Holiday Inn Hangzhou Airport Zone",
+              "reserve": false,
+              "time": "12:15 PM"
+            },
+            {
+              "detail": "Xiamen Airlines check-in and bag drop. International check-in closes ~60 min before the 2:45 PM departure — the deadline that matters today.",
+              "name": "Check in for MF8719 at T4",
+              "reserve": false,
+              "time": "12:45 PM"
+            },
+            {
+              "detail": "After exit immigration, the CZBANK tax-refund counter is ~80 m to the left — refunds for mainland purchases. Optional and drop-first: if lines run long, skip it and head to the gate. Duty-free and Zhejiang specialties after.",
+              "name": "Security, exit immigration + optional tax refund",
+              "reserve": false,
+              "time": "1:15 PM"
+            },
+            {
+              "detail": "Scheduled 2:45 PM → 5:30 PM (FlightAware estimates a 5:20 PM arrival). Seats: Justin 49L, Andrew 49J, Donna 49C. Boeing 737-800, no Wi-Fi. Sunset 5:52 PM — you land right at dusk; the evening runs on blue hour and Taipa's lights.",
+              "name": "Flight MF8719 Hangzhou → Macao",
+              "reserve": false,
+              "time": "2:45 PM"
+            },
+            {
+              "detail": "US passports get 30-day visa-free entry; expect fingerprint and photo capture at the counter. Collect checked bags, clear customs, exit to the North Exit shuttle zone.",
+              "name": "Macao arrival: immigration + baggage",
+              "reserve": false,
+              "time": "5:30 PM"
+            },
+            {
+              "detail": "Free Venetian airport shuttle (~10-12 min) to the main lobby, then the covered Shoppes mall walkway to the Four Seasons check-in lobby (5-8 min, no street crossing). If the room isn't ready, store luggage with the concierge. Carry a light jacket — mall and casino air-conditioning runs cold.",
+              "name": "Venetian shuttle + indoor walk to Four Seasons",
+              "reserve": false,
+              "time": "6:05 PM"
+            },
+            {
+              "detail": "Walk through Shoppes at Cotai to MGM Cotai. M life player services counter for the rewards redemption, then the Spectacle atrium and Sky-Ocean LED display. Casino entry requires photo ID; no photography on the gaming floor. This is the block to compress if arrival slips.",
+              "name": "MGM Cotai — rewards redemption + Spectacle atrium",
+              "reserve": false,
+              "time": "6:40 PM"
+            },
+            {
+              "detail": "Pastel Portuguese-era lanes under evening lights — pastry and almond-cookie shops, snack vendors, small family restaurants. The old-town contrast to the Cotai resorts. Graze as you go: pork chop bun, water-crab congee, mantis shrimp stir-fry.",
+              "name": "Rua do Cunha, Taipa Village (官也街)",
+              "reserve": false,
+              "time": "7:40 PM"
+            }
+          ],
+          "city": "Macao",
+          "date": "Oct 28",
+          "highlights": [
+            "Land at sunset — Macao by blue hour",
+            "Evening shots in Taipa Village's pastel lanes",
+            "Rua do Cunha after dark",
+            "Macanese dinner in Taipa"
+          ],
+          "hotel": "Four Seasons Macao",
+          "meals": [
+            {
+              "area": "Hangzhou Airport",
+              "detail": "Save appetite for Macao.",
+              "name": "Light bite before the flight",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Rua do Cunha, Taipa Village",
+              "detail": "Option 1: 三六九 (Taipa branch), a casual local ice-house — braised beef brisket rice, silky milk tea, marinated chicken feet. Option 2: 木偶葡国餐厅 on Rua do Cunha — Portuguese baked chicken, bacalhau fish balls, and serradura (sawdust pudding) for dessert.",
+              "name": "Dinner in Taipa Village — pick one of two",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Taxi to Hangzhou Xiaoshan T4 → Xiamen MF8719 2:45 PM → Macao 5:30 PM; Venetian free shuttle + indoor mall walk to Four Seasons Macao",
+          "weekday": "Wednesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Morning light on the old shophouses and the church of Our Lady of Carmel.",
+              "name": "Taipa Village morning walk",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Ferry to Hong Kong Island, check in, then straight up for the sunset slot.",
+              "name": "Cross to Hong Kong",
+              "reserve": false,
+              "time": "2:00 PM"
+            },
+            {
+              "detail": "Peak Tram up, Lugard Road for the sunset-to-night transition over the harbour.",
+              "name": "Victoria Peak sunset + night shoot",
+              "reserve": false,
+              "time": "5:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 29",
+          "highlights": [
+            "Taipa Village morning",
+            "Victoria Peak sunset-to-night"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Taipa",
+              "detail": "The famous pork chop bun (猪扒包) before the crossing.",
+              "name": "Tai Lei Loi Kei (大利来记)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Central",
+              "detail": "Quick wonton noodles before the Peak.",
+              "name": "Mak's Noodle (麦奀)",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Central",
+              "detail": "Roast goose after the night shoot.",
+              "name": "Yung Kee (镛记)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Morning in Macao; ferry or Hong Kong-Zhuhai-Macao Bridge bus to Hong Kong; check in at the Conrad",
+          "weekday": "Thursday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "龙脊 — Hong Kong's classic urban hike. 2-3 hours along the ridge with South China Sea views, ending at Shek O. Start early.",
+              "name": "Dragon's Back hike",
+              "reserve": false,
+              "time": "7:30 AM"
+            },
+            {
+              "detail": "The 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "name": "Star Ferry + Avenue of Stars at blue hour",
+              "reserve": false,
+              "time": "6:00 PM"
+            },
+            {
+              "detail": "Fortune tellers and neon — night street photography.",
+              "name": "Temple Street Night Market",
+              "reserve": false,
+              "time": "8:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 30",
+          "highlights": [
+            "Dragon's Back ridge hike",
+            "Blue hour on the Avenue of Stars",
+            "Temple Street neon"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Wellington Street, Central",
+              "detail": "Pushcart dim sum before the hike.",
+              "name": "Lin Heung Tea House (莲香楼)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Shek O village",
+              "detail": "Thai and seafood cafes at the trail's end.",
+              "name": "Lunch in Shek O",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Yau Ma Tei",
+              "detail": "Claypot rice at the night market.",
+              "name": "Temple Street dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Friday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "渣甸山 — the locals' sunrise viewpoint over Victoria Harbour. Short steep climb, big payoff.",
+              "name": "Sunrise at Jardine's Lookout",
+              "reserve": false,
+              "time": "6:00 AM"
+            },
+            {
+              "detail": "The grand finale: Peak Tram up for the last light over the harbour.",
+              "name": "Victoria Peak farewell sunset",
+              "reserve": false,
+              "time": "5:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 31",
+          "highlights": [
+            "Sunrise over the harbour",
+            "Final sunset from the Peak"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Central",
+              "detail": "Late dim sum after the sunrise hike.",
+              "name": "Maxim's Palace (美心皇宫)",
+              "reserve": true,
+              "type": "breakfast"
+            },
+            {
+              "area": "Mong Kok",
+              "detail": "Graze the markets between shoots.",
+              "name": "Mong Kok street food",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Tsim Sha Tsui",
+              "detail": "Harbour-view dinner on the last night.",
+              "name": "Dinner with a harbour view",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Saturday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Slow morning in the park — review the trip's shots over tea before the airport.",
+              "name": "Hong Kong Park morning",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Airport Express from Hong Kong Station (~24 min); in-town check-in available.",
+              "name": "Leave for the airport",
+              "reserve": false,
+              "time": "12:30 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Nov 1",
+          "highlights": [
+            "Slow farewell morning",
+            "Home with full memory cards"
+          ],
+          "hotel": "In flight (Cathay Pacific)",
+          "meals": [
+            {
+              "area": "Near the hotel",
+              "detail": "One last roast-meat rice or congee.",
+              "name": "Last Hong Kong meal",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Cathay Pacific",
+              "detail": "Sleep on New York time.",
+              "name": "In-flight dining",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Cathay CX840 departs HKG 4:35 PM → JFK (arrives same day, ~7 PM)",
+          "weekday": "Sunday"
+        }
+      ],
+      "id": "active-photo",
+      "pace": "High-energy, golden-hour driven",
+      "tagline": "Chase sunrises and golden hour — hike the Wall, summit Huangshan, shoot the cities after dark.",
+      "title": "Active + Photography",
+      "why_suits_you": "You're an active hiker who shoots sunrises and viewpoints, and this is the photographer's cut of the trip: a pre-dawn start for sunrise on the Jinshanling Great Wall, Huangshan's West Sea Canyon plus a summit sunrise, a dawn bike loop around West Lake, and blue-hour shoots in Wuzhen and Hong Kong. The big hiking days are real workouts with real payoffs, and your dad can set his own pace on each — everything is planned around first and last light, with midday downtime built in."
+    },
+    {
+      "days": [
+        {
+          "activities": [
+            {
+              "detail": "CX841 to Hong Kong, then CX336 onward to Beijing. Read up on the Forbidden City's axis layout — it pays off on Tuesday.",
+              "name": "Depart JFK",
+              "reserve": false,
+              "time": "10:00 AM"
+            }
+          ],
+          "city": "En route",
+          "date": "Oct 18",
+          "highlights": [
+            "Long-haul day — arrive curious"
+          ],
+          "hotel": "In flight (Cathay Pacific)",
+          "meals": [
+            {
+              "area": "Cathay Pacific",
+              "detail": "Eat on Beijing time to start beating jet lag.",
+              "name": "In-flight dining",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Cathay CX841 departs JFK 10:00 AM → Hong Kong; connect to CX336 → Beijing",
+          "weekday": "Sunday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Pre-booked business-car pickup to Changping. Rest — the deep-dive starts tomorrow.",
+              "name": "Arrive PEK T3",
+              "reserve": false,
+              "time": "6:25 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 19",
+          "highlights": [
+            "Land in Beijing",
+            "Rest for the culture days ahead"
+          ],
+          "hotel": "Hampton by Hilton Beijing Changping",
+          "meals": [
+            {
+              "area": "Changping",
+              "detail": "Simple noodles near the hotel, early night.",
+              "name": "Noodle shop near the hotel",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Arrive PEK 6:25 PM (CX336, T3); pre-booked business-car pickup to the hotel",
+          "weekday": "Monday"
+        },
+        {
+          "date": "Oct 20",
+          "weekday": "Tuesday",
+          "city": "Beijing",
+          "hotel": "China World Summit Wing, Beijing",
+          "highlights": [
+            "Day with grandmother in Changping",
+            "Move downtown to the Summit Wing"
+          ],
+          "activities": [
+            {
+              "name": "Check out — Hampton by Hilton Beijing Changping",
+              "time": "9:00 AM",
+              "detail": "Leave bags with the front desk; you'll swing back for them this afternoon. Same district as your grandmother — no cross-city backtracking.",
+              "reserve": false
+            },
+            {
+              "name": "Visit grandmother — Taikang Zhijia (泰康之家)",
+              "time": "10:00 AM",
+              "detail": "Nanfeng Rd (南丰路), Changping District. Spend the day together — bring the photo frame gift.",
+              "reserve": false
+            },
+            {
+              "name": "Collect luggage + move downtown",
+              "time": "3:30 PM",
+              "detail": "Back to the Hampton for bags, then ~45-60 min transfer to the China World Summit Wing. Check in and decompress.",
+              "reserve": false
+            }
+          ],
+          "meals": [
+            {
+              "name": "Hotel breakfast",
+              "type": "breakfast",
+              "area": "Hampton Changping",
+              "detail": "Quick and early — checkout is at noon.",
+              "reserve": false
+            },
+            {
+              "name": "Lunch with grandmother",
+              "type": "lunch",
+              "area": "Changping",
+              "detail": "With her at or near the Taikang community.",
+              "reserve": false
+            },
+            {
+              "area": "Qianmen",
+              "detail": "Tea and snacks served during the performance.",
+              "name": "Tea + snacks at Lao She",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ]
+        },
+        {
+          "activities": [
+            {
+              "detail": "The best-preserved Ming section. Cable car up, walk the ramparts, toboggan down.",
+              "name": "Mutianyu Great Wall",
+              "reserve": false,
+              "time": "8:30 AM"
+            },
+            {
+              "detail": "Ming-Qing-style canal town at the foot of Simatai — lantern-lit lanes, folk craft shops, and the Wall floodlit above at night.",
+              "name": "Gubei Water Town (evening)",
+              "reserve": false,
+              "time": "4:00 PM"
+            },
+            {
+              "detail": "梨园剧场 — Peking opera with English subtitles in a dedicated theater. The painted faces, the water sleeves, the drums. Book ahead.",
+              "name": "Peking opera at Liyuan Theatre",
+              "reserve": true,
+              "time": "7:30 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 21",
+          "highlights": [
+            "Mutianyu Great Wall",
+            "Gubei Water Town at dusk",
+            "Peking opera with English subtitles"
+          ],
+          "hotel": "China World Summit Wing, Beijing",
+          "meals": [
+            {
+              "area": "China World Summit Wing",
+              "detail": "Early start for the Wall.",
+              "name": "Hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Gubei Water Town",
+              "detail": "Canal-side eateries in the old-style town.",
+              "name": "Lunch in Gubei Water Town",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Qianmen",
+              "detail": "Light meal before the opera — or after, near the theater.",
+              "name": "Dinner near Liyuan Theatre",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Wednesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Arrive at opening: the Hall of Prayer for Good Harvest in morning light, and the story of the emperor's heaven rituals.",
+              "name": "Temple of Heaven",
+              "reserve": false,
+              "time": "7:30 AM"
+            },
+            {
+              "detail": "Tibetan Buddhist monastery, then the Confucian temple and Imperial Academy next door — two philosophies in one morning.",
+              "name": "Lama Temple + Confucius Temple (孔庙国子监)",
+              "reserve": false,
+              "time": "10:30 AM"
+            },
+            {
+              "detail": "琉璃厂 — brush, inkstone, rice-paper, and seal-carving shops. Try a drop-in brush-stroke lesson.",
+              "name": "Liulichang Cultural Street",
+              "reserve": false,
+              "time": "2:30 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 22",
+          "highlights": [
+            "Temple of Heaven + Lama Temple",
+            "Confucius Temple and Imperial Academy",
+            "Calligraphy street + brush lesson"
+          ],
+          "hotel": "China World Summit Wing, Beijing",
+          "meals": [
+            {
+              "area": "Gulou",
+              "detail": "Traditional chaogan breakfast before the temples.",
+              "name": "Yao Ji Chaogan (姚记炒肝)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Dongcheng",
+              "detail": "Zhajiangmian between temples.",
+              "name": "Hutong noodle lunch",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Qianmen",
+              "detail": "The historic duck — operating since 1864. A cultural artifact you can eat. Reserve.",
+              "name": "Quanjude (全聚德)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Thursday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Huizhou merchant mansions, ink-stone and rice-paper shops — Anhui's scholar-merchant culture in one street.",
+              "name": "Tunxi Old Street (屯溪老街)",
+              "reserve": false,
+              "time": "5:30 PM"
+            }
+          ],
+          "city": "Huangshan",
+          "date": "Oct 23",
+          "highlights": [
+            "Fly to Huangshan",
+            "Huizhou ink, paper, and old merchant houses"
+          ],
+          "hotel": "Holiday Inn Express Huangshan South Gate",
+          "meals": [
+            {
+              "area": "Beijing Capital Airport",
+              "detail": "Eat before the flight.",
+              "name": "Light bite at PEK",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Tunxi Old Street",
+              "detail": "Stinky mandarin fish (臭鳜鱼), hairy tofu (毛豆腐) — Anhui on a plate.",
+              "name": "Huizhou dinner on Tunxi Old Street",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Air China CA1551 PEK 1:05 PM → Tunxi (Huangshan) 3:15 PM; road transfer to Tangkou (~1 hour)",
+          "weekday": "Friday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Shuttle from Tangkou, cable car to the Back Mountain. Luggage stays at the South Gate hotel — daypack only.",
+              "name": "Cable car up (Yungu)",
+              "reserve": false,
+              "time": "8:00 AM"
+            },
+            {
+              "detail": "Huangshan is a UNESCO mixed-heritage site and the living subject of shan shui (山水) painting — walk the compositions: Beginning-to-Believe Peak, Beihai's twisted pines, Bright Summit.",
+              "name": "The painted landscape — summit trails",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "排云亭 — sunset over the sea of clouds, the view a thousand scrolls tried to capture.",
+              "name": "Sunset at Cloud-Dispelling Pavilion",
+              "reserve": false,
+              "time": "5:00 PM"
+            }
+          ],
+          "city": "Huangshan",
+          "date": "Oct 24",
+          "highlights": [
+            "Huangshan as living shan shui painting",
+            "Sunset at Cloud-Dispelling Pavilion",
+            "Sleep on the summit"
+          ],
+          "hotel": "Huangshan Baiyun Hotel (summit)",
+          "meals": [
+            {
+              "area": "Tangkou",
+              "detail": "Hearty start for the mountain.",
+              "name": "Holiday Inn Express breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Huangshan summit",
+              "detail": "Simple summit noodles.",
+              "name": "Mountain lunch",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Huangshan summit",
+              "detail": "Dinner at the top of the painted mountain.",
+              "name": "Baiyun Hotel dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Saturday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "光明顶 — dawn over the sea of clouds. Confirm the viewpoint with the hotel.",
+              "name": "Sunrise at Bright Summit",
+              "reserve": false,
+              "time": "6:00 AM"
+            },
+            {
+              "detail": "Cable car down, shuttle to Tangkou, transfer to Huangshanbei station (~1 hour) for the 13:00 train.",
+              "name": "Descend and transfer",
+              "reserve": false,
+              "time": "8:30 AM"
+            },
+            {
+              "detail": "Check the night's program at the Wuzhen Grand Theatre — folk opera, music, or drama in the canal town.",
+              "name": "Evening performance at Wuzhen Grand Theatre",
+              "reserve": true,
+              "time": "7:30 PM"
+            }
+          ],
+          "city": "Wuzhen",
+          "date": "Oct 25",
+          "highlights": [
+            "Summit sunrise",
+            "High-speed rail to Wuzhen",
+            "Night performance in the water town"
+          ],
+          "hotel": "Crowne Plaza Wuzhen",
+          "meals": [
+            {
+              "area": "Huangshan summit",
+              "detail": "Quick — the descent starts at 8:30.",
+              "name": "Summit hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "On the train",
+              "detail": "Station baozi for the ride.",
+              "name": "Station snacks",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Xizha, Wuzhen",
+              "detail": "Red-braised mutton (红烧羊肉), white-water fish — canal-side before the show.",
+              "name": "Xizha dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Sunrise on the summit, descend by cable car; transfer to Huangshanbei station; G7308 13:00 → Tongxiang 15:07; shuttle/taxi to Wuzhen (~30 min)",
+          "weekday": "Sunday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Go at opening. Buddhist grottoes carved into Feilai Peak, then one of China's great Chan temples — incense, chanting, 1,700 years of it.",
+              "name": "Lingyin Temple + Feilai Peak",
+              "reserve": false,
+              "time": "8:00 AM"
+            },
+            {
+              "detail": "Tea museum in the morning, then a proper gongfu tea ceremony at a farmhouse among the terraces.",
+              "name": "China National Tea Museum + Meijiawu tea ceremony",
+              "reserve": true,
+              "time": "2:00 PM"
+            }
+          ],
+          "city": "Hangzhou",
+          "date": "Oct 26",
+          "highlights": [
+            "Lingyin Temple and grottoes",
+            "Tea museum + gongfu tea ceremony"
+          ],
+          "hotel": "Midtown Shangri-La, Hangzhou",
+          "meals": [
+            {
+              "area": "Jiefang Road",
+              "detail": "The legendary noodle house before the temple.",
+              "name": "Kuiyuanguan (奎元馆)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Near Lingyin",
+              "detail": "Temple vegetarian lunch — a Hangzhou tradition.",
+              "name": "Vegetarian lunch by the temple",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Gushan, West Lake",
+              "detail": "Vinegar fish, Longjing shrimp — the West Lake canon. Book ahead.",
+              "name": "Lou Wai Lou (楼外楼)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Monday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "雷峰塔 — the rebuilt pagoda over the lake, plus the Song-dynasty stories (White Snake legend) it carries.",
+              "name": "Leifeng Pagoda",
+              "reserve": false,
+              "time": "9:00 AM"
+            },
+            {
+              "detail": "净慈寺 — one of West Lake's great temples, home of the famous 'Evening Bell Ringing at Nanping Hill.'",
+              "name": "Jingci Temple",
+              "reserve": false,
+              "time": "11:00 AM"
+            },
+            {
+              "detail": "宋城千古情 — the big Song-dynasty song-and-dance epic. Tourist-spectacle, yes, but a fun crash course in 1,000-year-old Hangzhou. Book ahead.",
+              "name": "Romance of the Song Dynasty show",
+              "reserve": true,
+              "time": "3:00 PM"
+            }
+          ],
+          "city": "Hangzhou",
+          "date": "Oct 27",
+          "highlights": [
+            "Leifeng Pagoda + Jingci Temple",
+            "Song Dynasty song-and-dance epic"
+          ],
+          "hotel": "Holiday Inn Hangzhou Airport Zone",
+          "meals": [
+            {
+              "area": "Midtown Shangri-La",
+              "detail": "Leisurely checkout morning.",
+              "name": "Hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Songcheng area",
+              "detail": "Quick lunch before the show.",
+              "name": "Lunch near Songcheng",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Xiaoshan",
+              "detail": "Light dinner — early night before Macao.",
+              "name": "Dinner near the airport hotel",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Morning temples, afternoon show, then move to the airport-zone hotel",
+          "weekday": "Tuesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Check out and taxi to Hangzhou Xiaoshan T4 international departures (~30 min). Keep tax-refund receipts and purchased goods handy for the refund counter.",
+              "name": "Depart Holiday Inn Hangzhou Airport Zone",
+              "reserve": false,
+              "time": "12:15 PM"
+            },
+            {
+              "detail": "Xiamen Airlines check-in and bag drop. International check-in closes ~60 min before the 2:45 PM departure — the deadline that matters today.",
+              "name": "Check in for MF8719 at T4",
+              "reserve": false,
+              "time": "12:45 PM"
+            },
+            {
+              "detail": "After exit immigration, the CZBANK tax-refund counter is ~80 m to the left — refunds for mainland purchases. Optional and drop-first: if lines run long, skip it and head to the gate. Duty-free and Zhejiang specialties after.",
+              "name": "Security, exit immigration + optional tax refund",
+              "reserve": false,
+              "time": "1:15 PM"
+            },
+            {
+              "detail": "Scheduled 2:45 PM → 5:30 PM (FlightAware estimates a 5:20 PM arrival). Seats: Justin 49L, Andrew 49J, Donna 49C. Boeing 737-800, no Wi-Fi. Sunset 5:52 PM — you land right at dusk; the evening runs on blue hour and Taipa's lights.",
+              "name": "Flight MF8719 Hangzhou → Macao",
+              "reserve": false,
+              "time": "2:45 PM"
+            },
+            {
+              "detail": "US passports get 30-day visa-free entry; expect fingerprint and photo capture at the counter. Collect checked bags, clear customs, exit to the North Exit shuttle zone.",
+              "name": "Macao arrival: immigration + baggage",
+              "reserve": false,
+              "time": "5:30 PM"
+            },
+            {
+              "detail": "Free Venetian airport shuttle (~10-12 min) to the main lobby, then the covered Shoppes mall walkway to the Four Seasons check-in lobby (5-8 min, no street crossing). If the room isn't ready, store luggage with the concierge. Carry a light jacket — mall and casino air-conditioning runs cold.",
+              "name": "Venetian shuttle + indoor walk to Four Seasons",
+              "reserve": false,
+              "time": "6:05 PM"
+            },
+            {
+              "detail": "Walk through Shoppes at Cotai to MGM Cotai. M life player services counter for the rewards redemption, then the Spectacle atrium and Sky-Ocean LED display. Casino entry requires photo ID; no photography on the gaming floor. This is the block to compress if arrival slips.",
+              "name": "MGM Cotai — rewards redemption + Spectacle atrium",
+              "reserve": false,
+              "time": "6:40 PM"
+            },
+            {
+              "detail": "Pastel Portuguese-era lanes under evening lights — pastry and almond-cookie shops, snack vendors, small family restaurants. The old-town contrast to the Cotai resorts. Graze as you go: pork chop bun, water-crab congee, mantis shrimp stir-fry.",
+              "name": "Rua do Cunha, Taipa Village (官也街)",
+              "reserve": false,
+              "time": "7:40 PM"
+            }
+          ],
+          "city": "Macao",
+          "date": "Oct 28",
+          "highlights": [
+            "Land at sunset — Macao by blue hour",
+            "Taipa old town — Macao's Cantonese-Portuguese layers",
+            "MGM Cotai's Spectacle atrium",
+            "Macanese dinner in Taipa"
+          ],
+          "hotel": "Four Seasons Macao",
+          "meals": [
+            {
+              "area": "Hangzhou Airport",
+              "detail": "Save appetite for Macao.",
+              "name": "Light bite before the flight",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Rua do Cunha, Taipa Village",
+              "detail": "Option 1: 三六九 (Taipa branch), a casual local ice-house — braised beef brisket rice, silky milk tea, marinated chicken feet. Option 2: 木偶葡国餐厅 on Rua do Cunha — Portuguese baked chicken, bacalhau fish balls, and serradura (sawdust pudding) for dessert.",
+              "name": "Dinner in Taipa Village — pick one of two",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Taxi to Hangzhou Xiaoshan T4 → Xiamen MF8719 2:45 PM → Macao 5:30 PM; Venetian free shuttle + indoor mall walk to Four Seasons Macao",
+          "weekday": "Wednesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "郑家大屋 — the courtyard mansion of a Qing reformist thinker, part of the UNESCO listing.",
+              "name": "Mandarin's House",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Ferry to Hong Kong Island, check in at the Conrad.",
+              "name": "Cross to Hong Kong",
+              "reserve": false,
+              "time": "1:00 PM"
+            },
+            {
+              "detail": "大馆 — the restored Central Police Station compound: heritage architecture, galleries, and courtyard performances.",
+              "name": "Tai Kwun",
+              "reserve": false,
+              "time": "3:30 PM"
+            },
+            {
+              "detail": "戏曲中心 — Cantonese opera in a world-class venue built for it, with surtitles. Book ahead.",
+              "name": "Cantonese opera at Xiqu Centre",
+              "reserve": true,
+              "time": "7:30 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 29",
+          "highlights": [
+            "Mandarin's House in Macao",
+            "Tai Kwun heritage compound",
+            "Cantonese opera at Xiqu Centre"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Taipa",
+              "detail": "Pork chop bun (猪扒包) farewell to Macao.",
+              "name": "Tai Lei Loi Kei (大利来记)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "West Kowloon",
+              "detail": "Quick bite before the opera.",
+              "name": "Light dinner near Xiqu Centre",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Morning in Macao; ferry or Hong Kong-Zhuhai-Macao Bridge bus to Hong Kong; check in at the Conrad",
+          "weekday": "Thursday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "文武庙 — incense coils and fortune sticks in Sheung Wan's 19th-century temple.",
+              "name": "Man Mo Temple",
+              "reserve": false,
+              "time": "9:30 AM"
+            },
+            {
+              "detail": "Two West Kowloon flagships: imperial treasures from Beijing and one of Asia's great modern-art collections. Timed entry — book ahead.",
+              "name": "Hong Kong Palace Museum + M+",
+              "reserve": true,
+              "time": "1:00 PM"
+            },
+            {
+              "detail": "Peak Tram up for the harbour lights.",
+              "name": "Victoria Peak evening",
+              "reserve": false,
+              "time": "6:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 30",
+          "highlights": [
+            "Man Mo Temple",
+            "Palace Museum + M+",
+            "Victoria Peak at night"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Wellington Street, Central",
+              "detail": "Old-school pushcart dim sum in a historic tea hall.",
+              "name": "Lin Heung Tea House (莲香楼)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "West Kowloon",
+              "detail": "Museum cafes between the two collections.",
+              "name": "Lunch at West Kowloon",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Yau Ma Tei",
+              "detail": "Temple Street's claypot rice and night-market energy.",
+              "name": "Temple Street dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Friday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "黄大仙祠 — Wong Tai Sin's fortune-telling arcade, then the Tang-dynasty-style nunnery and gardens next door.",
+              "name": "Wong Tai Sin Temple + Chi Lin Nunnery",
+              "reserve": false,
+              "time": "9:30 AM"
+            },
+            {
+              "detail": "The 10-minute crossing, then the Avenue of Stars promenade.",
+              "name": "Star Ferry + Tsim Sha Tsui",
+              "reserve": false,
+              "time": "2:30 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 31",
+          "highlights": [
+            "Wong Tai Sin + Chi Lin Nunnery",
+            "Star Ferry crossing",
+            "Farewell dim sum"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Central",
+              "detail": "Wonton noodles — the Hong Kong classic.",
+              "name": "Mak's Noodle (麦奀)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Diamond Hill",
+              "detail": "Vegetarian lunch by the nunnery — Chi Lin's famous bean-curd cuisine.",
+              "name": "Chi Lin vegetarian lunch",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "City Hall, Central",
+              "detail": "Cart dim sum in the grand old hall — the traditional farewell. Book ahead.",
+              "name": "Maxim's Palace (美心皇宫)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Saturday"
+        },
+        {
+          "activities": [
+            {
+              "area": "Hong Kong Park, Admiralty",
+              "detail": "A final gongfu tea session in the teaware museum's tea house — the trip's theme in one cup.",
+              "name": "LockCha Tea House farewell",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Airport Express from Hong Kong Station (~24 min); in-town check-in available.",
+              "name": "Leave for the airport",
+              "reserve": false,
+              "time": "12:30 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Nov 1",
+          "highlights": [
+            "Farewell tea in Hong Kong Park"
+          ],
+          "hotel": "In flight (Cathay Pacific)",
+          "meals": [
+            {
+              "area": "Near the hotel",
+              "detail": "One last roast-meat rice before the airport.",
+              "name": "Last Hong Kong meal",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Cathay Pacific",
+              "detail": "Sleep on New York time.",
+              "name": "In-flight dining",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Cathay CX840 departs HKG 4:35 PM → JFK (arrives same day, ~7 PM)",
+          "weekday": "Sunday"
+        }
+      ],
+      "id": "culture-deep",
+      "pace": "Unhurried and immersive",
+      "tagline": "Temples, museums, opera, and tea — the 5,000-year version of the trip.",
+      "title": "Culture Deep-Dive",
+      "why_suits_you": "You like knowing the story behind what you're seeing, and this route trades a packed checklist for depth: the Forbidden City with a licensed guide, Peking opera in a theater built for it, a gongfu tea ceremony in a Longjing farmhouse, and Wuzhen's night performance. The pace is deliberately unhurried — fewer miles, longer conversations — which suits traveling with your dad and actually absorbing 5,000 years instead of sprinting past it."
+    },
+    {
+      "days": [
+        {
+          "activities": [
+            {
+              "detail": "CX841 to Hong Kong, then CX336 onward to Beijing. Sleep on Beijing time if you can.",
+              "name": "Depart JFK",
+              "reserve": false,
+              "time": "10:00 AM"
+            }
+          ],
+          "city": "En route",
+          "date": "Oct 18",
+          "highlights": [
+            "Long-haul day — rest, hydrate, start shifting to Beijing time"
+          ],
+          "hotel": "In flight (Cathay Pacific)",
+          "meals": [
+            {
+              "area": "Cathay Pacific",
+              "detail": "Eat on Beijing time to start beating jet lag.",
+              "name": "In-flight dining",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Cathay CX841 departs JFK 10:00 AM → Hong Kong; connect to CX336 → Beijing",
+          "weekday": "Sunday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Pre-booked business-car pickup to Changping. Check in, stretch, sleep early.",
+              "name": "Arrive PEK T3",
+              "reserve": false,
+              "time": "6:25 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 19",
+          "highlights": [
+            "Land in Beijing",
+            "Easy first night — keep it light"
+          ],
+          "hotel": "Hampton by Hilton Beijing Changping",
+          "meals": [
+            {
+              "area": "Changping",
+              "detail": "Keep it light after the flight — a simple bowl of hand-pulled noodles.",
+              "name": "Noodle shop near the hotel",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Arrive PEK 6:25 PM (CX336, T3); pre-booked business-car pickup to the hotel",
+          "weekday": "Monday"
+        },
+        {
+          "date": "Oct 20",
+          "weekday": "Tuesday",
+          "city": "Beijing",
+          "hotel": "China World Summit Wing, Beijing",
+          "highlights": [
+            "Day with grandmother in Changping",
+            "Move downtown to the Summit Wing"
+          ],
+          "activities": [
+            {
+              "name": "Check out — Hampton by Hilton Beijing Changping",
+              "time": "9:00 AM",
+              "detail": "Leave bags with the front desk; you'll swing back for them this afternoon. Same district as your grandmother — no cross-city backtracking.",
+              "reserve": false
+            },
+            {
+              "name": "Visit grandmother — Taikang Zhijia (泰康之家)",
+              "time": "10:00 AM",
+              "detail": "Nanfeng Rd (南丰路), Changping District. Spend the day together — bring the photo frame gift.",
+              "reserve": false
+            },
+            {
+              "name": "Collect luggage + move downtown",
+              "time": "3:30 PM",
+              "detail": "Back to the Hampton for bags, then ~45-60 min transfer to the China World Summit Wing. Check in and decompress.",
+              "reserve": false
+            }
+          ],
+          "meals": [
+            {
+              "name": "Hotel breakfast",
+              "type": "breakfast",
+              "area": "Hampton Changping",
+              "detail": "Quick and early — checkout is at noon.",
+              "reserve": false
+            },
+            {
+              "name": "Lunch with grandmother",
+              "type": "lunch",
+              "area": "Changping",
+              "detail": "With her at or near the Taikang community.",
+              "reserve": false
+            },
+            {
+              "area": "Dengshikou",
+              "detail": "The duck dinner: whole roast duck carved tableside, duck-frame soup, hollow sesame flatbread. Book ahead — it always has a line.",
+              "name": "Siji Minfu Peking Duck (四季民福)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ]
+        },
+        {
+          "activities": [
+            {
+              "detail": "Cable car up to Tower 14, walk the restored ramparts, toboggan down. 2-3 hours on the wall.",
+              "name": "Mutianyu Great Wall",
+              "reserve": false,
+              "time": "8:00 AM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 21",
+          "highlights": [
+            "Mutianyu Great Wall",
+            "Rainbow-trout lunch in Huairou",
+            "Ghost Street after dark"
+          ],
+          "hotel": "China World Summit Wing, Beijing",
+          "meals": [
+            {
+              "area": "China World Summit Wing",
+              "detail": "Fuel up — it's a hiking morning.",
+              "name": "Hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Near Mutianyu",
+              "detail": "The classic post-Wall lunch on 'rainbow-trout ditch': live trout done several ways — sashimi, grilled, braised.",
+              "name": "Huairou rainbow-trout farmhouse",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Dongzhimen",
+              "detail": "Beijing's late-night food street — spicy crayfish (麻小) and bubbling hotpot under the red lanterns.",
+              "name": "Gui Jie / Ghost Street (簋街)",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Wednesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Arrive at opening to see locals doing tai chi and diabolo in the cypress groves.",
+              "name": "Temple of Heaven",
+              "reserve": false,
+              "time": "7:00 AM"
+            },
+            {
+              "area": "Nanluoguxiang / Dongsi",
+              "detail": "Guided walk with tastings — baijiu and snack stops through the old lanes. Book the tour ahead.",
+              "name": "Hutong food tour",
+              "reserve": true,
+              "time": "11:00 AM"
+            },
+            {
+              "detail": "Tibetan Buddhist temple with the 18-meter sandalwood Buddha. Incense, drums, afternoon light.",
+              "name": "Lama Temple (Yonghegong)",
+              "reserve": false,
+              "time": "3:00 PM"
+            }
+          ],
+          "city": "Beijing",
+          "date": "Oct 22",
+          "highlights": [
+            "Hutong food tour",
+            "Temple of Heaven at dawn",
+            "Second duck dinner — the refined one"
+          ],
+          "hotel": "China World Summit Wing, Beijing",
+          "meals": [
+            {
+              "area": "Gulou",
+              "detail": "Traditional Beijing breakfast: chaogan (pork-liver soup) with steamed buns.",
+              "name": "Yao Ji Chaogan (姚记炒肝)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Dongcheng hutongs",
+              "detail": "Old-Beijing sesame-paste noodles at a hutong legend.",
+              "name": "Fangzhuanchang No. 69 zhajiangmian",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Jinbao Street",
+              "detail": "Duck dinner number two, the refined version — crisp skin dipped in sugar, leaner carve. Reserve.",
+              "name": "Da Dong Roast Duck (大董)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Thursday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Song-dynasty-era merchant street — ink shops, tea houses, and dinner. Prep snacks for tomorrow's mountain day.",
+              "name": "Tunxi Old Street (屯溪老街)",
+              "reserve": false,
+              "time": "5:30 PM"
+            }
+          ],
+          "city": "Huangshan",
+          "date": "Oct 23",
+          "highlights": [
+            "Fly to Huangshan",
+            "Tunxi Old Street food night"
+          ],
+          "hotel": "Holiday Inn Express Huangshan South Gate",
+          "meals": [
+            {
+              "area": "Beijing Capital Airport",
+              "detail": "Eat before the flight; dinner is the main event.",
+              "name": "Light bite at PEK",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Tunxi Old Street",
+              "detail": "The Anhui greatest hits: stinky mandarin fish (臭鳜鱼), hairy tofu (毛豆腐), ham stewed with turtle.",
+              "name": "Huizhou dinner on Tunxi Old Street",
+              "reserve": false,
+              "type": "dinner"
+            },
+            {
+              "area": "Tunxi Old Street",
+              "detail": "Sesame cakes and osmanthus candy to take up the mountain tomorrow.",
+              "name": "Old-street treats",
+              "reserve": false,
+              "type": "snack"
+            }
+          ],
+          "transit": "Air China CA1551 PEK 1:05 PM → Tunxi (Huangshan) 3:15 PM; road transfer to Tangkou (~1 hour)",
+          "weekday": "Friday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Shuttle from Tangkou, cable car to the Back Mountain. Luggage stays at the South Gate hotel — daypack only.",
+              "name": "Cable car up (Yungu)",
+              "reserve": false,
+              "time": "8:00 AM"
+            },
+            {
+              "detail": "Beginning-to-Believe Peak, Beihai, Bright Summit — 4-5 hours of paved steps with photo stops.",
+              "name": "Summit trails",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "排云亭 — the classic sunset viewpoint over the sea of clouds.",
+              "name": "Sunset at Cloud-Dispelling Pavilion",
+              "reserve": false,
+              "time": "5:00 PM"
+            }
+          ],
+          "city": "Huangshan",
+          "date": "Oct 24",
+          "highlights": [
+            "Huangshan summit day",
+            "Sleep on the mountain — sunrise unlocked"
+          ],
+          "hotel": "Huangshan Baiyun Hotel (summit)",
+          "meals": [
+            {
+              "area": "Tangkou",
+              "detail": "Eat well — it's a long hiking day.",
+              "name": "Holiday Inn Express breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Huangshan summit",
+              "detail": "Simple mountain noodles or the Tunxi pastries you packed. Options are thin at the top.",
+              "name": "Summit canteen / packed snacks",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Huangshan summit",
+              "detail": "The only real dinner at the top — hearty and welcome after the hike.",
+              "name": "Baiyun Hotel dinner",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Saturday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "光明顶 — the sea-of-clouds sunrise is the whole point of sleeping up here. Confirm the viewpoint with the hotel.",
+              "name": "Sunrise at Bright Summit",
+              "reserve": false,
+              "time": "6:00 AM"
+            },
+            {
+              "detail": "Cable car down, shuttle to Tangkou, transfer to Huangshanbei station for the 13:00 train.",
+              "name": "Descend",
+              "reserve": false,
+              "time": "8:30 AM"
+            },
+            {
+              "detail": "Wuzhen's lit canals after dark — boat ride at dusk, then walk the lantern-lit lanes.",
+              "name": "Xizha (West Scenic Zone) at night",
+              "reserve": false,
+              "time": "7:30 PM"
+            }
+          ],
+          "city": "Wuzhen",
+          "date": "Oct 25",
+          "highlights": [
+            "Sunrise over the sea of clouds",
+            "High-speed rail to Wuzhen",
+            "Xizha water town after dark"
+          ],
+          "hotel": "Crowne Plaza Wuzhen",
+          "meals": [
+            {
+              "area": "Huangshan summit",
+              "detail": "Early and quick — the train won't wait.",
+              "name": "Summit hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Tongxiang station area",
+              "detail": "Quick noodles near the station before the shuttle to Wuzhen.",
+              "name": "En route — Tongxiang",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Xizha, Wuzhen",
+              "detail": "Canal-side: red-braised mutton (红烧羊肉), white-water fish (白水鱼), 姑嫂饼 sesame cakes.",
+              "name": "Xizha riverside dinner",
+              "reserve": false,
+              "type": "dinner"
+            },
+            {
+              "area": "Xizha",
+              "detail": "Wuzhen's 三白酒 — a small tasting pour with the evening walk.",
+              "name": "Sanbaijiu rice wine",
+              "reserve": false,
+              "type": "snack"
+            }
+          ],
+          "transit": "Sunrise on the summit, descend by cable car; transfer to Huangshanbei station; G7308 13:00 → Tongxiang 15:07; shuttle/taxi to Wuzhen (~30 min)",
+          "weekday": "Sunday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Go at opening — major pilgrimage site, crowds build fast. Buddhist grottoes at Feilai Peak first, then the temple halls.",
+              "name": "Lingyin Temple + Feilai Peak",
+              "reserve": false,
+              "time": "8:00 AM"
+            },
+            {
+              "detail": "West Lake's east shore behind the pagoda — the classic sunset composition.",
+              "name": "Leifeng Pagoda at sunset",
+              "reserve": false,
+              "time": "4:30 PM"
+            }
+          ],
+          "city": "Hangzhou",
+          "date": "Oct 26",
+          "highlights": [
+            "Lingyin Temple",
+            "The West Lake vinegar fish",
+            "Sunset at Leifeng Pagoda"
+          ],
+          "hotel": "Midtown Shangri-La, Hangzhou",
+          "meals": [
+            {
+              "area": "Jiefang Road",
+              "detail": "Hangzhou's legendary noodle house — 片儿川 (pork, bamboo shoots, greens) or shrimp-eel noodles.",
+              "name": "Kuiyuanguan (奎元馆)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Renhe Road",
+              "detail": "Classic Hangzhou flavors — cat's-ear noodles, beggar's chicken — without the Lou Wai Lou line.",
+              "name": "Zhiweiguan (知味观)",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Gushan, West Lake",
+              "detail": "The West Lake institution since 1848: vinegar fish (西湖醋鱼), Longjing shrimp. Book ahead.",
+              "name": "Lou Wai Lou (楼外楼)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Monday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Walk the terraces, watch (or try) hand-frying of Longjing leaves, visit the China National Tea Museum nearby.",
+              "name": "Meijiawu tea village",
+              "reserve": false,
+              "time": "9:00 AM"
+            }
+          ],
+          "city": "Hangzhou",
+          "date": "Oct 27",
+          "highlights": [
+            "Meijiawu tea village",
+            "Farmhouse lunch among the tea terraces"
+          ],
+          "hotel": "Holiday Inn Hangzhou Airport Zone",
+          "meals": [
+            {
+              "area": "Midtown Shangri-La",
+              "detail": "Leisurely — checkout is unhurried today.",
+              "name": "Hotel breakfast",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Meijiawu, West Lake district",
+              "detail": "Tea-farmer cooking: Longjing tea shrimp, bamboo shoots, farm vegetables, all with bottomless fresh Dragon Well tea.",
+              "name": "Meijiawu farmhouse lunch",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Xiaoshan",
+              "detail": "Keep it simple — early night before the Macao flight.",
+              "name": "Light dinner near the airport hotel",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Morning in Longjing tea country; afternoon move to the airport-zone hotel",
+          "weekday": "Tuesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Check out and taxi to Hangzhou Xiaoshan T4 international departures (~30 min). Keep tax-refund receipts and purchased goods handy for the refund counter.",
+              "name": "Depart Holiday Inn Hangzhou Airport Zone",
+              "reserve": false,
+              "time": "12:15 PM"
+            },
+            {
+              "detail": "Xiamen Airlines check-in and bag drop. International check-in closes ~60 min before the 2:45 PM departure — the deadline that matters today.",
+              "name": "Check in for MF8719 at T4",
+              "reserve": false,
+              "time": "12:45 PM"
+            },
+            {
+              "detail": "After exit immigration, the CZBANK tax-refund counter is ~80 m to the left — refunds for mainland purchases. Optional and drop-first: if lines run long, skip it and head to the gate. Duty-free and Zhejiang specialties after.",
+              "name": "Security, exit immigration + optional tax refund",
+              "reserve": false,
+              "time": "1:15 PM"
+            },
+            {
+              "detail": "Scheduled 2:45 PM → 5:30 PM (FlightAware estimates a 5:20 PM arrival). Seats: Justin 49L, Andrew 49J, Donna 49C. Boeing 737-800, no Wi-Fi. Sunset 5:52 PM — you land right at dusk; the evening runs on blue hour and Taipa's lights.",
+              "name": "Flight MF8719 Hangzhou → Macao",
+              "reserve": false,
+              "time": "2:45 PM"
+            },
+            {
+              "detail": "US passports get 30-day visa-free entry; expect fingerprint and photo capture at the counter. Collect checked bags, clear customs, exit to the North Exit shuttle zone.",
+              "name": "Macao arrival: immigration + baggage",
+              "reserve": false,
+              "time": "5:30 PM"
+            },
+            {
+              "detail": "Free Venetian airport shuttle (~10-12 min) to the main lobby, then the covered Shoppes mall walkway to the Four Seasons check-in lobby (5-8 min, no street crossing). If the room isn't ready, store luggage with the concierge. Carry a light jacket — mall and casino air-conditioning runs cold.",
+              "name": "Venetian shuttle + indoor walk to Four Seasons",
+              "reserve": false,
+              "time": "6:05 PM"
+            },
+            {
+              "detail": "Walk through Shoppes at Cotai to MGM Cotai. M life player services counter for the rewards redemption, then the Spectacle atrium and Sky-Ocean LED display. Casino entry requires photo ID; no photography on the gaming floor. This is the block to compress if arrival slips.",
+              "name": "MGM Cotai — rewards redemption + Spectacle atrium",
+              "reserve": false,
+              "time": "6:40 PM"
+            },
+            {
+              "detail": "Pastel Portuguese-era lanes under evening lights — pastry and almond-cookie shops, snack vendors, small family restaurants. The old-town contrast to the Cotai resorts. Graze as you go: pork chop bun, water-crab congee, mantis shrimp stir-fry.",
+              "name": "Rua do Cunha, Taipa Village (官也街)",
+              "reserve": false,
+              "time": "7:40 PM"
+            }
+          ],
+          "city": "Macao",
+          "date": "Oct 28",
+          "highlights": [
+            "Pork chop buns and egg tarts in Taipa",
+            "Rua do Cunha snack crawl after dark",
+            "Serradura for dessert",
+            "Macanese dinner — two ways"
+          ],
+          "hotel": "Four Seasons Macao",
+          "meals": [
+            {
+              "area": "Hangzhou Airport",
+              "detail": "Save appetite for Macao.",
+              "name": "Light bite before the flight",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Coloane / Venetian branch",
+              "detail": "The original Macao egg tart — warm from the oven.",
+              "name": "Lord Stow's egg tarts (安德鲁饼店)",
+              "reserve": false,
+              "type": "snack"
+            },
+            {
+              "area": "Rua do Cunha, Taipa Village",
+              "detail": "Option 1: 三六九 (Taipa branch), a casual local ice-house — braised beef brisket rice, silky milk tea, marinated chicken feet. Option 2: 木偶葡国餐厅 on Rua do Cunha — Portuguese baked chicken, bacalhau fish balls, and serradura (sawdust pudding) for dessert.",
+              "name": "Dinner in Taipa Village — pick one of two",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Taxi to Hangzhou Xiaoshan T4 → Xiamen MF8719 2:45 PM → Macao 5:30 PM; Venetian free shuttle + indoor mall walk to Four Seasons Macao",
+          "weekday": "Wednesday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Last Macao wander — Our Lady of Carmel church, the old shophouses.",
+              "name": "Taipa Village morning",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Ferry lands near the Conrad on Hong Kong Island; the bridge bus is cheaper and scenic.",
+              "name": "Cross to Hong Kong",
+              "reserve": false,
+              "time": "2:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 29",
+          "highlights": [
+            "Pork chop bun farewell to Macao",
+            "Roast goose in Central"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Taipa",
+              "detail": "The famous pork chop bun (猪扒包) — Macao's signature sandwich.",
+              "name": "Tai Lei Loi Kei (大利来记)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Central",
+              "detail": "Hong Kong's landmark roast goose in the upstairs dining room. An institution since 1942.",
+              "name": "Yung Kee (镛记)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Morning in Macao; ferry or Hong Kong-Zhuhai-Macao Bridge bus to Hong Kong; check in at the Conrad",
+          "weekday": "Thursday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "Peak Tram up, Lugard Road walk (3.5 km, flat, the locals' viewpoint), Sky Terrace 428.",
+              "name": "Victoria Peak",
+              "reserve": false,
+              "time": "9:00 AM"
+            },
+            {
+              "area": "Yau Ma Tei",
+              "detail": "Fortune tellers, street opera singers, claypot rice stalls — then keep grazing into Mong Kok.",
+              "name": "Temple Street Night Market",
+              "reserve": false,
+              "time": "8:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 30",
+          "highlights": [
+            "Old-school dim sum morning",
+            "Victoria Peak",
+            "Mong Kok street-food crawl"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Wellington Street, Central",
+              "detail": "Old-school pushcart dim sum in a historic tea hall — go early, point at what looks good.",
+              "name": "Lin Heung Tea House (莲香楼)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Central",
+              "detail": "Springy wonton noodles in rich broth — the Hong Kong classic done right.",
+              "name": "Mak's Noodle (麦奀)",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Mong Kok",
+              "detail": "Curry fish balls, egg waffles (雞蛋仔), stinky tofu — graze the neon streets.",
+              "name": "Mong Kok street-food crawl",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Friday"
+        },
+        {
+          "activities": [
+            {
+              "detail": "The 10-minute crossing to Kowloon, then the Avenue of Stars waterfront promenade.",
+              "name": "Star Ferry + Tsim Sha Tsui",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Waterfront stroll with the skyline across the harbour.",
+              "name": "West Kowloon / M+ area",
+              "reserve": false,
+              "time": "3:00 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Oct 31",
+          "highlights": [
+            "Michelin dim sum for street prices",
+            "Star Ferry + Avenue of Stars",
+            "Grand cart-dim-sum finale"
+          ],
+          "hotel": "Conrad Hong Kong",
+          "meals": [
+            {
+              "area": "Admiralty / Wan Chai",
+              "detail": "Century-egg pork congee and cheung fun — slow Saturday start.",
+              "name": "Congee shop near the hotel",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Sham Shui Po (original shop)",
+              "detail": "Michelin-starred dim sum at street prices — the baked BBQ pork buns are mandatory.",
+              "name": "Tim Ho Wan (添好运)",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "City Hall, Central",
+              "detail": "Cart dim sum in the grand old hall — the full traditional experience. Book ahead.",
+              "name": "Maxim's Palace (美心皇宫)",
+              "reserve": true,
+              "type": "dinner"
+            }
+          ],
+          "weekday": "Saturday"
+        },
+        {
+          "activities": [
+            {
+              "area": "Hong Kong Park, Admiralty",
+              "detail": "A proper Chinese tea tasting in the park's teaware museum — calm farewell before the airport.",
+              "name": "LockCha Tea House",
+              "reserve": false,
+              "time": "10:00 AM"
+            },
+            {
+              "detail": "Airport Express from Hong Kong Station (~24 min); in-town check-in available.",
+              "name": "Leave for the airport",
+              "reserve": false,
+              "time": "12:30 PM"
+            }
+          ],
+          "city": "Hong Kong",
+          "date": "Nov 1",
+          "highlights": [
+            "Farewell tea in Hong Kong Park",
+            "One last Hong Kong meal"
+          ],
+          "hotel": "In flight (Cathay Pacific)",
+          "meals": [
+            {
+              "area": "Near the hotel",
+              "detail": "Roast meats over rice or a final dim sum round — your call.",
+              "name": "Last Hong Kong meal",
+              "reserve": false,
+              "type": "lunch"
+            },
+            {
+              "area": "Cathay Pacific",
+              "detail": "Sleep on New York time.",
+              "name": "In-flight dining",
+              "reserve": false,
+              "type": "dinner"
+            }
+          ],
+          "transit": "Cathay CX840 departs HKG 4:35 PM → JFK (arrives same day, ~7 PM)",
+          "weekday": "Sunday"
+        }
+      ],
+      "id": "food-first",
+      "pace": "Packed but delicious",
+      "tagline": "Eat your way across China — duck, dim sum, tea, and night markets.",
+      "title": "Food-First",
+      "why_suits_you": "You're a foodie traveling with your dad, and this route is a greatest-hits of Chinese regional cooking: Beijing roast duck and imperial snacks, Huizhou's stinky mandarin fish, Hangzhou's delicate lake cuisine, Macanese egg tarts, and Hong Kong dim sum. Every day is built around one anchor meal worth planning for, with reservations flagged where the famous spots book out — and the eating is paced so the hiking days still work."
+    }
+  ]
+}
