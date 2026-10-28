@@ -8,8 +8,8 @@
   },
   {
    "path": "content-version.json",
-   "size": 2429,
-   "sha256": "ff8c603b7c6ad28bcf56cf3bec764fcf989e7085b92ec646d848891e1d0033a4"
+   "size": 3312,
+   "sha256": "e86f1c7d1324367f31b78e80ae3205e72c3c4641b586413485a1732dbe1c1046"
   },
   {
    "path": "esim.json",
@@ -48,8 +48,8 @@
   },
   {
    "path": "guide-2026-10-29.html",
-   "size": 10074,
-   "sha256": "d14a66fa666adba53083831cffa2820c2cafafd60bafb154114101d16915afa9"
+   "size": 11020,
+   "sha256": "24b2317e8d54e922ea6617f431aa789d75eb2f8c58e66a3c2ec347485215f494"
   },
   {
    "path": "guide-2026-10-30.html",
@@ -78,8 +78,8 @@
   },
   {
    "path": "itineraries.json",
-   "size": 88164,
-   "sha256": "e858c474b5bec28f203536035989b46bae914080938db209ee55468f852230fc"
+   "size": 96957,
+   "sha256": "ec15be4f4de8f9467db463156c05a8676654ab5c780b89034b884eb39a4c6a88"
   },
   {
    "path": "master-itinerary.html",
@@ -568,8 +568,8 @@
   },
   {
    "path": "files/itinerary/master-itinerary.md",
-   "size": 48746,
-   "sha256": "8be1a3c1387f6edac001463354b2d4b20b1483735cc47b7516a4c92a375d8cce"
+   "size": 49310,
+   "sha256": "d62dfc83792beb91b03c550705618552623041f14fc6ab18a80de7155ec9cea6"
   },
   {
    "path": "files/itinerary/visa-packet-andrew.pdf",
