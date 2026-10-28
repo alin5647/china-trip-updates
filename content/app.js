@@ -1,6 +1,6 @@
 /* China Trip — one cohesive day-by-day itinerary.
    Each day is a container; inside it, tabs switch between plan styles. */
-const state = { data: null, files: null, packing: null, esim: null, esimUsage: null, dayPlans: {}, docQuery: "", guideOct21: null, guideOct22: null, guideOct24: null, guideOct26: null, guideMacauHk: null, guideOct28: null, guideOct29: null, guideOct30: null, guideOct31: null, guideNov1: null, contentVersion: null, hangzhou2Day: null, route: { page: "day", day: 0 } };
+const state = { data: null, files: null, packing: null, esim: null, esimUsage: null, dayPlans: {}, docQuery: "", guideOct21: null, guideOct22: null, guideOct24: null, guideOct26: null, guideOct28: null, guideOct29: null, guideOct30: null, guideOct31: null, guideNov1: null, contentVersion: null, hangzhou2Day: null, route: { page: "day", day: 0 } };
 const DOC_CACHE = "ct-docs-v1";
 
 function esc(s) {
@@ -135,7 +135,6 @@ async function load() {
     state.guideOct22 = d.guideOct22 || null;
     state.guideOct24 = d.guideOct24 || null;
     state.guideOct26 = d.guideOct26 || null;
-    state.guideMacauHk = d.guideMacauHk || null;
     state.guideOct28 = d.guideOct28 || null;
     state.guideOct29 = d.guideOct29 || null;
     state.guideOct30 = d.guideOct30 || null;
@@ -146,9 +145,8 @@ async function load() {
     // served by the content updater (TripWebClient interception) and picked
     // up here on the next load — no APK reinstall needed.
     // Per-day Macau/HK deep dives (content v8 — split from the combined
-    // guide-2026-10-28-macau-hk.html at Justin's request, so each day page
-    // shows only its own day). The combined guide stays as the fallback for
-    // any day whose split file has not been downloaded yet.
+    // guide at Justin's request, so each day page shows only its own day;
+    // the combined guide itself was retired in v9).
     const _ddFiles = { guideOct28: "guide-2026-10-28-macau.html", guideOct29: "guide-2026-10-29.html", guideOct30: "guide-2026-10-30.html", guideOct31: "guide-2026-10-31.html", guideNov1: "guide-2026-11-01.html" };
     for (const _k of Object.keys(_ddFiles)) {
       try { const r = await fetch(_ddFiles[_k], {"cache":"no-cache"});
@@ -431,12 +429,9 @@ function dayPageHTML(di) {
   const _dd = _deepDive[day0.date];
   if (_dd && _dd[1]) {
     html += `<article class="card guide-doc"><div class="muted" style="margin-bottom:6px">${_dd[0]}</div>` + _dd[1] + `</article>`;
-  } else if ((day0.date === "Oct 28" || day0.date === "Oct 29") && state.guideMacauHk) {
-    // Fallback until the split files download: the pre-v8 combined guide.
-    html += `<article class="card guide-doc"><div class="muted" style="margin-bottom:6px">📸 Macau → Hong Kong deep dive — customs, apps, top 10, drone warnings, and an 8-stop audio tour with walk music underneath. Macau is Oct 28–29 morning, Hong Kong Oct 29–Nov 1.</div>` + state.guideMacauHk + `</article>`;
-  } else if ((day0.date === "Oct 30" || day0.date === "Oct 31" || day0.date === "Nov 1") && state.guideMacauHk) {
-    html += `<article class="card"><h3>📸 Macau → Hong Kong deep dive</h3><p class="muted">Customs, apps, top 10, drone warnings, and the 8-stop audio tour with walk music — the full guide is on the Oct 28 and Oct 29 pages.</p><p><a href="guide-2026-10-28-macau-hk.html">Open the full Macau → Hong Kong deep dive + audio tour</a></p></article>`;
   }
+  // The pre-v8 combined Macau→HK guide was retired at Justin's request
+  // (content v9): the per-day guides above are the only deep dives now.
   if (day0.date === "Oct 26" && state.guideOct26) {
     html += `<article class="card guide-doc"><div class="muted" style="margin-bottom:6px">🎧 Today's full tour guide — Yunqi + West Lake sunset walk, with narration and built-in walk music.</div>` + state.guideOct26 + `</article>`;
   }
