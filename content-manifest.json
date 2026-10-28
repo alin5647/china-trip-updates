@@ -8,8 +8,8 @@
   },
   {
    "path": "content-version.json",
-   "size": 472,
-   "sha256": "6d77d80c6ceddc2d77c090d975087f822b302c60ff69cc5b91b4c843c1369b9e"
+   "size": 855,
+   "sha256": "092653f5ffb54485114d7245422ba305b80d0c00f2903482cdc5d2cdfb14f67a"
   },
   {
    "path": "esim.json",
@@ -58,8 +58,8 @@
   },
   {
    "path": "itineraries.json",
-   "size": 86918,
-   "sha256": "ecf1eadfb56c4a3184feb843f525e4d49862b9bf0f8bf6e6726d2dadaedfbe2f"
+   "size": 88164,
+   "sha256": "e858c474b5bec28f203536035989b46bae914080938db209ee55468f852230fc"
   },
   {
    "path": "master-itinerary.html",
