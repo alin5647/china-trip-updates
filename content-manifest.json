@@ -3,13 +3,13 @@
  "files": [
   {
    "path": "app.js",
-   "size": 48907,
-   "sha256": "b8f7552cdc4b493581309651d96c5410252fcb358eb521f9c3f601318884adfb"
+   "size": 51611,
+   "sha256": "c783acdd2026d1a00f2e3798b4008f0e48100ab6e4b1d2343367993496fe8035"
   },
   {
    "path": "content-version.json",
-   "size": 1575,
-   "sha256": "510c2d2ebd6539d42eace5cdf9cd467b5cfb4f5d015de3e305d55032d762a979"
+   "size": 2071,
+   "sha256": "8df39a97b1c0f0f324aae35dde95def57c7d9044b4f45c2bae19cfbd002f6c67"
   },
   {
    "path": "esim.json",
@@ -45,6 +45,31 @@
    "path": "guide-2026-10-28-macau-hk.html",
    "size": 18428,
    "sha256": "8025dbc67b52a88bc38b34330d790ae8ac26b69fc03f17dbdda0b11842935223"
+  },
+  {
+   "path": "guide-2026-10-28-macau.html",
+   "size": 8808,
+   "sha256": "f4a014dfbf91699f13bd7a58ae99a191e08b3665926037d786c997a3599a201c"
+  },
+  {
+   "path": "guide-2026-10-29.html",
+   "size": 10074,
+   "sha256": "d14a66fa666adba53083831cffa2820c2cafafd60bafb154114101d16915afa9"
+  },
+  {
+   "path": "guide-2026-10-30.html",
+   "size": 6105,
+   "sha256": "b2049321b1e58c7a2793e38dac98ed458f52ed1bdf1932d4ea23dc61babbda40"
+  },
+  {
+   "path": "guide-2026-10-31.html",
+   "size": 5820,
+   "sha256": "ff5e74116e97f5a9dd3edc17ca04f36c2054a72aeeca5fc3cef8398e7c489ba6"
+  },
+  {
+   "path": "guide-2026-11-01.html",
+   "size": 5174,
+   "sha256": "08cfa199f47c52308d50c53cd9d32f000ba78215630775490e4c07cde797a2fc"
   },
   {
    "path": "hangzhou-2day-itinerary.html",
@@ -548,8 +573,8 @@
   },
   {
    "path": "files/itinerary/master-itinerary.md",
-   "size": 48193,
-   "sha256": "93cec94bad0fba7792a43cf49f5a1c0313b63cf63bdf41a87cce516efe1bedcc"
+   "size": 48746,
+   "sha256": "8be1a3c1387f6edac001463354b2d4b20b1483735cc47b7516a4c92a375d8cce"
   },
   {
    "path": "files/itinerary/visa-packet-andrew.pdf",
