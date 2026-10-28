@@ -122,6 +122,26 @@ function applySettings() {
   applyLanguage();
 }
 
+/* Content version display (v11 fix): in the APK the version line kept
+   showing "bundled" even after a successful content update, because the
+   display read content-version.json through a WebView file:// fetch and
+   gated on response.ok. Read the body and parse it regardless of ok, and
+   prefer the native bridge when a future APK provides it. */
+async function loadContentVersion() {
+  try {
+    if (window.AndroidContent && window.AndroidContent.contentVersionJson) {
+      const s = window.AndroidContent.contentVersionJson();
+      if (s) return JSON.parse(s);
+    }
+  } catch (e) {}
+  try {
+    const vr = await fetch("content-version.json", {"cache":"no-cache"});
+    const txt = await vr.text();
+    if (txt) return JSON.parse(txt);
+  } catch (e) {}
+  return null;
+}
+
 /* ---------------- load ---------------- */
 
 async function load() {
@@ -152,8 +172,7 @@ async function load() {
       try { const r = await fetch(_ddFiles[_k], {"cache":"no-cache"});
         if (r.ok) state[_k] = guideBodyOf(await r.text()); } catch (e) {}
     }
-    try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
-      state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
+    state.contentVersion = await loadContentVersion();
     // Content-updated itinerary: the inlined copy above is frozen at APK
     // build time, so also try the itineraries.json asset — TripWebClient
     // serves the content updater's downloaded copy when one exists, and
@@ -192,8 +211,7 @@ async function load() {
     state.guideOct30 = m30 ? guideBodyOf(m30) : null;
     state.guideOct31 = m31 ? guideBodyOf(m31) : null;
     state.guideNov1 = m01 ? guideBodyOf(m01) : null;
-    try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
-      state.contentVersion = vr.ok ? await vr.json() : null; } catch (e) { state.contentVersion = null; }
+    state.contentVersion = await loadContentVersion();
     state.hangzhou2Day = k2d ? docWithStyle(k2d) : null;
   }
   applySettings();
@@ -603,8 +621,7 @@ function wireSettingsPage(view) {
     }
   };
   const refreshVersionLine = async () => {
-    try { const vr = await fetch("content-version.json", {"cache":"no-cache"});
-      if (vr.ok) state.contentVersion = await vr.json(); } catch (e) {}
+    try { const v = await loadContentVersion(); if (v) state.contentVersion = v; } catch (e) {}
     const vel = view.querySelector("#set-content-version");
     if (vel) vel.textContent = state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label} (${state.contentVersion.updated})` : t("content_bundled");
     const fel = view.querySelector("#set-content-files");
