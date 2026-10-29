@@ -1,6 +1,1 @@
-{
- "versionCode": 31,
- "versionName": "2.3",
- "apkUrl": "https://github.com/alin5647/china-trip-updates/releases/download/v2.3/china-trip-v2.3.apk",
- "notes": "Fresh bundle of current docs/ (content v7: corrected Oct 28 Macao arrival day, Settings on-device diagnostics). Native fix: content-update manifest fetch is cache-busted (?t= timestamp + Cache-Control: no-cache) so a stale edge/proxy manifest can't freeze updates at 'up to date' with zero downloads; update result now includes the downloaded content-file count. Master itinerary Oct 25-26 rows reconciled. Same signing key as v2.2, so it installs as an update over the old APK."
-}
+{"apkUrl":"https://github.com/alin5647/china-trip-updates/releases/download/v2.4/china-trip-v2.4.apk","notes":"Fresh bundle of current docs/ (content v13: Justin's HK replan — Conrad-based Oct 30/31, Oct 29 corrected to actuals). New: a stale downloaded content overlay is discarded on startup when older than the bundled content, so installing this APK always lands on the bundled version even on phones where the content updater never downloaded. Same signing key as v2.3, so it installs as an update over the old APK.","versionCode":32,"versionName":"2.4"}
