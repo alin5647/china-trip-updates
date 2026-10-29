@@ -228,8 +228,8 @@
   },
   {
    "path": "content-version.json",
-   "size": 817,
-   "sha256": "430c6e4ddacab6a56f934e22d77e4af1f8b3147d298b65dfbd47395edd042086"
+   "size": 1300,
+   "sha256": "bb7c5ad149bef03a2ab695bb3a4a384307290c901147a40c5b112273bafed6ba"
   },
   {
    "path": "esim.json",
@@ -543,8 +543,8 @@
   },
   {
    "path": "guide-2026-10-30.html",
-   "size": 15404,
-   "sha256": "35d99b601340e07ad4ddd0f0d872641351d0fb18b5de6726359c1658f7716b35"
+   "size": 33287,
+   "sha256": "1bf0cfd0c23a5b2974a0c9e3c77c7298ec2e505133c9ac6c127885d116e53fa9"
   },
   {
    "path": "guide-2026-10-31.html",
