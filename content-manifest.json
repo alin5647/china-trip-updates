@@ -228,8 +228,8 @@
   },
   {
    "path": "content-version.json",
-   "size": 924,
-   "sha256": "6b059f2ee2f950fed4d7b28015fe8904f2169d733344c247d8441157b7936d62"
+   "size": 1115,
+   "sha256": "5c3013f2309ee7ef4336be617fe69dc2195efe2b1341e22353bbe67bc9add9df"
   },
   {
    "path": "esim.json",
@@ -548,8 +548,8 @@
   },
   {
    "path": "guide-2026-10-31.html",
-   "size": 7332,
-   "sha256": "4d5f5daafb73242b3a6ddf196b82dcdfbfe0852f3d8f98130ca3021282df2b49"
+   "size": 21572,
+   "sha256": "b3b17591eb8c887a4f9beab082d8d71665a60c598847cbffc659087620345be4"
   },
   {
    "path": "guide-2026-11-01.html",
@@ -613,8 +613,8 @@
   },
   {
    "path": "itineraries.json",
-   "size": 106723,
-   "sha256": "43ac7ee432c92994a2f12b7381eede6ce57b6568af47d8a50ac6751e4d00aee7"
+   "size": 107023,
+   "sha256": "3469442bb754709cea6038a9acf151a11de49425650001e6be7543db04686904"
   },
   {
    "path": "master-itinerary.html",
