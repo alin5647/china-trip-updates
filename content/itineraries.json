@@ -701,10 +701,10 @@
         {
           "activities": [
             {
-              "detail": "Free Conrad shuttle at 8:45 AM (be at the pickup ~8:40, room key card to board) to Hong Kong Station, then the Tung Chung Line to Tung Chung — there ~9:40, Ngong Ping 360 opens 9:00 AM on Saturdays (10:00 AM weekdays) and the Crystal cabin round trip is pre-booked — skip the ticket line, straight to the online-redemption lane (allow 20–40 min to board). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
-              "name": "Big Buddha + Po Lin Monastery",
+              "detail": "Lantau moved to Sunday morning at Justin's decision (Oct 30): the Buddha sits beside the airport, and Cathay in-town check-in carries the bags, so flight day can hold it. Today is deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for.",
+              "name": "A slow Saturday — sleep in, Hong Kong Park late morning",
               "reserve": true,
-              "time": "8:45 AM"
+              "time": "9:30 AM"
             },
             {
               "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
@@ -728,8 +728,8 @@
           "city": "Hong Kong",
           "date": "Oct 31",
           "highlights": [
-            "Ngong Ping 360 + the Big Buddha",
-            "Po Lin Monastery vegetarian lunch",
+            "A slow Saturday — sleep in + Hong Kong Park",
+            "Executive Lounge refreshments",
             "Peak farewell sunset",
             "Golden Leaf farewell dinner"
           ],
@@ -737,15 +737,15 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "A slower morning, but not a lie-in — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM; eat around 8:00 and be at the shuttle pickup by 8:40.",
+              "detail": "The slow morning is the point — Lantau moved to Sunday at Justin's decision. Included breakfast 6:30–10:30 AM; wander down whenever.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Ngong Ping, Lantau",
-              "detail": "The monastery’s famous Buddhist vegetarian kitchen, right opposite the Big Buddha. Replaces the Mong Kok graze (moved to Oct 30 night).",
-              "name": "Po Lin Monastery vegetarian lunch",
+              "area": "Admiralty / Central",
+              "detail": "No booking, no plan — graze near the hotel, or take the classic option: Maxim's Palace at City Hall for trolley dim sum with a harbour view. Keep it light; Golden Leaf is tonight.",
+              "name": "Lunch — dim sum or a Central graze (flexible)",
               "reserve": false,
               "type": "lunch"
             },
@@ -762,30 +762,45 @@
         {
           "activities": [
             {
-              "detail": "Slow morning in the park — review the trip's shots over tea before the airport.",
-              "name": "Hong Kong Park morning",
-              "reserve": false,
-              "time": "10:00 AM"
+              "time": "8:00 AM",
+              "name": "In-town check-in, then the Tung Chung Line",
+              "detail": "Free Conrad shuttle at 8:00 AM to Hong Kong Station. Cathay in-town check-in (6:00 AM–11:00 PM): check the suitcases through to JFK and collect boarding passes — the Airport Express fare (HK$120 each, tapped on the Octopus) is the price of the service; you then ride the Tung Chung Line, bags-free. Tung Chung by ~9:10 AM.",
+              "reserve": false
             },
             {
-              "detail": "Free Conrad shuttle at 12:30 PM (the 11:45 also runs — be at the pickup 5 minutes early, room key card handy) to Hong Kong Station with your bags. Cathay in-town check-in there, then the Airport Express (~24 min): tap the Octopus (HK$120 each) or buy the 2-person group ticket (HK$170 total) at the Airport Express customer service centre. At the airport, return the Octopus cards at the Airport station customer service centre for the HK$50 deposit plus remaining balance back. At HKG ~1:15–1:40 PM — a deliberate ~3-hour cushion for CX840.",
-              "name": "Leave for the airport",
-              "reserve": false,
-              "time": "12:30 PM"
+              "time": "9:45 AM",
+              "name": "Ngong Ping 360 + Big Buddha + Po Lin Monastery",
+              "detail": "Standard cabin round trip on the Klook voucher (both legs today). Up by ~9:45 AM: the Tian Tan Buddha (34 m, 268 steps) and Po Lin Monastery opposite — the compressed flight-day cut: the platform, the Six Devas, the monastery's main axis. No monastery lunch today; lunch is at the airport lounge. Hard deadline: in the down-queue by 12:30 PM.",
+              "reserve": false
+            },
+            {
+              "time": "12:30 PM",
+              "name": "Down, and straight to the airport",
+              "detail": "Cable car down to Tung Chung (~25 min), then a blue Lantau taxi from the terminal rank (~10 min) or the S1 bus (HK$3.70, ~12 min) to the airport — at HKG by ~1:20–1:35 PM. Refund the Octopus cards at the Airport Express station's customer service centre before security. Lunch airside: The Pier Business (Cathay, near Gate 65) on the business ticket — noodle bar and teahouse; or the Centurion Lounge (Gate 60) / Kyra Lounge (Gate 23, Priority Pass). CX840 boards ~3:50 PM.",
+              "reserve": false
             }
           ],
           "city": "Hong Kong",
           "date": "Nov 1",
           "highlights": [
-            "Slow farewell morning",
+            "In-town check-in — bags gone by ~8:40 AM",
+            "Big Buddha + Po Lin on flight morning",
+            "Lounge lunch at the airport",
             "Home with full memory cards"
           ],
           "hotel": "In flight (Cathay Pacific)",
           "meals": [
             {
-              "area": "Near the hotel",
-              "detail": "One last roast-meat rice or congee.",
-              "name": "Last Hong Kong meal",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Last Garden Cafe breakfast — down early and eat properly (out by ~7:45 AM for the 8:00 shuttle); lunch is a lounge lunch at the airport, hours away.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Hong Kong International Airport, airside",
+              "detail": "On the business ticket, Cathay's own lounges are the top tier for lunch: The Pier Business (near Gate 65 — the noodle bar, the Teahouse, à la carte dishes; the lunch pick) or The Wing Business (near Gates 1–3) if your gate is low. The Amex / Priority Pass pair behind them: The Centurion Lounge (Level 7 near Gate 60 — best bar, showers; a guest fee may apply for the second traveller) and Kyra Lounge (near Gate 23, Priority Pass — guests included). Pick by the gate on your boarding pass.",
+              "name": "Airport lounge lunch — The Pier Business (Cathay) first; Centurion / Kyra as alternatives",
               "reserve": false,
               "type": "lunch"
             },
@@ -1511,10 +1526,10 @@
         {
           "activities": [
             {
-              "detail": "Free Conrad shuttle at 8:45 AM (be at the pickup ~8:40, room key card to board) to Hong Kong Station, then the Tung Chung Line to Tung Chung — there ~9:40, Ngong Ping 360 opens 9:00 AM on Saturdays (10:00 AM weekdays) and the Crystal cabin round trip is pre-booked — skip the ticket line, straight to the online-redemption lane (allow 20–40 min to board). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
-              "name": "Big Buddha + Po Lin Monastery",
+              "detail": "Lantau moved to Sunday morning at Justin's decision (Oct 30): the Buddha sits beside the airport, and Cathay in-town check-in carries the bags, so flight day can hold it. Today is deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for.",
+              "name": "A slow Saturday — sleep in, Hong Kong Park late morning",
               "reserve": true,
-              "time": "8:45 AM"
+              "time": "9:30 AM"
             },
             {
               "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
@@ -1538,8 +1553,8 @@
           "city": "Hong Kong",
           "date": "Oct 31",
           "highlights": [
-            "Ngong Ping 360 + the Big Buddha",
-            "Po Lin Monastery vegetarian lunch",
+            "A slow Saturday — sleep in + Hong Kong Park",
+            "Executive Lounge refreshments",
             "Peak farewell sunset",
             "Golden Leaf farewell dinner"
           ],
@@ -1547,15 +1562,15 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "A slower morning, but not a lie-in — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM; eat around 8:00 and be at the shuttle pickup by 8:40.",
+              "detail": "The slow morning is the point — Lantau moved to Sunday at Justin's decision. Included breakfast 6:30–10:30 AM; wander down whenever.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Ngong Ping, Lantau",
-              "detail": "The monastery’s famous Buddhist vegetarian kitchen, right opposite the Big Buddha. Replaces the Mong Kok graze (moved to Oct 30 night).",
-              "name": "Po Lin Monastery vegetarian lunch",
+              "area": "Admiralty / Central",
+              "detail": "No booking, no plan — graze near the hotel, or take the classic option: Maxim's Palace at City Hall for trolley dim sum with a harbour view. Keep it light; Golden Leaf is tonight.",
+              "name": "Lunch — dim sum or a Central graze (flexible)",
               "reserve": false,
               "type": "lunch"
             },
@@ -1572,30 +1587,45 @@
         {
           "activities": [
             {
-              "area": "Hong Kong Park, Admiralty",
-              "detail": "A final gongfu tea session in the teaware museum's tea house — the trip's theme in one cup.",
-              "name": "LockCha Tea House farewell",
-              "reserve": false,
-              "time": "10:00 AM"
+              "time": "8:00 AM",
+              "name": "In-town check-in, then the Tung Chung Line",
+              "detail": "Free Conrad shuttle at 8:00 AM to Hong Kong Station. Cathay in-town check-in (6:00 AM–11:00 PM): check the suitcases through to JFK and collect boarding passes — the Airport Express fare (HK$120 each, tapped on the Octopus) is the price of the service; you then ride the Tung Chung Line, bags-free. Tung Chung by ~9:10 AM.",
+              "reserve": false
             },
             {
-              "detail": "Free Conrad shuttle at 12:30 PM (the 11:45 also runs — be at the pickup 5 minutes early, room key card handy) to Hong Kong Station with your bags. Cathay in-town check-in there, then the Airport Express (~24 min): tap the Octopus (HK$120 each) or buy the 2-person group ticket (HK$170 total) at the Airport Express customer service centre. At the airport, return the Octopus cards at the Airport station customer service centre for the HK$50 deposit plus remaining balance back. At HKG ~1:15–1:40 PM — a deliberate ~3-hour cushion for CX840.",
-              "name": "Leave for the airport",
-              "reserve": false,
-              "time": "12:30 PM"
+              "time": "9:45 AM",
+              "name": "Ngong Ping 360 + Big Buddha + Po Lin Monastery",
+              "detail": "Standard cabin round trip on the Klook voucher (both legs today). Up by ~9:45 AM: the Tian Tan Buddha (34 m, 268 steps) and Po Lin Monastery opposite — the compressed flight-day cut: the platform, the Six Devas, the monastery's main axis. No monastery lunch today; lunch is at the airport lounge. Hard deadline: in the down-queue by 12:30 PM.",
+              "reserve": false
+            },
+            {
+              "time": "12:30 PM",
+              "name": "Down, and straight to the airport",
+              "detail": "Cable car down to Tung Chung (~25 min), then a blue Lantau taxi from the terminal rank (~10 min) or the S1 bus (HK$3.70, ~12 min) to the airport — at HKG by ~1:20–1:35 PM. Refund the Octopus cards at the Airport Express station's customer service centre before security. Lunch airside: The Pier Business (Cathay, near Gate 65) on the business ticket — noodle bar and teahouse; or the Centurion Lounge (Gate 60) / Kyra Lounge (Gate 23, Priority Pass). CX840 boards ~3:50 PM.",
+              "reserve": false
             }
           ],
           "city": "Hong Kong",
           "date": "Nov 1",
           "highlights": [
-            "Farewell tea in Hong Kong Park"
+            "In-town check-in — bags gone by ~8:40 AM",
+            "Big Buddha + Po Lin on flight morning",
+            "Lounge lunch at the airport",
+            "Home with full memory cards"
           ],
           "hotel": "In flight (Cathay Pacific)",
           "meals": [
             {
-              "area": "Near the hotel",
-              "detail": "One last roast-meat rice before the airport.",
-              "name": "Last Hong Kong meal",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Last Garden Cafe breakfast — down early and eat properly (out by ~7:45 AM for the 8:00 shuttle); lunch is a lounge lunch at the airport, hours away.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Hong Kong International Airport, airside",
+              "detail": "On the business ticket, Cathay's own lounges are the top tier for lunch: The Pier Business (near Gate 65 — the noodle bar, the Teahouse, à la carte dishes; the lunch pick) or The Wing Business (near Gates 1–3) if your gate is low. The Amex / Priority Pass pair behind them: The Centurion Lounge (Level 7 near Gate 60 — best bar, showers; a guest fee may apply for the second traveller) and Kyra Lounge (near Gate 23, Priority Pass — guests included). Pick by the gate on your boarding pass.",
+              "name": "Airport lounge lunch — The Pier Business (Cathay) first; Centurion / Kyra as alternatives",
               "reserve": false,
               "type": "lunch"
             },
@@ -2319,10 +2349,10 @@
         {
           "activities": [
             {
-              "detail": "Free Conrad shuttle at 8:45 AM (be at the pickup ~8:40, room key card to board) to Hong Kong Station, then the Tung Chung Line to Tung Chung — there ~9:40, Ngong Ping 360 opens 9:00 AM on Saturdays (10:00 AM weekdays) and the Crystal cabin round trip is pre-booked — skip the ticket line, straight to the online-redemption lane (allow 20–40 min to board). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
-              "name": "Big Buddha + Po Lin Monastery",
+              "detail": "Lantau moved to Sunday morning at Justin's decision (Oct 30): the Buddha sits beside the airport, and Cathay in-town check-in carries the bags, so flight day can hold it. Today is deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for.",
+              "name": "A slow Saturday — sleep in, Hong Kong Park late morning",
               "reserve": true,
-              "time": "8:45 AM"
+              "time": "9:30 AM"
             },
             {
               "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
@@ -2346,8 +2376,8 @@
           "city": "Hong Kong",
           "date": "Oct 31",
           "highlights": [
-            "Ngong Ping 360 + the Big Buddha",
-            "Po Lin Monastery vegetarian lunch",
+            "A slow Saturday — sleep in + Hong Kong Park",
+            "Executive Lounge refreshments",
             "Peak farewell sunset",
             "Golden Leaf farewell dinner"
           ],
@@ -2355,15 +2385,15 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "A slower morning, but not a lie-in — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM; eat around 8:00 and be at the shuttle pickup by 8:40.",
+              "detail": "The slow morning is the point — Lantau moved to Sunday at Justin's decision. Included breakfast 6:30–10:30 AM; wander down whenever.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Ngong Ping, Lantau",
-              "detail": "The monastery’s famous Buddhist vegetarian kitchen, right opposite the Big Buddha. Replaces the Mong Kok graze (moved to Oct 30 night).",
-              "name": "Po Lin Monastery vegetarian lunch",
+              "area": "Admiralty / Central",
+              "detail": "No booking, no plan — graze near the hotel, or take the classic option: Maxim's Palace at City Hall for trolley dim sum with a harbour view. Keep it light; Golden Leaf is tonight.",
+              "name": "Lunch — dim sum or a Central graze (flexible)",
               "reserve": false,
               "type": "lunch"
             },
@@ -2380,31 +2410,45 @@
         {
           "activities": [
             {
-              "area": "Hong Kong Park, Admiralty",
-              "detail": "A proper Chinese tea tasting in the park's teaware museum — calm farewell before the airport.",
-              "name": "LockCha Tea House",
-              "reserve": false,
-              "time": "10:00 AM"
+              "time": "8:00 AM",
+              "name": "In-town check-in, then the Tung Chung Line",
+              "detail": "Free Conrad shuttle at 8:00 AM to Hong Kong Station. Cathay in-town check-in (6:00 AM–11:00 PM): check the suitcases through to JFK and collect boarding passes — the Airport Express fare (HK$120 each, tapped on the Octopus) is the price of the service; you then ride the Tung Chung Line, bags-free. Tung Chung by ~9:10 AM.",
+              "reserve": false
             },
             {
-              "detail": "Free Conrad shuttle at 12:30 PM (the 11:45 also runs — be at the pickup 5 minutes early, room key card handy) to Hong Kong Station with your bags. Cathay in-town check-in there, then the Airport Express (~24 min): tap the Octopus (HK$120 each) or buy the 2-person group ticket (HK$170 total) at the Airport Express customer service centre. At the airport, return the Octopus cards at the Airport station customer service centre for the HK$50 deposit plus remaining balance back. At HKG ~1:15–1:40 PM — a deliberate ~3-hour cushion for CX840.",
-              "name": "Leave for the airport",
-              "reserve": false,
-              "time": "12:30 PM"
+              "time": "9:45 AM",
+              "name": "Ngong Ping 360 + Big Buddha + Po Lin Monastery",
+              "detail": "Standard cabin round trip on the Klook voucher (both legs today). Up by ~9:45 AM: the Tian Tan Buddha (34 m, 268 steps) and Po Lin Monastery opposite — the compressed flight-day cut: the platform, the Six Devas, the monastery's main axis. No monastery lunch today; lunch is at the airport lounge. Hard deadline: in the down-queue by 12:30 PM.",
+              "reserve": false
+            },
+            {
+              "time": "12:30 PM",
+              "name": "Down, and straight to the airport",
+              "detail": "Cable car down to Tung Chung (~25 min), then a blue Lantau taxi from the terminal rank (~10 min) or the S1 bus (HK$3.70, ~12 min) to the airport — at HKG by ~1:20–1:35 PM. Refund the Octopus cards at the Airport Express station's customer service centre before security. Lunch airside: The Pier Business (Cathay, near Gate 65) on the business ticket — noodle bar and teahouse; or the Centurion Lounge (Gate 60) / Kyra Lounge (Gate 23, Priority Pass). CX840 boards ~3:50 PM.",
+              "reserve": false
             }
           ],
           "city": "Hong Kong",
           "date": "Nov 1",
           "highlights": [
-            "Farewell tea in Hong Kong Park",
-            "One last Hong Kong meal"
+            "In-town check-in — bags gone by ~8:40 AM",
+            "Big Buddha + Po Lin on flight morning",
+            "Lounge lunch at the airport",
+            "Home with full memory cards"
           ],
           "hotel": "In flight (Cathay Pacific)",
           "meals": [
             {
-              "area": "Near the hotel",
-              "detail": "Roast meats over rice or a final dim sum round — your call.",
-              "name": "Last Hong Kong meal",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Last Garden Cafe breakfast — down early and eat properly (out by ~7:45 AM for the 8:00 shuttle); lunch is a lounge lunch at the airport, hours away.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
+              "reserve": false,
+              "type": "breakfast"
+            },
+            {
+              "area": "Hong Kong International Airport, airside",
+              "detail": "On the business ticket, Cathay's own lounges are the top tier for lunch: The Pier Business (near Gate 65 — the noodle bar, the Teahouse, à la carte dishes; the lunch pick) or The Wing Business (near Gates 1–3) if your gate is low. The Amex / Priority Pass pair behind them: The Centurion Lounge (Level 7 near Gate 60 — best bar, showers; a guest fee may apply for the second traveller) and Kyra Lounge (near Gate 23, Priority Pass — guests included). Pick by the gate on your boarding pass.",
+              "name": "Airport lounge lunch — The Pier Business (Cathay) first; Centurion / Kyra as alternatives",
               "reserve": false,
               "type": "lunch"
             },
