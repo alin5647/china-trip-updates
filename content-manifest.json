@@ -228,8 +228,8 @@
   },
   {
    "path": "content-version.json",
-   "size": 1972,
-   "sha256": "2a32679a40927617daf0466010126c51efd0ccb597318d75b5c635ba30f44316"
+   "size": 817,
+   "sha256": "430c6e4ddacab6a56f934e22d77e4af1f8b3147d298b65dfbd47395edd042086"
   },
   {
    "path": "esim.json",
@@ -493,8 +493,8 @@
   },
   {
    "path": "files/itinerary/master-itinerary.md",
-   "size": 51302,
-   "sha256": "e51e2e1a002e5063d31ffe6d1b5a6388c2d991b9577b058372590ae2208dda1b"
+   "size": 51119,
+   "sha256": "d646592894b9d5908498e561861b1434905470545331e600f9ee45154699cba2"
   },
   {
    "path": "files/itinerary/visa-packet-andrew.pdf",
@@ -543,18 +543,18 @@
   },
   {
    "path": "guide-2026-10-30.html",
-   "size": 15705,
-   "sha256": "556712b49d56c7ae869c2ab935a8334a75f2618eb6d7b11b9a944a57c05611bb"
+   "size": 15404,
+   "sha256": "35d99b601340e07ad4ddd0f0d872641351d0fb18b5de6726359c1658f7716b35"
   },
   {
    "path": "guide-2026-10-31.html",
-   "size": 11565,
-   "sha256": "ca2c68d07ebbcb82c5d9278c66c42a4b49956a5800cb072dce90850249800b19"
+   "size": 10276,
+   "sha256": "e7a6f650513df314c9b01808268f8906fb69c87b486736a834867be5bb307af5"
   },
   {
    "path": "guide-2026-11-01.html",
-   "size": 18829,
-   "sha256": "7919e3b00e4a82e82dc7c238441814e779837b8e469b717d7355bb922b541b5b"
+   "size": 17859,
+   "sha256": "1fef71550b34c8273633f54b70ca965151cc54700faa30a481bc1a9882fb3e1a"
   },
   {
    "path": "hangzhou-2day-itinerary.html",
@@ -613,8 +613,8 @@
   },
   {
    "path": "itineraries.json",
-   "size": 111924,
-   "sha256": "5526a868443e289f20486b84bd41938c84ff53896f2ef1e3f44ef362c11a89e7"
+   "size": 110655,
+   "sha256": "de2d54a1a463616adf353a0bff13fe46918659e7ba3203cadb8ed5eb3979fae0"
   },
   {
    "path": "master-itinerary.html",
