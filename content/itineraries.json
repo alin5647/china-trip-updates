@@ -634,10 +634,10 @@
               "time": "6:30 AM"
             },
             {
-              "detail": "MTR Admiralty → Shau Kei Wan (Exit A3), then Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
+              "detail": "First stop, 5 minutes under the hotel: Admiralty station customer service centre — buy two On-Loan Octopus cards, HK$150 each (HK$50 refundable deposit + HK$100 loaded). One card per person; no sharing. Then MTR Admiralty → Shau Kei Wan (Exit A3) and Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
               "name": "Dragon's Back hike",
               "reserve": false,
-              "time": "7:50 AM"
+              "time": "8:00 AM"
             },
             {
               "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
@@ -646,7 +646,7 @@
               "time": "2:45 PM"
             },
             {
-              "detail": "Central Pier 7 → Tsim Sha Tsui, the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Octopus at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
@@ -701,10 +701,10 @@
         {
           "activities": [
             {
-              "detail": "MTR Admiralty → Hong Kong Station → Tung Chung Line to Tung Chung, then the Ngong Ping 360 cable car up (opens 10:00 AM — pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
+              "detail": "Free Conrad shuttle at 8:45 AM (be at the pickup ~8:40, room key card to board) to Hong Kong Station, then the Tung Chung Line to Tung Chung — there ~9:40, in the queue before the Ngong Ping 360 cable car opens at 10:00 AM (pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
               "name": "Big Buddha + Po Lin Monastery",
               "reserve": true,
-              "time": "9:00 AM"
+              "time": "8:45 AM"
             },
             {
               "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
@@ -737,7 +737,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "Slow morning — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM.",
+              "detail": "A slower morning, but not a lie-in — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM; eat around 8:00 and be at the shuttle pickup by 8:40.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -768,7 +768,7 @@
               "time": "10:00 AM"
             },
             {
-              "detail": "Airport Express from Hong Kong Station (~24 min); in-town check-in available.",
+              "detail": "Free Conrad shuttle at 12:30 PM (the 11:45 also runs — be at the pickup 5 minutes early, room key card handy) to Hong Kong Station with your bags. Cathay in-town check-in there, then the Airport Express (~24 min): tap the Octopus (HK$120 each) or buy the 2-person group ticket (HK$170 total) at the Airport Express customer service centre. At the airport, return the Octopus cards at the Airport station customer service centre for the HK$50 deposit plus remaining balance back. At HKG ~1:15–1:40 PM — a deliberate ~3-hour cushion for CX840.",
               "name": "Leave for the airport",
               "reserve": false,
               "time": "12:30 PM"
@@ -1444,10 +1444,10 @@
               "time": "6:30 AM"
             },
             {
-              "detail": "MTR Admiralty → Shau Kei Wan (Exit A3), then Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
+              "detail": "First stop, 5 minutes under the hotel: Admiralty station customer service centre — buy two On-Loan Octopus cards, HK$150 each (HK$50 refundable deposit + HK$100 loaded). One card per person; no sharing. Then MTR Admiralty → Shau Kei Wan (Exit A3) and Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
               "name": "Dragon's Back hike",
               "reserve": false,
-              "time": "7:50 AM"
+              "time": "8:00 AM"
             },
             {
               "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
@@ -1456,7 +1456,7 @@
               "time": "2:45 PM"
             },
             {
-              "detail": "Central Pier 7 → Tsim Sha Tsui, the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Octopus at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
@@ -1511,10 +1511,10 @@
         {
           "activities": [
             {
-              "detail": "MTR Admiralty → Hong Kong Station → Tung Chung Line to Tung Chung, then the Ngong Ping 360 cable car up (opens 10:00 AM — pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
+              "detail": "Free Conrad shuttle at 8:45 AM (be at the pickup ~8:40, room key card to board) to Hong Kong Station, then the Tung Chung Line to Tung Chung — there ~9:40, in the queue before the Ngong Ping 360 cable car opens at 10:00 AM (pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
               "name": "Big Buddha + Po Lin Monastery",
               "reserve": true,
-              "time": "9:00 AM"
+              "time": "8:45 AM"
             },
             {
               "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
@@ -1547,7 +1547,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "Slow morning — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM.",
+              "detail": "A slower morning, but not a lie-in — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM; eat around 8:00 and be at the shuttle pickup by 8:40.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -1579,7 +1579,7 @@
               "time": "10:00 AM"
             },
             {
-              "detail": "Airport Express from Hong Kong Station (~24 min); in-town check-in available.",
+              "detail": "Free Conrad shuttle at 12:30 PM (the 11:45 also runs — be at the pickup 5 minutes early, room key card handy) to Hong Kong Station with your bags. Cathay in-town check-in there, then the Airport Express (~24 min): tap the Octopus (HK$120 each) or buy the 2-person group ticket (HK$170 total) at the Airport Express customer service centre. At the airport, return the Octopus cards at the Airport station customer service centre for the HK$50 deposit plus remaining balance back. At HKG ~1:15–1:40 PM — a deliberate ~3-hour cushion for CX840.",
               "name": "Leave for the airport",
               "reserve": false,
               "time": "12:30 PM"
@@ -2252,10 +2252,10 @@
               "time": "6:30 AM"
             },
             {
-              "detail": "MTR Admiralty → Shau Kei Wan (Exit A3), then Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
+              "detail": "First stop, 5 minutes under the hotel: Admiralty station customer service centre — buy two On-Loan Octopus cards, HK$150 each (HK$50 refundable deposit + HK$100 loaded). One card per person; no sharing. Then MTR Admiralty → Shau Kei Wan (Exit A3) and Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
               "name": "Dragon's Back hike",
               "reserve": false,
-              "time": "7:50 AM"
+              "time": "8:00 AM"
             },
             {
               "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
@@ -2264,7 +2264,7 @@
               "time": "2:45 PM"
             },
             {
-              "detail": "Central Pier 7 → Tsim Sha Tsui, the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Octopus at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
@@ -2319,10 +2319,10 @@
         {
           "activities": [
             {
-              "detail": "MTR Admiralty → Hong Kong Station → Tung Chung Line to Tung Chung, then the Ngong Ping 360 cable car up (opens 10:00 AM — pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
+              "detail": "Free Conrad shuttle at 8:45 AM (be at the pickup ~8:40, room key card to board) to Hong Kong Station, then the Tung Chung Line to Tung Chung — there ~9:40, in the queue before the Ngong Ping 360 cable car opens at 10:00 AM (pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
               "name": "Big Buddha + Po Lin Monastery",
               "reserve": true,
-              "time": "9:00 AM"
+              "time": "8:45 AM"
             },
             {
               "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
@@ -2355,7 +2355,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "Slow morning — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM.",
+              "detail": "A slower morning, but not a lie-in — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM; eat around 8:00 and be at the shuttle pickup by 8:40.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -2387,7 +2387,7 @@
               "time": "10:00 AM"
             },
             {
-              "detail": "Airport Express from Hong Kong Station (~24 min); in-town check-in available.",
+              "detail": "Free Conrad shuttle at 12:30 PM (the 11:45 also runs — be at the pickup 5 minutes early, room key card handy) to Hong Kong Station with your bags. Cathay in-town check-in there, then the Airport Express (~24 min): tap the Octopus (HK$120 each) or buy the 2-person group ticket (HK$170 total) at the Airport Express customer service centre. At the airport, return the Octopus cards at the Airport station customer service centre for the HK$50 deposit plus remaining balance back. At HKG ~1:15–1:40 PM — a deliberate ~3-hour cushion for CX840.",
               "name": "Leave for the airport",
               "reserve": false,
               "time": "12:30 PM"
