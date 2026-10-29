@@ -228,8 +228,8 @@
   },
   {
    "path": "content-version.json",
-   "size": 760,
-   "sha256": "22698632a7a36d9a50a9af7418b168a75f464af7c81edd5ee8988be0a211b3d1"
+   "size": 924,
+   "sha256": "6b059f2ee2f950fed4d7b28015fe8904f2169d733344c247d8441157b7936d62"
   },
   {
    "path": "esim.json",
@@ -543,8 +543,8 @@
   },
   {
    "path": "guide-2026-10-30.html",
-   "size": 7911,
-   "sha256": "49c3e246de06fb5d15d51be6b6a482d7c16442520b447064493aeb7bf75eba1d"
+   "size": 15705,
+   "sha256": "556712b49d56c7ae869c2ab935a8334a75f2618eb6d7b11b9a944a57c05611bb"
   },
   {
    "path": "guide-2026-10-31.html",
@@ -582,9 +582,39 @@
    "sha256": "cffaf4f1d6d5482b4290970d4bc82e6207c564d2bc85c46d6f2a7c294f40d0f6"
   },
   {
+   "path": "images/dragons-back-elevation.jpg",
+   "size": 67387,
+   "sha256": "8a89654090b858578df7a480210f81036620be48379f91767a99528f02433dc6"
+  },
+  {
+   "path": "images/dragons-back-hero.jpg",
+   "size": 155020,
+   "sha256": "05e48389121c74e68938319a21d62efba472dd5006cbeb2199401a45919b1c17"
+  },
+  {
+   "path": "images/dragons-back-map.jpg",
+   "size": 167718,
+   "sha256": "43e39dabafb4c1dbdcb5c614711df300a00d718e0db92e407c2faa4fcbf78f5b"
+  },
+  {
+   "path": "images/dragons-back-peak.jpg",
+   "size": 154353,
+   "sha256": "e79b7d2c3b4debba5f64c09b20f8962cd01e53b04e499ab202eb01c5817b4c8a"
+  },
+  {
+   "path": "images/dragons-back-ridge.jpg",
+   "size": 146410,
+   "sha256": "93401c00a09c8e04cfe9b0ba92777c25b4f1976eabfb9ef7292b7fec60990a1a"
+  },
+  {
+   "path": "images/dragons-back-viewpoint.jpg",
+   "size": 135931,
+   "sha256": "b149f171f06b94823c8c943b15db22903869a0e98af6b026ed05d2e313fc5e93"
+  },
+  {
    "path": "itineraries.json",
    "size": 106723,
-   "sha256": "fdb98ebb09bf9e6a829040e8f8aa6e3b94bf3ac11da0893f7395cb1f1e9759fa"
+   "sha256": "43ac7ee432c92994a2f12b7381eede6ce57b6568af47d8a50ac6751e4d00aee7"
   },
   {
    "path": "master-itinerary.html",
