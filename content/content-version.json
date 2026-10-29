@@ -1,7 +1,7 @@
 {
-  "version": 14,
-  "label": "Octopus + Conrad shuttle legs folded into the Hong Kong days (Justin's request)",
+  "version": 15,
+  "label": "Dragon's Back deep dive: minute-by-minute trail guide with HKTB photos + route map",
   "updated": "2026-10-29",
   "apkVersion": "2.2",
-  "notes": "v14 (Milo, Oct 29, at Justin's request): Octopus purchase and Conrad shuttle legs integrated. Oct 30 — two On-Loan Octopus cards at Admiralty station before the hike (HK$150 each, one per person), on-trail ~8:00 AM; Star Ferry Octopus tap noted. Oct 31 — 8:45 AM free Conrad shuttle to Hong Kong Station (Tung Chung by ~9:40), breakfast ~8:00. Nov 1 — 12:30 PM Conrad shuttle with bags, in-town check-in, Airport Express group ticket HK$170 for two, Octopus deposit refund at the airport. Delivered by content update — phones on APK v2.4 receive it (the stale-overlay fix)."
+  "notes": "v15 (Milo, Oct 29, at Justin's request): the Oct 30 guide gains a full Dragon's Back deep dive — a minute-by-minute, read-along trail narrative (breakfast → Octopus stop → bus 9 → To Tei Wan → the staircase → Shek O Peninsula Viewing Point → Shek O Peak → the ridge → the Shek O turn-off → Shek O village lunch → the ride back), with six Hong Kong Tourism Board images embedded offline: the official route map, the elevation profile, and four trail photos. Route geography corrected against the HKTB map (the Shek O branch leaves the ridge BEFORE Pottinger Gap; the through-route continues to Big Wave Bay). Also: Shau Kei Wan bus terminus exit corrected A3 → A2 per HKTB, in the guide and all three itinerary options."
 }
