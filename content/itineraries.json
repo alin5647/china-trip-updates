@@ -560,7 +560,7 @@
               "time": "3:45 PM"
             },
             {
-              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk. The peninsula block (A-Ma / Senado / Ruins) was dropped today.",
+              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk.",
               "name": "Wynn Palace — SkyCab + Wynn Rewards desk",
               "reserve": false,
               "time": "4:00 PM"
@@ -640,7 +640,7 @@
               "time": "8:00 AM"
             },
             {
-              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
+              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
               "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
               "reserve": false,
               "time": "2:45 PM"
@@ -676,7 +676,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "Included with the stay, 6:30–10:30 AM. Replaces the Lin Heung plan — hotel breakfast every morning is the new default at Justin’s decision.",
+              "detail": "Included with the stay, 6:30–10:30 AM.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -701,7 +701,7 @@
         {
           "activities": [
             {
-              "detail": "Lantau moved to Sunday morning at Justin's decision (Oct 30): the Buddha sits beside the airport, and Cathay in-town check-in carries the bags, so flight day can hold it. Today is deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for.",
+              "detail": "Deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for. Tomorrow is Lantau, on the way to the airport.",
               "name": "A slow Saturday — sleep in, Hong Kong Park late morning",
               "reserve": true,
               "time": "9:30 AM"
@@ -737,7 +737,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "The slow morning is the point — Lantau moved to Sunday at Justin's decision. Included breakfast 6:30–10:30 AM; wander down whenever.",
+              "detail": "The slow morning is the point. Included breakfast 6:30–10:30 AM; wander down whenever.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -1385,7 +1385,7 @@
               "time": "3:45 PM"
             },
             {
-              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk. The peninsula block (A-Ma / Senado / Ruins) was dropped today.",
+              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk.",
               "name": "Wynn Palace — SkyCab + Wynn Rewards desk",
               "reserve": false,
               "time": "4:00 PM"
@@ -1465,7 +1465,7 @@
               "time": "8:00 AM"
             },
             {
-              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
+              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
               "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
               "reserve": false,
               "time": "2:45 PM"
@@ -1501,7 +1501,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "Included with the stay, 6:30–10:30 AM. Replaces the Lin Heung plan — hotel breakfast every morning is the new default at Justin’s decision.",
+              "detail": "Included with the stay, 6:30–10:30 AM.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -1526,7 +1526,7 @@
         {
           "activities": [
             {
-              "detail": "Lantau moved to Sunday morning at Justin's decision (Oct 30): the Buddha sits beside the airport, and Cathay in-town check-in carries the bags, so flight day can hold it. Today is deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for.",
+              "detail": "Deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for. Tomorrow is Lantau, on the way to the airport.",
               "name": "A slow Saturday — sleep in, Hong Kong Park late morning",
               "reserve": true,
               "time": "9:30 AM"
@@ -1562,7 +1562,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "The slow morning is the point — Lantau moved to Sunday at Justin's decision. Included breakfast 6:30–10:30 AM; wander down whenever.",
+              "detail": "The slow morning is the point. Included breakfast 6:30–10:30 AM; wander down whenever.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -2208,7 +2208,7 @@
               "time": "3:45 PM"
             },
             {
-              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk. The peninsula block (A-Ma / Senado / Ruins) was dropped today.",
+              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk.",
               "name": "Wynn Palace — SkyCab + Wynn Rewards desk",
               "reserve": false,
               "time": "4:00 PM"
@@ -2288,7 +2288,7 @@
               "time": "8:00 AM"
             },
             {
-              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
+              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
               "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
               "reserve": false,
               "time": "2:45 PM"
@@ -2324,7 +2324,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "Included with the stay, 6:30–10:30 AM. Replaces the Lin Heung plan — hotel breakfast every morning is the new default at Justin’s decision.",
+              "detail": "Included with the stay, 6:30–10:30 AM.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
@@ -2349,7 +2349,7 @@
         {
           "activities": [
             {
-              "detail": "Lantau moved to Sunday morning at Justin's decision (Oct 30): the Buddha sits beside the airport, and Cathay in-town check-in carries the bags, so flight day can hold it. Today is deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for.",
+              "detail": "Deliberately unloaded — Garden Cafe breakfast whenever (served 6:30–10:30 AM), then Hong Kong Park next door late morning: the Edward Youde Aviary, the conservatory, one last unhurried hour. Nothing to book, nothing to queue for. Tomorrow is Lantau, on the way to the airport.",
               "name": "A slow Saturday — sleep in, Hong Kong Park late morning",
               "reserve": true,
               "time": "9:30 AM"
@@ -2385,7 +2385,7 @@
           "meals": [
             {
               "area": "Conrad Hong Kong, Admiralty",
-              "detail": "The slow morning is the point — Lantau moved to Sunday at Justin's decision. Included breakfast 6:30–10:30 AM; wander down whenever.",
+              "detail": "The slow morning is the point. Included breakfast 6:30–10:30 AM; wander down whenever.",
               "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
