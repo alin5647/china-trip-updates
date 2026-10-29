@@ -638,6 +638,10 @@ function wireSettingsPage(view) {
     window.__ctContentAuto = false;
     refreshVersionLine();
     const versionLine = state.contentVersion ? `${t("content_installed")}v${state.contentVersion.version} — ${state.contentVersion.label}` : "";
+    // v2.5: show the SHA-256 (first 12 hex chars) of the manifest bytes the
+    // phone actually received, so a stale-manifest "up to date" is visible
+    // right on the Settings screen.
+    const msha = r.manifestSha ? ` [manifest ${String(r.manifestSha).slice(0, 12)}]` : "";
     if (r.updated > 0) {
       const kb = r.bytes >= 1048576 ? (r.bytes / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(r.bytes / 1024)) + " KB";
       let msg = `✓ Updated ${r.updated} file${r.updated === 1 ? "" : "s"} (${kb})`;
@@ -647,7 +651,7 @@ function wireSettingsPage(view) {
       toast(msg);
       setTimeout(() => location.reload(), 1200);
     } else if (r.ok) {
-      if (!auto && contentResults) contentResults.innerHTML = `<p class="muted">${t("content_uptodate_with")}${versionLine}</p>`;
+      if (!auto && contentResults) contentResults.innerHTML = `<p class="muted">${t("content_uptodate_with")}${versionLine}${msha}</p>`;
     } else {
       const msg = r.failed > 0 ? `${t("content_nofiles")}${r.failed}${t("content_couldnot")}` : (r.error ? t("content_failed") + r.error : t("content_conn"));
       if (contentResults) contentResults.innerHTML = `<p class="muted">${msg}</p>`;
