@@ -542,143 +542,148 @@
         {
           "activities": [
             {
-              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away. Then the day is yours.",
+              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away.",
               "name": "Donna departs for the airport",
               "reserve": false,
               "time": "10:30 AM"
             },
             {
-              "detail": "Morning light on the old shophouses, Our Lady of Carmel church, the Taipa Houses Museum (free entry) and a Rua do Cunha graze.",
+              "detail": "Rua do Cunha snack street, a Tai Lei Loi Kei pork chop bun, the mint-green Taipa Houses Museum (free entry) and Our Lady of Carmel church.",
               "name": "Taipa Village morning walk",
               "reserve": false,
               "time": "10:30 AM"
             },
             {
-              "detail": "FHR late checkout runs to 4:00 PM. Leave the bags with the concierge and travel light for the evening.",
+              "detail": "FHR late checkout runs to 4:00 PM. Bags left with the concierge; travel light for the rest of the day.",
               "name": "Check out of the Four Seasons",
               "reserve": false,
               "time": "3:45 PM"
             },
             {
-              "detail": "Free gondola loop over the fountain lake, then a lake show from the promenade (every 30 min until 6 PM). If the line runs past ~20 minutes, drop A-Ma Temple below — not the Ruins.",
-              "name": "SkyCab over Performance Lake (Wynn Palace)",
+              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk. The peninsula block (A-Ma / Senado / Ruins) was dropped today.",
+              "name": "Wynn Palace — SkyCab + Wynn Rewards desk",
               "reserve": false,
               "time": "4:00 PM"
             },
             {
-              "detail": "Macao's oldest temple, where the city got its name. First thing to drop if the SkyCab line ate the buffer.",
-              "name": "A-Ma Temple (flex stop)",
+              "detail": "Back from Cotai in time for the booked shuttle.",
+              "name": "Collect bags at the Four Seasons",
               "reserve": false,
-              "time": "5:00 PM"
+              "time": "6:15 PM"
             },
             {
-              "detail": "The wave-pattern mosaic square and the yellow baroque church, five minutes from the Ruins.",
-              "name": "Senado Square + St Dominic's Church",
+              "detail": "Four Seasons complimentary shuttle (booked by Justin) — about 20 minutes to the terminal.",
+              "name": "Hotel shuttle to Taipa Ferry Terminal",
               "reserve": false,
-              "time": "5:30 PM"
+              "time": "6:30 PM"
             },
             {
-              "detail": "Sunset 5:51 PM — the fortress walls and the Ruins steps are the classic golden-hour spots, in evening light at last.",
-              "name": "Ruins of St Paul's + Mount Fortress sunset",
+              "detail": "Taipa → Sheung Wan, night fare HK$242, arrives 8:00 PM. Hand-carry luggage only — checked bags needed a reservation by 4 PM the day before.",
+              "name": "Cotai Water Jet night sailing to Hong Kong",
               "reserve": false,
-              "time": "5:45 PM"
+              "time": "7:00 PM"
             },
             {
-              "detail": "Be there by 8:00 for the 8:30 sailing; luggage check-in closes 20 minutes before departure. Tickets: buy in the TurboJET app or via the concierge.",
-              "name": "Taipa Ferry Terminal — check in",
+              "detail": "Sheung Wan → Admiralty, 2 stops; the Conrad sits on top of Pacific Place. Checked in ~8:20 PM.",
+              "name": "MTR to the Conrad + check-in",
               "reserve": false,
-              "time": "8:00 PM"
-            },
-            {
-              "detail": "Taipa → Sheung Wan, night fare HK$242. Taxi from Sheung Wan to the Conrad ~15 min; check in ~10:05 PM (hotel told to expect a late arrival). Yung Kee, if it was booked for tonight, moves to Oct 30 or 31.",
-              "name": "TurboJET night sailing to Hong Kong",
-              "reserve": false,
-              "time": "8:30 PM"
+              "time": "8:10 PM"
             }
           ],
           "city": "Macao → Hong Kong",
           "date": "Oct 29",
           "highlights": [
-            "SkyCab over Performance Lake",
-            "Ruins of St Paul's at sunset",
-            "Night ferry to Hong Kong"
+            "Donna’s send-off + Taipa Village",
+            "Zi Yat Heen on the FHR credit",
+            "SkyCab at Wynn Palace",
+            "7 PM Cotai Water Jet crossing"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Cotai",
-              "detail": "All three of you — the last family meal of the trip. Your FHR rate covers breakfast for two; Donna's plate (~MOP 284 with service) is the only extra.",
+              "area": "Four Seasons Macao",
+              "detail": "FHR breakfast-for-two from 9:00 AM; all three ate before Donna’s departure.",
               "name": "Belcanção buffet (Four Seasons)",
               "reserve": false,
-              "type": "breakfast",
-              "time": "9:00 AM"
+              "type": "breakfast"
             },
             {
-              "area": "Taipa",
-              "detail": "The famous pork chop bun (猪扒包) on Rua do Cunha — snack-sized after the big breakfast.",
+              "area": "Taipa Village",
+              "detail": "The pork chop bun stop on Rua do Cunha.",
               "name": "Tai Lei Loi Kei (大利来记)",
               "reserve": false,
               "type": "snack"
             },
             {
-              "area": "Cotai",
-              "detail": "Michelin-starred dim sum at the Four Seasons, paid with your $100 FHR property credit: à la carte baskets run MOP 88–98, so seven or eight between two lands almost exactly on the credit.",
+              "area": "Four Seasons Macao",
+              "detail": "1:30 PM reservation. Michelin-starred Cantonese on the $100 FHR property credit — headline dish: the stuffed suckling pig (fried rice, preserved meat, Kristal caviar, gold leaf), MOP 498.",
               "name": "Zi Yat Heen (紫逸軒)",
               "reserve": false,
-              "type": "lunch",
-              "time": "12:45 PM"
-            },
-            {
-              "area": "Macau Peninsula",
-              "detail": "African chicken or minchi — keep it moderate after the Zi Yat Heen lunch.",
-              "name": "Macanese dinner near Senado Square",
-              "reserve": false,
-              "type": "dinner"
+              "type": "lunch"
             }
           ],
-          "transit": "Full day in Macao (Donna flies out 10:30 AM); 8:30 PM TurboJET Taipa → Sheung Wan; taxi to the Conrad, check in ~10:05 PM",
+          "transit": "Four Seasons shuttle 6:30 PM → Taipa Ferry Terminal; 7:00 PM Cotai Water Jet → Sheung Wan (arrives 8:00 PM); MTR Sheung Wan → Admiralty; Conrad check-in ~8:20 PM. (As it happened — supersedes the v11 plan of an 8:30 PM TurboJET.)",
           "weekday": "Thursday"
         },
         {
           "activities": [
             {
-              "detail": "龙脊 — Hong Kong's classic urban hike. 2-3 hours along the ridge with South China Sea views, ending at Shek O. Start early.",
-              "name": "Dragon's Back hike",
+              "detail": "Included breakfast, served 6:30–10:30 AM. Eat fast — out by ~7:05 for the hike.",
+              "name": "Breakfast at the Conrad — Garden Cafe",
               "reserve": false,
-              "time": "7:30 AM"
+              "time": "6:30 AM"
             },
             {
-              "detail": "The 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "MTR Admiralty → Shau Kei Wan (Exit A3), then Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
+              "name": "Dragon's Back hike",
+              "reserve": false,
+              "time": "7:50 AM"
+            },
+            {
+              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
+              "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
+              "reserve": false,
+              "time": "2:45 PM"
+            },
+            {
+              "detail": "Central Pier 7 → Tsim Sha Tsui, the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
             },
             {
-              "detail": "Fortune tellers and neon — night street photography.",
-              "name": "Temple Street Night Market",
+              "detail": "The nightly 8:00 PM harbour light show from the Avenue of Stars — you are already standing in the best seat in the city.",
+              "name": "A Symphony of Lights",
               "reserve": false,
               "time": "8:00 PM"
+            },
+            {
+              "detail": "Fortune tellers, dai pai dong and claypot rice in Yau Ma Tei, then graze on into Mong Kok — curry fish balls, egg waffles, the Ladies’ Market stalls.",
+              "name": "Temple Street Night Market + Mong Kok graze",
+              "reserve": false,
+              "time": "8:30 PM"
             }
           ],
           "city": "Hong Kong",
           "date": "Oct 30",
           "highlights": [
             "Dragon's Back ridge hike",
-            "Blue hour on the Avenue of Stars",
-            "Temple Street neon"
+            "Tai Kwun + the Central escalators",
+            "Star Ferry blue hour + Symphony of Lights",
+            "Temple Street neon + Mong Kok graze"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Wellington Street, Central",
-              "detail": "Pushcart dim sum before the hike.",
-              "name": "Lin Heung Tea House (莲香楼)",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Included with the stay, 6:30–10:30 AM. Replaces the Lin Heung plan — hotel breakfast every morning is the new default at Justin’s decision.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Shek O village",
-              "detail": "Thai and seafood cafes at the trail's end.",
+              "area": "Shek O Village",
+              "detail": "Thai and seafood cafes at the trail’s end.",
               "name": "Lunch in Shek O",
               "reserve": false,
               "type": "lunch"
@@ -696,45 +701,59 @@
         {
           "activities": [
             {
-              "detail": "渣甸山 — the locals' sunrise viewpoint over Victoria Harbour. Short steep climb, big payoff.",
-              "name": "Sunrise at Jardine's Lookout",
-              "reserve": false,
-              "time": "6:00 AM"
+              "detail": "MTR Admiralty → Hong Kong Station → Tung Chung Line to Tung Chung, then the Ngong Ping 360 cable car up (opens 10:00 AM — pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
+              "name": "Big Buddha + Po Lin Monastery",
+              "reserve": true,
+              "time": "9:00 AM"
             },
             {
-              "detail": "The grand finale: Peak Tram up for the last light over the harbour.",
+              "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
+              "name": "Executive Lounge afternoon refreshments (Conrad)",
+              "reserve": false,
+              "time": "3:00 PM"
+            },
+            {
+              "detail": "Sunset 5:47 PM. Taxi up if the Saturday Peak Tram queue threatens the light; Sky Terrace 428 or the flat Lugard Road loop; tram down as the city lights come up.",
               "name": "Victoria Peak farewell sunset",
               "reserve": false,
               "time": "5:00 PM"
+            },
+            {
+              "detail": "One-Michelin-star Cantonese in the hotel (dinner sets from HK$838/person) — and where the ~US$200 Conrad property credit gets spent. Reserve ahead; party of 2.",
+              "name": "Golden Leaf farewell dinner (Conrad)",
+              "reserve": true,
+              "time": "7:30 PM"
             }
           ],
           "city": "Hong Kong",
           "date": "Oct 31",
           "highlights": [
-            "Sunrise over the harbour",
-            "Final sunset from the Peak"
+            "Ngong Ping 360 + the Big Buddha",
+            "Po Lin Monastery vegetarian lunch",
+            "Peak farewell sunset",
+            "Golden Leaf farewell dinner"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Central",
-              "detail": "Late dim sum after the sunrise hike.",
-              "name": "Maxim's Palace (美心皇宫)",
-              "reserve": true,
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Slow morning — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
+              "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Mong Kok",
-              "detail": "Graze the markets between shoots.",
-              "name": "Mong Kok street food",
+              "area": "Ngong Ping, Lantau",
+              "detail": "The monastery’s famous Buddhist vegetarian kitchen, right opposite the Big Buddha. Replaces the Mong Kok graze (moved to Oct 30 night).",
+              "name": "Po Lin Monastery vegetarian lunch",
               "reserve": false,
               "type": "lunch"
             },
             {
-              "area": "Tsim Sha Tsui",
-              "detail": "Harbour-view dinner on the last night.",
-              "name": "Dinner with a harbour view",
-              "reserve": false,
+              "area": "Conrad Hong Kong, Lower Lobby",
+              "detail": "Farewell dinner — Michelin-starred Cantonese, charged to the room against the ~US$200 property credit.",
+              "name": "Golden Leaf (金葉庭)",
+              "reserve": true,
               "type": "dinner"
             }
           ],
@@ -1333,150 +1352,155 @@
         {
           "activities": [
             {
-              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away. Then the day is yours.",
+              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away.",
               "name": "Donna departs for the airport",
               "reserve": false,
               "time": "10:30 AM"
             },
             {
-              "detail": "The mint-green colonial houses of old Taipa (free entry), then the snack street and Pak Tai Temple.",
-              "name": "Taipa Houses Museum + Rua do Cunha",
+              "detail": "Rua do Cunha snack street, a Tai Lei Loi Kei pork chop bun, the mint-green Taipa Houses Museum (free entry) and Our Lady of Carmel church.",
+              "name": "Taipa Village morning walk",
               "reserve": false,
-              "time": "10:45 AM"
+              "time": "10:30 AM"
             },
             {
-              "detail": "FHR late checkout runs to 4:00 PM. Leave the bags with the concierge and travel light for the evening.",
+              "detail": "FHR late checkout runs to 4:00 PM. Bags left with the concierge; travel light for the rest of the day.",
               "name": "Check out of the Four Seasons",
               "reserve": false,
               "time": "3:45 PM"
             },
             {
-              "detail": "Free gondola loop over the fountain lake, then a lake show from the promenade (every 30 min until 6 PM). If the line runs past ~20 minutes, drop A-Ma Temple below — not the Ruins.",
-              "name": "SkyCab over Performance Lake (Wynn Palace)",
+              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk. The peninsula block (A-Ma / Senado / Ruins) was dropped today.",
+              "name": "Wynn Palace — SkyCab + Wynn Rewards desk",
               "reserve": false,
               "time": "4:00 PM"
             },
             {
-              "detail": "郑家大屋 — the Qing reformist's courtyard mansion — and Macao's oldest temple, five minutes apart in Barra. (Mandarin's House is the flex drop if the SkyCab line ran long.)",
-              "name": "Mandarin's House + A-Ma Temple",
+              "detail": "Back from Cotai in time for the booked shuttle.",
+              "name": "Collect bags at the Four Seasons",
               "reserve": false,
-              "time": "5:00 PM"
+              "time": "6:15 PM"
             },
             {
-              "detail": "UNESCO-listed square and church on the way up to the Ruins.",
-              "name": "Senado Square + St Dominic's Church",
+              "detail": "Four Seasons complimentary shuttle (booked by Justin) — about 20 minutes to the terminal.",
+              "name": "Hotel shuttle to Taipa Ferry Terminal",
               "reserve": false,
-              "time": "5:35 PM"
+              "time": "6:30 PM"
             },
             {
-              "detail": "The façade lit by the last of the day (sunset 5:51 PM), Mount Fortress right behind it.",
-              "name": "Ruins of St Paul's at sunset",
+              "detail": "Taipa → Sheung Wan, night fare HK$242, arrives 8:00 PM. Hand-carry luggage only — checked bags needed a reservation by 4 PM the day before.",
+              "name": "Cotai Water Jet night sailing to Hong Kong",
               "reserve": false,
-              "time": "5:50 PM"
+              "time": "7:00 PM"
             },
             {
-              "detail": "Be there by 8:00 for the 8:30 sailing; luggage check-in closes 20 minutes before departure. Tickets: buy in the TurboJET app or via the concierge.",
-              "name": "Taipa Ferry Terminal — check in",
+              "detail": "Sheung Wan → Admiralty, 2 stops; the Conrad sits on top of Pacific Place. Checked in ~8:20 PM.",
+              "name": "MTR to the Conrad + check-in",
               "reserve": false,
-              "time": "8:00 PM"
-            },
-            {
-              "detail": "Taipa → Sheung Wan, night fare HK$242. Taxi from Sheung Wan to the Conrad ~15 min; check in ~10:05 PM (hotel told to expect a late arrival). Yung Kee, if it was booked for tonight, moves to Oct 30 or 31.",
-              "name": "TurboJET night sailing to Hong Kong",
-              "reserve": false,
-              "time": "8:30 PM"
+              "time": "8:10 PM"
             }
           ],
           "city": "Macao → Hong Kong",
           "date": "Oct 29",
           "highlights": [
-            "Mandarin's House + A-Ma Temple",
-            "Ruins of St Paul's at sunset",
-            "Night ferry to Hong Kong"
+            "Donna’s send-off + Taipa Village",
+            "Zi Yat Heen on the FHR credit",
+            "SkyCab at Wynn Palace",
+            "7 PM Cotai Water Jet crossing"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Cotai",
-              "detail": "All three of you — the last family meal of the trip. Your FHR rate covers breakfast for two; Donna's plate (~MOP 284 with service) is the only extra.",
+              "area": "Four Seasons Macao",
+              "detail": "FHR breakfast-for-two from 9:00 AM; all three ate before Donna’s departure.",
               "name": "Belcanção buffet (Four Seasons)",
               "reserve": false,
-              "type": "breakfast",
-              "time": "9:00 AM"
+              "type": "breakfast"
             },
             {
-              "area": "Taipa",
-              "detail": "The famous pork chop bun (猪扒包) on Rua do Cunha — snack-sized after the big breakfast.",
+              "area": "Taipa Village",
+              "detail": "The pork chop bun stop on Rua do Cunha.",
               "name": "Tai Lei Loi Kei (大利来记)",
               "reserve": false,
               "type": "snack"
             },
             {
-              "area": "Cotai",
-              "detail": "Michelin-starred dim sum at the Four Seasons, paid with your $100 FHR property credit: à la carte baskets run MOP 88–98, so seven or eight between two lands almost exactly on the credit.",
+              "area": "Four Seasons Macao",
+              "detail": "1:30 PM reservation. Michelin-starred Cantonese on the $100 FHR property credit — headline dish: the stuffed suckling pig (fried rice, preserved meat, Kristal caviar, gold leaf), MOP 498.",
               "name": "Zi Yat Heen (紫逸軒)",
               "reserve": false,
-              "type": "lunch",
-              "time": "12:45 PM"
-            },
-            {
-              "area": "Macau Peninsula",
-              "detail": "African chicken or minchi — keep it moderate after the Zi Yat Heen lunch.",
-              "name": "Macanese dinner near Senado Square",
-              "reserve": false,
-              "type": "dinner"
+              "type": "lunch"
             }
           ],
-          "transit": "Full day in Macao (Donna flies out 10:30 AM); 8:30 PM TurboJET Taipa → Sheung Wan; taxi to the Conrad, check in ~10:05 PM",
+          "transit": "Four Seasons shuttle 6:30 PM → Taipa Ferry Terminal; 7:00 PM Cotai Water Jet → Sheung Wan (arrives 8:00 PM); MTR Sheung Wan → Admiralty; Conrad check-in ~8:20 PM. (As it happened — supersedes the v11 plan of an 8:30 PM TurboJET.)",
           "weekday": "Thursday"
         },
         {
           "activities": [
             {
-              "detail": "文武庙 — incense coils and fortune sticks in Sheung Wan's 19th-century temple.",
-              "name": "Man Mo Temple",
+              "detail": "Included breakfast, served 6:30–10:30 AM. Eat fast — out by ~7:05 for the hike.",
+              "name": "Breakfast at the Conrad — Garden Cafe",
               "reserve": false,
-              "time": "9:30 AM"
+              "time": "6:30 AM"
             },
             {
-              "detail": "Two West Kowloon flagships: imperial treasures from Beijing and one of Asia's great modern-art collections. Timed entry — book ahead.",
-              "name": "Hong Kong Palace Museum + M+",
-              "reserve": true,
-              "time": "1:00 PM"
+              "detail": "MTR Admiralty → Shau Kei Wan (Exit A3), then Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
+              "name": "Dragon's Back hike",
+              "reserve": false,
+              "time": "7:50 AM"
             },
             {
-              "detail": "Peak Tram up for the harbour lights.",
-              "name": "Victoria Peak evening",
+              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
+              "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
+              "reserve": false,
+              "time": "2:45 PM"
+            },
+            {
+              "detail": "Central Pier 7 → Tsim Sha Tsui, the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
+            },
+            {
+              "detail": "The nightly 8:00 PM harbour light show from the Avenue of Stars — you are already standing in the best seat in the city.",
+              "name": "A Symphony of Lights",
+              "reserve": false,
+              "time": "8:00 PM"
+            },
+            {
+              "detail": "Fortune tellers, dai pai dong and claypot rice in Yau Ma Tei, then graze on into Mong Kok — curry fish balls, egg waffles, the Ladies’ Market stalls.",
+              "name": "Temple Street Night Market + Mong Kok graze",
+              "reserve": false,
+              "time": "8:30 PM"
             }
           ],
           "city": "Hong Kong",
           "date": "Oct 30",
           "highlights": [
-            "Man Mo Temple",
-            "Palace Museum + M+",
-            "Victoria Peak at night"
+            "Dragon's Back ridge hike",
+            "Tai Kwun + the Central escalators",
+            "Star Ferry blue hour + Symphony of Lights",
+            "Temple Street neon + Mong Kok graze"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Wellington Street, Central",
-              "detail": "Old-school pushcart dim sum in a historic tea hall.",
-              "name": "Lin Heung Tea House (莲香楼)",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Included with the stay, 6:30–10:30 AM. Replaces the Lin Heung plan — hotel breakfast every morning is the new default at Justin’s decision.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "West Kowloon",
-              "detail": "Museum cafes between the two collections.",
-              "name": "Lunch at West Kowloon",
+              "area": "Shek O Village",
+              "detail": "Thai and seafood cafes at the trail’s end.",
+              "name": "Lunch in Shek O",
               "reserve": false,
               "type": "lunch"
             },
             {
               "area": "Yau Ma Tei",
-              "detail": "Temple Street's claypot rice and night-market energy.",
+              "detail": "Claypot rice at the night market.",
               "name": "Temple Street dinner",
               "reserve": false,
               "type": "dinner"
@@ -1487,45 +1511,58 @@
         {
           "activities": [
             {
-              "detail": "黄大仙祠 — Wong Tai Sin's fortune-telling arcade, then the Tang-dynasty-style nunnery and gardens next door.",
-              "name": "Wong Tai Sin Temple + Chi Lin Nunnery",
-              "reserve": false,
-              "time": "9:30 AM"
+              "detail": "MTR Admiralty → Hong Kong Station → Tung Chung Line to Tung Chung, then the Ngong Ping 360 cable car up (opens 10:00 AM — pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
+              "name": "Big Buddha + Po Lin Monastery",
+              "reserve": true,
+              "time": "9:00 AM"
             },
             {
-              "detail": "The 10-minute crossing, then the Avenue of Stars promenade.",
-              "name": "Star Ferry + Tsim Sha Tsui",
+              "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
+              "name": "Executive Lounge afternoon refreshments (Conrad)",
               "reserve": false,
-              "time": "2:30 PM"
+              "time": "3:00 PM"
+            },
+            {
+              "detail": "Sunset 5:47 PM. Taxi up if the Saturday Peak Tram queue threatens the light; Sky Terrace 428 or the flat Lugard Road loop; tram down as the city lights come up.",
+              "name": "Victoria Peak farewell sunset",
+              "reserve": false,
+              "time": "5:00 PM"
+            },
+            {
+              "detail": "One-Michelin-star Cantonese in the hotel (dinner sets from HK$838/person) — and where the ~US$200 Conrad property credit gets spent. Reserve ahead; party of 2.",
+              "name": "Golden Leaf farewell dinner (Conrad)",
+              "reserve": true,
+              "time": "7:30 PM"
             }
           ],
           "city": "Hong Kong",
           "date": "Oct 31",
           "highlights": [
-            "Wong Tai Sin + Chi Lin Nunnery",
-            "Star Ferry crossing",
-            "Farewell dim sum"
+            "Ngong Ping 360 + the Big Buddha",
+            "Po Lin Monastery vegetarian lunch",
+            "Peak farewell sunset",
+            "Golden Leaf farewell dinner"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Central",
-              "detail": "Wonton noodles — the Hong Kong classic.",
-              "name": "Mak's Noodle (麦奀)",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Slow morning — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Diamond Hill",
-              "detail": "Vegetarian lunch by the nunnery — Chi Lin's famous bean-curd cuisine.",
-              "name": "Chi Lin vegetarian lunch",
+              "area": "Ngong Ping, Lantau",
+              "detail": "The monastery’s famous Buddhist vegetarian kitchen, right opposite the Big Buddha. Replaces the Mong Kok graze (moved to Oct 30 night).",
+              "name": "Po Lin Monastery vegetarian lunch",
               "reserve": false,
               "type": "lunch"
             },
             {
-              "area": "City Hall, Central",
-              "detail": "Cart dim sum in the grand old hall — the traditional farewell. Book ahead.",
-              "name": "Maxim's Palace (美心皇宫)",
+              "area": "Conrad Hong Kong, Lower Lobby",
+              "detail": "Farewell dinner — Michelin-starred Cantonese, charged to the room against the ~US$200 property credit.",
+              "name": "Golden Leaf (金葉庭)",
               "reserve": true,
               "type": "dinner"
             }
@@ -2123,146 +2160,156 @@
         {
           "activities": [
             {
-              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away. Then the day is yours.",
+              "detail": "Hugs at the lobby — her EVA BR802 to Taipei leaves 1:15 PM and the airport is 10 minutes away.",
               "name": "Donna departs for the airport",
               "reserve": false,
               "time": "10:30 AM"
             },
             {
-              "detail": "Rua do Cunha snack street, the Taipa Houses Museum (free), Our Lady of Carmel church — appetite management after the buffet.",
-              "name": "Taipa Village graze",
+              "detail": "Rua do Cunha snack street, a Tai Lei Loi Kei pork chop bun, the mint-green Taipa Houses Museum (free entry) and Our Lady of Carmel church.",
+              "name": "Taipa Village morning walk",
               "reserve": false,
               "time": "10:30 AM"
             },
             {
-              "detail": "FHR late checkout runs to 4:00 PM. Leave the bags with the concierge and travel light for the evening.",
+              "detail": "FHR late checkout runs to 4:00 PM. Bags left with the concierge; travel light for the rest of the day.",
               "name": "Check out of the Four Seasons",
               "reserve": false,
               "time": "3:45 PM"
             },
             {
-              "detail": "Free gondola loop over the fountain lake, then a lake show from the promenade (every 30 min until 6 PM). If the line runs past ~20 minutes, drop A-Ma Temple below — not the Ruins.",
-              "name": "SkyCab over Performance Lake (Wynn Palace)",
+              "detail": "LRT from the Venetian (Cotai West) to Cotai East — Wynn Palace is right at the station exit. Free SkyCab loop over Performance Lake from the 4 PM opening, lake shows every 30 min, plus the Wynn Rewards new-member sign-up at the casino desk. The peninsula block (A-Ma / Senado / Ruins) was dropped today.",
+              "name": "Wynn Palace — SkyCab + Wynn Rewards desk",
               "reserve": false,
               "time": "4:00 PM"
             },
             {
-              "detail": "A quick look at Macao's oldest temple on the way up the peninsula; drop it if the SkyCab line ran long.",
-              "name": "A-Ma Temple (flex stop)",
+              "detail": "Back from Cotai in time for the booked shuttle.",
+              "name": "Collect bags at the Four Seasons",
               "reserve": false,
-              "time": "5:00 PM"
+              "time": "6:15 PM"
             },
             {
-              "detail": "The wave-pattern mosaic square and the yellow baroque church, five minutes from the Ruins.",
-              "name": "Senado Square + St Dominic's Church",
+              "detail": "Four Seasons complimentary shuttle (booked by Justin) — about 20 minutes to the terminal.",
+              "name": "Hotel shuttle to Taipa Ferry Terminal",
               "reserve": false,
-              "time": "5:30 PM"
+              "time": "6:30 PM"
             },
             {
-              "detail": "Sunset 5:51 PM from the fortress walls — the shot today was supposed to end with.",
-              "name": "Ruins of St Paul's + Mount Fortress sunset",
+              "detail": "Taipa → Sheung Wan, night fare HK$242, arrives 8:00 PM. Hand-carry luggage only — checked bags needed a reservation by 4 PM the day before.",
+              "name": "Cotai Water Jet night sailing to Hong Kong",
               "reserve": false,
-              "time": "5:45 PM"
+              "time": "7:00 PM"
             },
             {
-              "detail": "Be there by 8:00 for the 8:30 sailing; luggage check-in closes 20 minutes before departure. Tickets: buy in the TurboJET app or via the concierge.",
-              "name": "Taipa Ferry Terminal — check in",
+              "detail": "Sheung Wan → Admiralty, 2 stops; the Conrad sits on top of Pacific Place. Checked in ~8:20 PM.",
+              "name": "MTR to the Conrad + check-in",
               "reserve": false,
-              "time": "8:00 PM"
-            },
-            {
-              "detail": "Taipa → Sheung Wan, night fare HK$242. Taxi from Sheung Wan to the Conrad ~15 min; check in ~10:05 PM (hotel told to expect a late arrival). Yung Kee, if it was booked for tonight, moves to Oct 30 or 31.",
-              "name": "TurboJET night sailing to Hong Kong",
-              "reserve": false,
-              "time": "8:30 PM"
+              "time": "8:10 PM"
             }
           ],
           "city": "Macao → Hong Kong",
           "date": "Oct 29",
           "highlights": [
-            "Zi Yat Heen dim sum on the FHR credit",
-            "Pork chop bun farewell to Macao",
-            "Ruins of St Paul's at sunset"
+            "Donna’s send-off + Taipa Village",
+            "Zi Yat Heen on the FHR credit",
+            "SkyCab at Wynn Palace",
+            "7 PM Cotai Water Jet crossing"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Cotai",
-              "detail": "All three of you — the last family meal of the trip. Your FHR rate covers breakfast for two; Donna's plate (~MOP 284 with service) is the only extra.",
+              "area": "Four Seasons Macao",
+              "detail": "FHR breakfast-for-two from 9:00 AM; all three ate before Donna’s departure.",
               "name": "Belcanção buffet (Four Seasons)",
               "reserve": false,
-              "type": "breakfast",
-              "time": "9:00 AM"
+              "type": "breakfast"
             },
             {
-              "area": "Taipa",
-              "detail": "The famous pork chop bun (猪扒包) on Rua do Cunha — snack-sized after the big breakfast.",
+              "area": "Taipa Village",
+              "detail": "The pork chop bun stop on Rua do Cunha.",
               "name": "Tai Lei Loi Kei (大利来记)",
               "reserve": false,
               "type": "snack"
             },
             {
-              "area": "Cotai",
-              "detail": "Michelin-starred dim sum at the Four Seasons, paid with your $100 FHR property credit: à la carte baskets run MOP 88–98, so seven or eight between two lands almost exactly on the credit.",
+              "area": "Four Seasons Macao",
+              "detail": "1:30 PM reservation. Michelin-starred Cantonese on the $100 FHR property credit — headline dish: the stuffed suckling pig (fried rice, preserved meat, Kristal caviar, gold leaf), MOP 498.",
               "name": "Zi Yat Heen (紫逸軒)",
               "reserve": false,
-              "type": "lunch",
-              "time": "12:45 PM"
-            },
-            {
-              "area": "Macau Peninsula",
-              "detail": "African chicken or minchi — keep it moderate after the Zi Yat Heen lunch.",
-              "name": "Macanese dinner near Senado Square",
-              "reserve": false,
-              "type": "dinner"
+              "type": "lunch"
             }
           ],
-          "transit": "Full day in Macao (Donna flies out 10:30 AM); 8:30 PM TurboJET Taipa → Sheung Wan; taxi to the Conrad, check in ~10:05 PM",
+          "transit": "Four Seasons shuttle 6:30 PM → Taipa Ferry Terminal; 7:00 PM Cotai Water Jet → Sheung Wan (arrives 8:00 PM); MTR Sheung Wan → Admiralty; Conrad check-in ~8:20 PM. (As it happened — supersedes the v11 plan of an 8:30 PM TurboJET.)",
           "weekday": "Thursday"
         },
         {
           "activities": [
             {
-              "detail": "Peak Tram up, Lugard Road walk (3.5 km, flat, the locals' viewpoint), Sky Terrace 428.",
-              "name": "Victoria Peak",
+              "detail": "Included breakfast, served 6:30–10:30 AM. Eat fast — out by ~7:05 for the hike.",
+              "name": "Breakfast at the Conrad — Garden Cafe",
               "reserve": false,
-              "time": "9:00 AM"
+              "time": "6:30 AM"
             },
             {
-              "area": "Yau Ma Tei",
-              "detail": "Fortune tellers, street opera singers, claypot rice stalls — then keep grazing into Mong Kok.",
-              "name": "Temple Street Night Market",
+              "detail": "MTR Admiralty → Shau Kei Wan (Exit A3), then Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
+              "name": "Dragon's Back hike",
+              "reserve": false,
+              "time": "7:50 AM"
+            },
+            {
+              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7. Added at Justin’s decision Oct 29 (chosen over a hotel-rest afternoon).",
+              "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
+              "reserve": false,
+              "time": "2:45 PM"
+            },
+            {
+              "detail": "Central Pier 7 → Tsim Sha Tsui, the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "name": "Star Ferry + Avenue of Stars at blue hour",
+              "reserve": false,
+              "time": "6:00 PM"
+            },
+            {
+              "detail": "The nightly 8:00 PM harbour light show from the Avenue of Stars — you are already standing in the best seat in the city.",
+              "name": "A Symphony of Lights",
               "reserve": false,
               "time": "8:00 PM"
+            },
+            {
+              "detail": "Fortune tellers, dai pai dong and claypot rice in Yau Ma Tei, then graze on into Mong Kok — curry fish balls, egg waffles, the Ladies’ Market stalls.",
+              "name": "Temple Street Night Market + Mong Kok graze",
+              "reserve": false,
+              "time": "8:30 PM"
             }
           ],
           "city": "Hong Kong",
           "date": "Oct 30",
           "highlights": [
-            "Old-school dim sum morning",
-            "Victoria Peak",
-            "Mong Kok street-food crawl"
+            "Dragon's Back ridge hike",
+            "Tai Kwun + the Central escalators",
+            "Star Ferry blue hour + Symphony of Lights",
+            "Temple Street neon + Mong Kok graze"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Wellington Street, Central",
-              "detail": "Old-school pushcart dim sum in a historic tea hall — go early, point at what looks good.",
-              "name": "Lin Heung Tea House (莲香楼)",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Included with the stay, 6:30–10:30 AM. Replaces the Lin Heung plan — hotel breakfast every morning is the new default at Justin’s decision.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Central",
-              "detail": "Springy wonton noodles in rich broth — the Hong Kong classic done right.",
-              "name": "Mak's Noodle (麦奀)",
+              "area": "Shek O Village",
+              "detail": "Thai and seafood cafes at the trail’s end.",
+              "name": "Lunch in Shek O",
               "reserve": false,
               "type": "lunch"
             },
             {
-              "area": "Mong Kok",
-              "detail": "Curry fish balls, egg waffles (雞蛋仔), stinky tofu — graze the neon streets.",
-              "name": "Mong Kok street-food crawl",
+              "area": "Yau Ma Tei",
+              "detail": "Claypot rice at the night market.",
+              "name": "Temple Street dinner",
               "reserve": false,
               "type": "dinner"
             }
@@ -2272,45 +2319,58 @@
         {
           "activities": [
             {
-              "detail": "The 10-minute crossing to Kowloon, then the Avenue of Stars waterfront promenade.",
-              "name": "Star Ferry + Tsim Sha Tsui",
-              "reserve": false,
-              "time": "10:00 AM"
+              "detail": "MTR Admiralty → Hong Kong Station → Tung Chung Line to Tung Chung, then the Ngong Ping 360 cable car up (opens 10:00 AM — pre-book tickets; Saturday queues). The Tian Tan Buddha (34 m, 268 steps to the base) and Po Lin Monastery opposite. Back down early afternoon; Conrad by ~3 PM. Moved here from the flight-day idea at Justin’s decision — Nov 1 stays unhurried.",
+              "name": "Big Buddha + Po Lin Monastery",
+              "reserve": true,
+              "time": "9:00 AM"
             },
             {
-              "detail": "Waterfront stroll with the skyline across the harbour.",
-              "name": "West Kowloon / M+ area",
+              "detail": "Refreshments run 3:00–5:00 PM — the built-in rest stop between Lantau and the Peak.",
+              "name": "Executive Lounge afternoon refreshments (Conrad)",
               "reserve": false,
               "time": "3:00 PM"
+            },
+            {
+              "detail": "Sunset 5:47 PM. Taxi up if the Saturday Peak Tram queue threatens the light; Sky Terrace 428 or the flat Lugard Road loop; tram down as the city lights come up.",
+              "name": "Victoria Peak farewell sunset",
+              "reserve": false,
+              "time": "5:00 PM"
+            },
+            {
+              "detail": "One-Michelin-star Cantonese in the hotel (dinner sets from HK$838/person) — and where the ~US$200 Conrad property credit gets spent. Reserve ahead; party of 2.",
+              "name": "Golden Leaf farewell dinner (Conrad)",
+              "reserve": true,
+              "time": "7:30 PM"
             }
           ],
           "city": "Hong Kong",
           "date": "Oct 31",
           "highlights": [
-            "Michelin dim sum for street prices",
-            "Star Ferry + Avenue of Stars",
-            "Grand cart-dim-sum finale"
+            "Ngong Ping 360 + the Big Buddha",
+            "Po Lin Monastery vegetarian lunch",
+            "Peak farewell sunset",
+            "Golden Leaf farewell dinner"
           ],
           "hotel": "Conrad Hong Kong",
           "meals": [
             {
-              "area": "Admiralty / Wan Chai",
-              "detail": "Century-egg pork congee and cheung fun — slow Saturday start.",
-              "name": "Congee shop near the hotel",
+              "area": "Conrad Hong Kong, Admiralty",
+              "detail": "Slow morning — the Jardine’s Lookout sunrise start was dropped at Justin’s decision. Included breakfast 6:30–10:30 AM.",
+              "name": "Garden Cafe (Conrad Hong Kong)",
               "reserve": false,
               "type": "breakfast"
             },
             {
-              "area": "Sham Shui Po (original shop)",
-              "detail": "Michelin-starred dim sum at street prices — the baked BBQ pork buns are mandatory.",
-              "name": "Tim Ho Wan (添好运)",
+              "area": "Ngong Ping, Lantau",
+              "detail": "The monastery’s famous Buddhist vegetarian kitchen, right opposite the Big Buddha. Replaces the Mong Kok graze (moved to Oct 30 night).",
+              "name": "Po Lin Monastery vegetarian lunch",
               "reserve": false,
               "type": "lunch"
             },
             {
-              "area": "City Hall, Central",
-              "detail": "Cart dim sum in the grand old hall — the full traditional experience. Book ahead.",
-              "name": "Maxim's Palace (美心皇宫)",
+              "area": "Conrad Hong Kong, Lower Lobby",
+              "detail": "Farewell dinner — Michelin-starred Cantonese, charged to the room against the ~US$200 property credit.",
+              "name": "Golden Leaf (金葉庭)",
               "reserve": true,
               "type": "dinner"
             }
