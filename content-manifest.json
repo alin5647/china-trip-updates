@@ -7,91 +7,6 @@
    "sha256": "26a6b967b0150b9d6bf4fae8085b9aec01eecf9f2411f8a0373293b4f817c9ac"
   },
   {
-   "path": "content-version.json",
-   "size": 5588,
-   "sha256": "6a22e369ec1d0f84edca38bb703aa0c8ab803b76605e134119ab8e9a49a3ca29"
-  },
-  {
-   "path": "esim.json",
-   "size": 647,
-   "sha256": "aa28f7d4d3a163b47a909a3db7e9b505639711dade501f27bc84ae081ce1b28a"
-  },
-  {
-   "path": "files.json",
-   "size": 11007,
-   "sha256": "8df6c7992a0def66cc2edfc24554e516903ec87ba3b324d8149230b16bb398cb"
-  },
-  {
-   "path": "guide-2026-10-21.html",
-   "size": 10504,
-   "sha256": "26986070ff81cf8d06285cc936d3a3733abace96fcafb578109d9758a0d5e050"
-  },
-  {
-   "path": "guide-2026-10-22.html",
-   "size": 9496,
-   "sha256": "1f9b31d1a94e0ab122cfd85aad68dfc3315b3f6d076d7a6cf75d28262dadc76a"
-  },
-  {
-   "path": "guide-2026-10-24.html",
-   "size": 13284,
-   "sha256": "3c143306613b63bdb9f86e97103860d88fb75409ccd2441f03369c71b91a3bd0"
-  },
-  {
-   "path": "guide-2026-10-26-hangzhou.html",
-   "size": 35809,
-   "sha256": "47c840032f961939748f977d3d116f6e637dfedbbe6890b45cf5bb8ec6198343"
-  },
-  {
-   "path": "guide-2026-10-28-macau.html",
-   "size": 8808,
-   "sha256": "f4a014dfbf91699f13bd7a58ae99a191e08b3665926037d786c997a3599a201c"
-  },
-  {
-   "path": "guide-2026-10-29.html",
-   "size": 11181,
-   "sha256": "7e874e8013a8f7f715dd7d3ac64bb28fe5efe10f45ed3bb5f9deeef0748946e4"
-  },
-  {
-   "path": "guide-2026-10-30.html",
-   "size": 7549,
-   "sha256": "fca3d8df6e30d97faceffde93cff645fc511817f4db8da41aa295a55ef9cba14"
-  },
-  {
-   "path": "guide-2026-10-31.html",
-   "size": 7168,
-   "sha256": "020bcbb0fb8d53d274f81c69e4fc8d73e6f458b0c3935cd8bc4e2b030a761759"
-  },
-  {
-   "path": "guide-2026-11-01.html",
-   "size": 5174,
-   "sha256": "08cfa199f47c52308d50c53cd9d32f000ba78215630775490e4c07cde797a2fc"
-  },
-  {
-   "path": "hangzhou-2day-itinerary.html",
-   "size": 19851,
-   "sha256": "eb69cc93351069f18f24d36f6cfd045709fd72b9f9f4c7b0723c07c40ef73787"
-  },
-  {
-   "path": "hangzhou-day-trip.html",
-   "size": 21789,
-   "sha256": "1c4da3c8a726fc091416666535ab30f1f11b57e6114d13080b2de4970e25f70a"
-  },
-  {
-   "path": "itineraries.json",
-   "size": 104047,
-   "sha256": "f36036cfbd0e0fb64f1988b5115598f04f3c2c68bb93a76a072d8f2d136cd6a5"
-  },
-  {
-   "path": "master-itinerary.html",
-   "size": 56545,
-   "sha256": "94f3f22f31a58cf41272e072de643188bbefdb81593d70ef990b9f12a4a280f4"
-  },
-  {
-   "path": "styles.css",
-   "size": 21667,
-   "sha256": "22bd70686868e03d3133c520b3f30231818dc4442f738f472d0a10781d16370f"
-  },
-  {
    "path": "audio/macau-hk/stop1-ruins-golden-hour.mp3",
    "size": 451085,
    "sha256": "45be043274263e943d829e59ccca3c5ebb15b70d6e79eaad97171d12d95b95e4"
@@ -247,6 +162,21 @@
    "sha256": "2cbb7e78b2fd7ccf87b47f9ea72114694b98dc2b2f3090a61bcbf8c1012f08d6"
   },
   {
+   "path": "audio/oct26/music/all-the-tea-in-china.mp3",
+   "size": 6413500,
+   "sha256": "96e8eb14216d03a8131ed8c561a82af25daf5786b53de4e304b133fe014eaf8d"
+  },
+  {
+   "path": "audio/oct26/music/guzheng-city.mp3",
+   "size": 3654552,
+   "sha256": "7d117a43cad22ff05b32340f2bd331368c48342f503eab85b1e5c403043d4be6"
+  },
+  {
+   "path": "audio/oct26/music/imperial-china-cinematic.mp3",
+   "size": 8070709,
+   "sha256": "4a8bf29f72af49ad3e031f2c4f6c4bc05af2b2fadc2013dccb4dbaa4e800bc54"
+  },
+  {
    "path": "audio/oct26/stop1-yunqi-entrance.mp3",
    "size": 332909,
    "sha256": "2d71839d395182f102220ce780976efde7af19220431a037ae6161412bb94bd2"
@@ -297,29 +227,19 @@
    "sha256": "ea5f5cd6b63235e7f50402a5519ed63abfcf483b57b2608e177a1c6be1dbd0f3"
   },
   {
-   "path": "audio/oct26/music/all-the-tea-in-china.mp3",
-   "size": 6413500,
-   "sha256": "96e8eb14216d03a8131ed8c561a82af25daf5786b53de4e304b133fe014eaf8d"
+   "path": "content-version.json",
+   "size": 760,
+   "sha256": "22698632a7a36d9a50a9af7418b168a75f464af7c81edd5ee8988be0a211b3d1"
   },
   {
-   "path": "audio/oct26/music/guzheng-city.mp3",
-   "size": 3654552,
-   "sha256": "7d117a43cad22ff05b32340f2bd331368c48342f503eab85b1e5c403043d4be6"
+   "path": "esim.json",
+   "size": 647,
+   "sha256": "aa28f7d4d3a163b47a909a3db7e9b505639711dade501f27bc84ae081ce1b28a"
   },
   {
-   "path": "audio/oct26/music/imperial-china-cinematic.mp3",
-   "size": 8070709,
-   "sha256": "4a8bf29f72af49ad3e031f2c4f6c4bc05af2b2fadc2013dccb4dbaa4e800bc54"
-  },
-  {
-   "path": "files/huangshan-official-map.pdf",
-   "size": 489506,
-   "sha256": "936800e079b2f26d8ad920217204f33fe3210d702ab3177decd13765ed967f5f"
-  },
-  {
-   "path": "files/packing.json",
-   "size": 2573,
-   "sha256": "3587b844094cc7381113748f2cbc8a80e3c255b04a3ecd1bebaf7fa40a511b24"
+   "path": "files.json",
+   "size": 11007,
+   "sha256": "8df6c7992a0def66cc2edfc24554e516903ec87ba3b324d8149230b16bb398cb"
   },
   {
    "path": "files/confirmations/2026_1014 JFK-PEK Asiana(ANA)-Tsai.pdf",
@@ -557,6 +477,11 @@
    "sha256": "17dc08c20a0f433e58e697f4a41b7146fe439a750908d43938938c880b9988ea"
   },
   {
+   "path": "files/huangshan-official-map.pdf",
+   "size": 489506,
+   "sha256": "936800e079b2f26d8ad920217204f33fe3210d702ab3177decd13765ed967f5f"
+  },
+  {
    "path": "files/itinerary/China Trip Itinerary - Interactive.html",
    "size": 48667,
    "sha256": "3519e5a9090d92bd98e8cca9c464994094aaa313d4e7b0d2dee16fa700bed4b4"
@@ -568,8 +493,8 @@
   },
   {
    "path": "files/itinerary/master-itinerary.md",
-   "size": 50147,
-   "sha256": "322735ef51ec82f6f17b53210dee2fdcde2261dc0b390b92400f9c6e587ec6b9"
+   "size": 50431,
+   "sha256": "8f1b2a37aa86b00037dd9f89ab8cc4f451da97c227a4694eb57e55703b518c3c"
   },
   {
    "path": "files/itinerary/visa-packet-andrew.pdf",
@@ -580,6 +505,66 @@
    "path": "files/itinerary/visa-packet-justin.pdf",
    "size": 2905889,
    "sha256": "72573e506499a76d214ab0147596f2fae3d007e3bdcecec4caf148f40e80a772"
+  },
+  {
+   "path": "files/packing.json",
+   "size": 2573,
+   "sha256": "3587b844094cc7381113748f2cbc8a80e3c255b04a3ecd1bebaf7fa40a511b24"
+  },
+  {
+   "path": "guide-2026-10-21.html",
+   "size": 10504,
+   "sha256": "26986070ff81cf8d06285cc936d3a3733abace96fcafb578109d9758a0d5e050"
+  },
+  {
+   "path": "guide-2026-10-22.html",
+   "size": 9496,
+   "sha256": "1f9b31d1a94e0ab122cfd85aad68dfc3315b3f6d076d7a6cf75d28262dadc76a"
+  },
+  {
+   "path": "guide-2026-10-24.html",
+   "size": 13284,
+   "sha256": "3c143306613b63bdb9f86e97103860d88fb75409ccd2441f03369c71b91a3bd0"
+  },
+  {
+   "path": "guide-2026-10-26-hangzhou.html",
+   "size": 35809,
+   "sha256": "47c840032f961939748f977d3d116f6e637dfedbbe6890b45cf5bb8ec6198343"
+  },
+  {
+   "path": "guide-2026-10-28-macau.html",
+   "size": 8808,
+   "sha256": "f4a014dfbf91699f13bd7a58ae99a191e08b3665926037d786c997a3599a201c"
+  },
+  {
+   "path": "guide-2026-10-29.html",
+   "size": 11181,
+   "sha256": "7e874e8013a8f7f715dd7d3ac64bb28fe5efe10f45ed3bb5f9deeef0748946e4"
+  },
+  {
+   "path": "guide-2026-10-30.html",
+   "size": 7911,
+   "sha256": "49c3e246de06fb5d15d51be6b6a482d7c16442520b447064493aeb7bf75eba1d"
+  },
+  {
+   "path": "guide-2026-10-31.html",
+   "size": 7332,
+   "sha256": "4d5f5daafb73242b3a6ddf196b82dcdfbfe0852f3d8f98130ca3021282df2b49"
+  },
+  {
+   "path": "guide-2026-11-01.html",
+   "size": 5423,
+   "sha256": "4233cc1187e30a811be9d1f70d45c2240780284e86a89829d2131e2f41e56b08"
+  },
+  {
+   "path": "hangzhou-2day-itinerary.html",
+   "size": 19851,
+   "sha256": "eb69cc93351069f18f24d36f6cfd045709fd72b9f9f4c7b0723c07c40ef73787"
+  },
+  {
+   "path": "hangzhou-day-trip.html",
+   "size": 21789,
+   "sha256": "1c4da3c8a726fc091416666535ab30f1f11b57e6114d13080b2de4970e25f70a"
   },
   {
    "path": "icons/apple-touch-icon.png",
@@ -595,6 +580,21 @@
    "path": "icons/icon-512.png",
    "size": 10772,
    "sha256": "cffaf4f1d6d5482b4290970d4bc82e6207c564d2bc85c46d6f2a7c294f40d0f6"
+  },
+  {
+   "path": "itineraries.json",
+   "size": 106723,
+   "sha256": "fdb98ebb09bf9e6a829040e8f8aa6e3b94bf3ac11da0893f7395cb1f1e9759fa"
+  },
+  {
+   "path": "master-itinerary.html",
+   "size": 56545,
+   "sha256": "94f3f22f31a58cf41272e072de643188bbefdb81593d70ef990b9f12a4a280f4"
+  },
+  {
+   "path": "styles.css",
+   "size": 21667,
+   "sha256": "22bd70686868e03d3133c520b3f30231818dc4442f738f472d0a10781d16370f"
   }
  ]
 }
