@@ -1,7 +1,7 @@
 {
-  "version": 20,
-  "label": "Oct 30 late-start replan: Dragon's Back hike removed",
+  "version": 21,
+  "label": "Oct 30 timeline fix: day view now shows the late-start plan",
   "updated": "2026-10-30",
   "apkVersion": "2.2",
-  "notes": "v20 (DAJD, Oct 30, at Andrew's direction): Oct 30 restructured for the ~11 AM late start — the Dragon's Back/Shek O morning (Stop 4 audio + minute-by-minute deep dive) is removed; the morning is now dim sum lunch (Dim Sum Library, Admiralty / Maxim's Palace, City Hall) + Hong Kong Park, then the existing Tai Kwun/PMQ/escalators afternoon deep dive (times kept, slot text updated) and the unchanged Star Ferry/Temple Street/Mong Kok evening. Payment references flipped from Octopus to Visa tap per Andrew's no-Octopus decision. Oct 31 / Nov 1 untouched."
+  "notes": "v21 (DAJD, Oct 30, at Andrew's direction): FIX — v20 updated the Oct 30 guide HTML but the app's day timeline renders itineraries.json (app.js fetches it, options[0]), which still showed the hike. v21 rewrites the Oct 30 day in all three options: 11:30 AM dim sum lunch + Hong Kong Park replaces breakfast/hike; 2:45 PM Tai Kwun slot text updated; 6:00 PM Star Ferry flips Octopus → Visa tap; lunch meal becomes dim sum; highlight becomes dim sum + HK Park. Also fixes the stale Stop 4 (Dragon's Back) caption above the embedded guide in app.js."
 }

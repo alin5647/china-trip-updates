@@ -440,7 +440,7 @@ function dayPageHTML(di) {
   const _deepDive = {
     "Oct 28": ["📸 Macau deep dive — customs, apps, top 10, the drone warning, and the Stop 1 golden-hour audio tour with walk music underneath.", state.guideOct28],
     "Oct 29": ["📸 Taipa morning → Hong Kong deep dive — the Stop 2 audio tour, the crossing, HK customs, apps and top 10, and the Stop 3 Peak sunset audio tour.", state.guideOct29],
-    "Oct 30": ["📸 Hong Kong deep dive — Stop 4 (Dragon's Back) and Stop 5 (Star Ferry + Temple Street) audio tours with walk music underneath.", state.guideOct30],
+    "Oct 30": ["📸 Hong Kong deep dive — late-start replan: dim sum lunch + Hong Kong Park, Tai Kwun/PMQ/escalators, and the Star Ferry + Temple Street audio tour with walk music underneath.", state.guideOct30],
     "Oct 31": ["📸 Hong Kong deep dive — Stop 6 (Jardine's Lookout sunrise) and Stop 7 (Mong Kok + farewell Peak) audio tours with walk music underneath.", state.guideOct31],
     "Nov 1": ["📸 Hong Kong deep dive — the Stop 8 farewell audio tour (Hong Kong Park + departure) with walk music underneath.", state.guideNov1]
   };

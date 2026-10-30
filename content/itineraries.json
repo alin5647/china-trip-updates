@@ -628,25 +628,19 @@
         {
           "activities": [
             {
-              "detail": "Included breakfast, served 6:30–10:30 AM. Eat fast — out by ~7:05 for the hike.",
-              "name": "Breakfast at the Conrad — Garden Cafe",
+              "detail": "Late start — the Dragon's Back hike is off. Dim sum lunch: Dim Sum Library (1/F Pacific Place, Admiralty — 2 min from the Conrad, modern room, no queue stress) or Maxim's Palace (2/F City Hall, Central — push-cart yum cha with harbour views; no reservations, lunchtime queues). Then Hong Kong Park (free, 5 min walk from the Conrad via Pacific Place) — aviary, turtles, a proper sit-down.",
+              "name": "Dim sum lunch + Hong Kong Park",
               "reserve": false,
-              "time": "6:30 AM"
+              "time": "11:30 AM"
             },
             {
-              "detail": "First stop, 5 minutes under the hotel: Admiralty station customer service centre — buy two On-Loan Octopus cards, HK$150 each (HK$50 refundable deposit + HK$100 loaded). One card per person; no sharing. Then MTR Admiralty → Shau Kei Wan (Exit A2) and Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
-              "name": "Dragon's Back hike",
-              "reserve": false,
-              "time": "8:00 AM"
-            },
-            {
-              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
+              "detail": "MTR Admiralty → Central (one stop). Tai Kwun heritage compound (free, ~1 hr — parade ground, old police HQ, prison cells), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
               "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
               "reserve": false,
               "time": "2:45 PM"
             },
             {
-              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Octopus at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Visa at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
@@ -667,7 +661,7 @@
           "city": "Hong Kong",
           "date": "Oct 30",
           "highlights": [
-            "Dragon's Back ridge hike",
+            "Dim sum lunch + Hong Kong Park",
             "Tai Kwun + the Central escalators",
             "Star Ferry blue hour + Symphony of Lights",
             "Temple Street neon + Mong Kok graze"
@@ -682,9 +676,9 @@
               "type": "breakfast"
             },
             {
-              "area": "Shek O Village",
-              "detail": "Thai and seafood cafes at the trail’s end.",
-              "name": "Lunch in Shek O",
+              "area": "Admiralty / Central",
+              "detail": "Dim Sum Library (Pacific Place) or Maxim's Palace (City Hall) — push-cart yum cha.",
+              "name": "Dim sum lunch",
               "reserve": false,
               "type": "lunch"
             },
@@ -1453,25 +1447,19 @@
         {
           "activities": [
             {
-              "detail": "Included breakfast, served 6:30–10:30 AM. Eat fast — out by ~7:05 for the hike.",
-              "name": "Breakfast at the Conrad — Garden Cafe",
+              "detail": "Late start — the Dragon's Back hike is off. Dim sum lunch: Dim Sum Library (1/F Pacific Place, Admiralty — 2 min from the Conrad, modern room, no queue stress) or Maxim's Palace (2/F City Hall, Central — push-cart yum cha with harbour views; no reservations, lunchtime queues). Then Hong Kong Park (free, 5 min walk from the Conrad via Pacific Place) — aviary, turtles, a proper sit-down.",
+              "name": "Dim sum lunch + Hong Kong Park",
               "reserve": false,
-              "time": "6:30 AM"
+              "time": "11:30 AM"
             },
             {
-              "detail": "First stop, 5 minutes under the hotel: Admiralty station customer service centre — buy two On-Loan Octopus cards, HK$150 each (HK$50 refundable deposit + HK$100 loaded). One card per person; no sharing. Then MTR Admiralty → Shau Kei Wan (Exit A2) and Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
-              "name": "Dragon's Back hike",
-              "reserve": false,
-              "time": "8:00 AM"
-            },
-            {
-              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
+              "detail": "MTR Admiralty → Central (one stop). Tai Kwun heritage compound (free, ~1 hr — parade ground, old police HQ, prison cells), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
               "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
               "reserve": false,
               "time": "2:45 PM"
             },
             {
-              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Octopus at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Visa at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
@@ -1492,7 +1480,7 @@
           "city": "Hong Kong",
           "date": "Oct 30",
           "highlights": [
-            "Dragon's Back ridge hike",
+            "Dim sum lunch + Hong Kong Park",
             "Tai Kwun + the Central escalators",
             "Star Ferry blue hour + Symphony of Lights",
             "Temple Street neon + Mong Kok graze"
@@ -1507,9 +1495,9 @@
               "type": "breakfast"
             },
             {
-              "area": "Shek O Village",
-              "detail": "Thai and seafood cafes at the trail’s end.",
-              "name": "Lunch in Shek O",
+              "area": "Admiralty / Central",
+              "detail": "Dim Sum Library (Pacific Place) or Maxim's Palace (City Hall) — push-cart yum cha.",
+              "name": "Dim sum lunch",
               "reserve": false,
               "type": "lunch"
             },
@@ -2276,25 +2264,19 @@
         {
           "activities": [
             {
-              "detail": "Included breakfast, served 6:30–10:30 AM. Eat fast — out by ~7:05 for the hike.",
-              "name": "Breakfast at the Conrad — Garden Cafe",
+              "detail": "Late start — the Dragon's Back hike is off. Dim sum lunch: Dim Sum Library (1/F Pacific Place, Admiralty — 2 min from the Conrad, modern room, no queue stress) or Maxim's Palace (2/F City Hall, Central — push-cart yum cha with harbour views; no reservations, lunchtime queues). Then Hong Kong Park (free, 5 min walk from the Conrad via Pacific Place) — aviary, turtles, a proper sit-down.",
+              "name": "Dim sum lunch + Hong Kong Park",
               "reserve": false,
-              "time": "6:30 AM"
+              "time": "11:30 AM"
             },
             {
-              "detail": "First stop, 5 minutes under the hotel: Admiralty station customer service centre — buy two On-Loan Octopus cards, HK$150 each (HK$50 refundable deposit + HK$100 loaded). One card per person; no sharing. Then MTR Admiralty → Shau Kei Wan (Exit A2) and Citybus 9 to To Tei Wan — the stop is at the trailhead. Over Shek O Peak (284 m) and along the ridge, ~5–6 km / 2–2.5 hrs, descending into Shek O village. No water or shops on the ridge — carry 1.5 L each. Forecast: mostly sunny, high 29°C, UV very high; easterly breeze on the ridge.",
-              "name": "Dragon's Back hike",
-              "reserve": false,
-              "time": "8:00 AM"
-            },
-            {
-              "detail": "Back at the Conrad ~2:15 PM to shower and change (bus 9 + MTR from Shek O, ~1 hr; taxi ~35–40 min). Tai Kwun heritage compound (free, ~1 hr), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
+              "detail": "MTR Admiralty → Central (one stop). Tai Kwun heritage compound (free, ~1 hr — parade ground, old police HQ, prison cells), PMQ design shops (~30 min), a stretch of the Central–Mid-Levels escalators up through SoHo — then walk down to Central Pier 7.",
               "name": "Tai Kwun + PMQ + Central–Mid-Levels escalators",
               "reserve": false,
               "time": "2:45 PM"
             },
             {
-              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Octopus at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
+              "detail": "Central Pier 7 → Tsim Sha Tsui — tap the Visa at the turnstile — the 10-minute crossing, then the waterfront promenade as the skyline lights come on.",
               "name": "Star Ferry + Avenue of Stars at blue hour",
               "reserve": false,
               "time": "6:00 PM"
@@ -2315,7 +2297,7 @@
           "city": "Hong Kong",
           "date": "Oct 30",
           "highlights": [
-            "Dragon's Back ridge hike",
+            "Dim sum lunch + Hong Kong Park",
             "Tai Kwun + the Central escalators",
             "Star Ferry blue hour + Symphony of Lights",
             "Temple Street neon + Mong Kok graze"
@@ -2330,9 +2312,9 @@
               "type": "breakfast"
             },
             {
-              "area": "Shek O Village",
-              "detail": "Thai and seafood cafes at the trail’s end.",
-              "name": "Lunch in Shek O",
+              "area": "Admiralty / Central",
+              "detail": "Dim Sum Library (Pacific Place) or Maxim's Palace (City Hall) — push-cart yum cha.",
+              "name": "Dim sum lunch",
               "reserve": false,
               "type": "lunch"
             },
