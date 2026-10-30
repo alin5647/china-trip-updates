@@ -1,1 +1,4 @@
-{"apkUrl":"https://github.com/alin5647/china-trip-updates/releases/download/v2.5/china-trip-v2.5.apk","notes":"Fresh bundle of current docs/ (content v19: Oct 30 deep dives — Tai Kwun/PMQ/escalators + Star Ferry/Temple Street/Mong Kok; all HK days current). The guaranteed fix for phones whose updater reports 'up to date' on stale content: installing v2.5 discards the old downloaded overlay on startup (bundled v19 is newer), so the phone lands on v19 regardless of the updater. New: the update check records the SHA-256 of the received manifest bytes and Settings shows the first 12 chars next to the 'up to date' line, so a stale manifest is diagnosable on-device. Same signing key as v2.4, so it installs as an update over the old APK.","versionCode":33,"versionName":"2.5"}
+{
+  "version": "2.6",
+  "versionCode": 34
+}
