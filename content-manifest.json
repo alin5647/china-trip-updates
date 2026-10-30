@@ -3,13 +3,13 @@
  "files": [
   {
    "path": "app.js",
-   "size": 51401,
-   "sha256": "1eee92061b6b4ae7f18bfa69f0b482d5bf570106f8508d81a91b75caf0469a0e"
+   "size": 51448,
+   "sha256": "6fd7c0294f90493b8b3e009bfd37e95a5bad4cba67d6bfffa5345948919c0227"
   },
   {
    "path": "content-version.json",
    "size": 707,
-   "sha256": "e99390ece0dbf33fe28afe1522aece207ff0c232c1a2967a9e3167d147ac4b8c"
+   "sha256": "f6a0c7e60d23940114888e8938e69d18e99ec6ebd834f15251b5962ecec476e0"
   },
   {
    "path": "esim.json",
@@ -78,8 +78,8 @@
   },
   {
    "path": "itineraries.json",
-   "size": 110655,
-   "sha256": "de2d54a1a463616adf353a0bff13fe46918659e7ba3203cadb8ed5eb3979fae0"
+   "size": 109518,
+   "sha256": "e03deb80de4426c8a2440736adc1705055e8920dca8ff30e4272c78ecfeb09b9"
   },
   {
    "path": "master-itinerary.html",
